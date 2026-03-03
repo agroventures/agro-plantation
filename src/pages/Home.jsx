@@ -4,7 +4,6 @@ import OurBrandsSection from "../components/OurBrandsSection";
 import OurMainSection from "../components/OurMainSection";
 import OverseaSection from "../components/OurOverseaSection";
 import OurPrincipalSection from "../components/OurPrincipalSection";
-import TestimonialSection from "../components/TestimonialSection";
 import WeAgroSection from "../components/WeAgroSection";
 import WhyChooseSection from "../components/WhyChooseSection";
 

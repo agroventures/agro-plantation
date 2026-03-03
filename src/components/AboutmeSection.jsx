@@ -6,7 +6,7 @@ const AboutMeSection = () => {
           <div className="col-md-6">
             <img
               className="img-responsive"
-              src="/images/director.jpg"
+              src="/images/director1.png"
               alt="director-img"
             />
           </div>
@@ -37,8 +37,8 @@ const AboutMeSection = () => {
                 style={{ position: "relative", display: "inline-block" }}
               >
                 <p
-                  className="font-35px dark-green-color mb-0"
-                  style={{ transform: "rotate(-2deg)", fontWeight: "bold" }}
+                  className="font-30px dark-green-color mb-0"
+                
                 >
                   Mr. Nilanga Karunarathne
                 </p>

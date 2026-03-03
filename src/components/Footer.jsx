@@ -52,21 +52,26 @@ const Footer = () => {
             </div>
 
              {/* Great Place to Work - Badge */}
-            <div className="col-sm-6 col-md-2">
-              <div className="widget widget-text text-center">
-                <h5 className="widget-title">Great Place to Work</h5>
-                <div>
+            <div className="col-sm-6 col-md-3">
+              {/* <div className="widget widget-text text-center"> */}
+                <h5 className="widget-title">Certificates</h5>
+                <div style={{ display: "flex", gap: "15px" }}>
                   <img
                     src="/images/gwp.png"
                     alt="Great Place to Work Badge"
                     style={{ width: "80px", height: "auto" }}
                   />
+                  <img
+                    src="/images/certificate.png"
+                    alt="Certificate"
+                    style={{ width: "120px", height: "auto" }}
+                  />
                 </div>
-              </div>
+              {/* </div> */}
             </div>
 
             {/* Gallery - ALL ORIGINAL IMAGE PATHS PRESERVED EXACTLY */}
-            <div className="col-sm-6 col-md-4">
+            <div className="col-sm-6 col-md-3">
               <div className="widget widget-text">
                 <h5 className="widget-title">Gallery</h5>
                 <ul className="footer-gallery" id="footer-gallery">
