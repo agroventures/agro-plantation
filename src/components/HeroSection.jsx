@@ -76,7 +76,7 @@ const HeroSection = () => {
                 </h3>
                 <p className="text-center mt-30">
                   <Link to="/contact-us" className="btn btn-white btn-circle">Contact Us</Link>{' '}
-                  <Link to="/cultivation-plan" className="btn btn-outline-white btn-circle">Explore Plans</Link>
+                  <Link to="/our-plantations" className="btn btn-outline-white btn-circle">Our Plantation</Link>
                 </p>
               </div>
             </div>

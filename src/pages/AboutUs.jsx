@@ -1,5 +1,5 @@
 import AboutAgroSection from "../components/AboutAgroSection";
-import AboutGreatPlaceSection from "../components/AboutGreatPlaceSection";
+// import AboutGreatPlaceSection from "../components/AboutGreatPlaceSection";
 import AboutHeaderSection from "../components/AboutHeaderSection";
 import AboutMeSection from "../components/AboutmeSection";
 import AboutOurCoreValueSection from "../components/AboutOurCoreValueSection";
@@ -12,7 +12,7 @@ const AboutUs = () => {
             <AboutHeaderSection /> 
             <AboutAgroSection />
             <AboutMeSection />
-            <AboutGreatPlaceSection />
+            {/* <AboutGreatPlaceSection /> */}
             <AboutOurCoreValueSection />
             {/* <AboutOurTeamSection /> */}
             <TestimonialSection/>

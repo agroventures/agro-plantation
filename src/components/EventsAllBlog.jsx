@@ -28,7 +28,7 @@ const eventsData = [
       `${EVENTS_IMAGE_BASE}/ic7.webp`,
       `${EVENTS_IMAGE_BASE}/ic8.webp`,
       `${EVENTS_IMAGE_BASE}/ic9.webp`,
-      `${EVENTS_IMAGE_BASE}/ic10.webp`,
+      `${EVENTS_IMAGE_BASE}/ic10.webp`, 
       `${EVENTS_IMAGE_BASE}/ic11.webp`,
     ],
   },
