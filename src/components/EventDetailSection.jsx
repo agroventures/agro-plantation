@@ -1,4 +1,3 @@
-import React from "react";
 import { useLocation } from "react-router-dom";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation } from "swiper/modules";
@@ -7,7 +6,6 @@ import EventsPostSection from "./EventsPostSection";
 import "swiper/css";
 
 import "swiper/css/navigation";
-import EventsGalleriesSection from "./EventsGalleriesSection";
 
 const EventDetailSection = () => {
   const location = useLocation();
@@ -153,9 +151,6 @@ const EventDetailSection = () => {
               </div>
             </div>
           </div>
-
-           {/*Galleries */}
-      <EventsGalleriesSection/>
         </div>
       </section>
 
