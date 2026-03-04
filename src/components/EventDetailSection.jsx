@@ -153,9 +153,6 @@ const EventDetailSection = () => {
               </div>
             </div>
           </div>
-
-           {/*Galleries */}
-      <EventsGalleriesSection/>
         </div>
       </section>
 
