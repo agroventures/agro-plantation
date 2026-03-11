@@ -92,12 +92,14 @@ const Footer = () => {
       <div className="footer-copyright">
         <div className="container">
           <div className="row">
-            <div className="col-md-6 col-xs-12">
+            <div className="col-md-8 col-xs-12">
               <div className="copy-right">
-                © 2026 Agroventures Plantations (Pvt) Ltd . All rights reserved
+             © All Rights Reserved, Business Media International (Pvt) Ltd. 2026. Designed by <Link to="https://www.ventrax.lk/" target="_blank" rel="noopener noreferrer">
+                Ventrax
+              </Link>
               </div>
             </div>
-            <div className="col-md-6 col-xs-12">
+            <div className="col-md-4 col-xs-12">
               <ul className="social-media">
                 <li>
                   <a
@@ -109,13 +111,8 @@ const Footer = () => {
                   </a>
                 </li>
                 <li>
-                  <a href="#" target="_blank" rel="noopener noreferrer">
+                  <a href="https://x.com/agroventurespl" target="_blank" rel="noopener noreferrer">
                     <i className="fa-brands fa-x-twitter" />
-                  </a>
-                </li>
-                <li>
-                  <a href="#" target="_blank" rel="noopener noreferrer">
-                    <i className="fa-brands fa-pinterest" />
                   </a>
                 </li>
                 <li>
@@ -128,7 +125,7 @@ const Footer = () => {
                   </a>
                 </li>
                 <li>
-                  <a href="#" target="_blank" rel="noopener noreferrer">
+                  <a href="https://www.linkedin.com/company/agro-ventures-plantations-pvt/" target="_blank" rel="noopener noreferrer">
                     <i className="fa-brands fa-linkedin" />
                   </a>
                 </li>
