@@ -18,6 +18,9 @@ const OurBrandsSection = () => {
     { id: 9, name: "Brand 9", logo: "/images/clients/9.png" },
     { id: 10, name: "Brand 10", logo: "/images/clients/10.png" },
     { id: 11, name: "Brand 11", logo: "/images/clients/11.png" },
+     { id: 12, name: "Brand 12", logo: "/images/clients/12.png" },
+    { id: 13, name: "Brand 13", logo: "/images/clients/13.png" },
+    { id: 14, name: "Brand 14", logo: "/images/clients/14.png" },
   ];
 
   return (

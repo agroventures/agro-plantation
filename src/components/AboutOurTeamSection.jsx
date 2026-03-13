@@ -1,336 +1,170 @@
 const AboutOurTeamSection = () => {
+    const gmMembers = [
+    {
+      img: "/images/team/placeholder-image.jpg",
+      name: "Tyson Marks",
+      role: "General Manager – Operations",
+      initials: "TM",
+    },
+    {
+      img: "/images/team/placeholder-image.jpg",
+      name: "Daria Aliyeva",
+      role: "General Manager – Finance",
+      initials: "DA",
+    },
+    {
+      img: "/images/team/placeholder-image.jpg",
+      name: "John Marconi",
+      role: "General Manager – Agronomy",
+      initials: "JM",
+    },
+    {
+      img: "/images/team/placeholder-image.jpg",
+      name: "Chris Ogren",
+      role: "General Manager – Business Dev",
+      initials: "CO",
+    },
+  ];
+ 
+  const teamMembers = [
+    {
+      img: "/images/team/placeholder-image.jpg",
+      name: "Alex Fernando",
+      role: "Plantation Supervisor",
+      initials: "AF",
+    },
+    {
+      img: "/images/team/placeholder-image.jpg",
+      name: "Nimal Perera",
+      role: "Field Operations Lead",
+      initials: "NP",
+    },
+    {
+      img: "/images/team/placeholder-image.jpg",
+      name: "Kamala Silva",
+      role: "Quality Assurance",
+      initials: "KS",
+    },
+    {
+      img: "/images/team/placeholder-image.jpg",
+      name: "Roshan Jayawardena",
+      role: "Export Coordinator",
+      initials: "RJ",
+    },
+  ];
+ 
+  const socialLinks = [
+    { icon: "fa-brands fa-facebook", href: "#" },
+    { icon: "fa-brands fa-linkedin", href: "#" },
+    { icon: "fa-brands fa-x-twitter", href: "#" },
+  ];
   return (
-    <section className="pt-50 pb-50">
-      <div className="container">
-        <div className="row">
-          <div className="col-sm-8 section-heading">
-           <h1 className="dark-green-color">
-              <i className="mdi mdi-leaf" style={{ marginRight: "10px" }} />
-              Our team
-            </h1>
-            <h2 className="mt-10 oswald-font font-100">
-              You may be strong but we are stronger
-            </h2>
+    <>
+      {/* ═══════════════════════════════════════
+          SECTION 1 — General Managers
+      ═══════════════════════════════════════ */}
+      <section className="gm-section">
+        <div className="container">
+          {/* Heading */}
+          <div className="row team-heading-wrap">
+            <div className="col-md-7 col-sm-12">
+              <span className="team-eyebrow">Leadership</span>
+              <h2 className="team-main-title">
+                General <span>Managers</span>
+              </h2>
+              <div className="team-title-divider" />
+              <p className="team-subtitle">
+                Guiding Agroventures Plantations with vision and experience —
+                our General Managers lead each division with dedication and a
+                passion for sustainable growth.
+              </p>
+            </div>
+          </div>
+
+          {/* GM Cards */}
+          <div className="row">
+            {gmMembers.map((gm, i) => (
+              <div key={i} className="col-md-3 col-sm-6 gm-card-wrap">
+                <div className="gm-card">
+                  <div className="gm-card-img-wrap">
+                    <img src={gm.img} alt={gm.name} />
+                    <div className="gm-card-overlay">
+                      <span className="gm-overlay-role">{gm.role}</span>
+                      <ul className="gm-card-socials">
+                        {socialLinks.map((s, j) => (
+                          <li key={j}>
+                            <a href={s.href} aria-label="social">
+                              <i className={s.icon} />
+                            </a>
+                          </li>
+                        ))}
+                      </ul>
+                    </div>
+                    <div className="gm-card-number">0{i + 1}</div>
+                  </div>
+                  <div className="gm-card-info">
+                    <p className="gm-card-name">{gm.name}</p>
+                    <p className="gm-card-role">{gm.role}</p>
+                  </div>
+                </div>
+              </div>
+            ))}
           </div>
         </div>
-      </div>
-      <div className="container">
-        <div className="row startup-member">
-          <div className="col-md-3 col-sm-6">
-            <div className="member text-center">
-              <div className="team-member-container">
-                {" "}
-                <img
-                  src="/images/team/team-01.jpg"
-                  className="img-responsive"
-                  alt="team-01"
-                />
-                <div className="member-caption">
-                  <div className="member-description text-center">
-                    <div className="member-description-wrap">
-                      <ul className="member-icons">
-                        <li className="social-icon">
-                          <a href="#">
-                            <i className="fa-brands fa-facebook" />
-                          </a>
-                        </li>
-                        <li className="social-icon">
-                          <a href="#">
-                            <i className="fa-brands fa-x-twitter" />
-                          </a>
-                        </li>
-                        <li className="social-icon">
-                          <a href="#">
-                            <i className="fa-brands fa-youtube" />
-                          </a>
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <h4 className="member-title">Tyson Marks</h4>
-              <p className="member-subtitle">UI/UX Designer</p>
-            </div>
-          </div>
-          {/* Member End */}
-          <div className="col-md-3 col-sm-6">
-            <div className="member text-center">
-              <div className="team-member-container">
-                {" "}
-                <img
-                  src="/images/team/team-02.jpg"
-                  className="img-responsive"
-                  alt="team-02"
-                />
-                <div className="member-caption">
-                  <div className="member-description text-center">
-                    <div className="member-description-wrap">
-                      <ul className="member-icons">
-                        <li className="social-icon">
-                          <a href="#">
-                            <i className="fa-brands fa-facebook" />
-                          </a>
-                        </li>
-                        <li className="social-icon">
-                          <a href="#">
-                            <i className="fa-brands fa-x-twitter" />
-                          </a>
-                        </li>
-                        <li className="social-icon">
-                          <a href="#">
-                            <i className="fa-brands fa-youtube" />
-                          </a>
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <h4 className="member-title">Daria Aliyeva</h4>
-              <p className="member-subtitle">Photographer</p>
-            </div>
-          </div>
-          {/* Member End */}
-          <div className="col-md-3 col-sm-6">
-            <div className="member text-center">
-              <div className="team-member-container">
-                {" "}
-                <img
-                  src="/images/team/team-03.jpg"
-                  className="img-responsive"
-                  alt="team-03"
-                />
-                <div className="member-caption">
-                  <div className="member-description text-center">
-                    <div className="member-description-wrap">
-                      <ul className="member-icons">
-                        <li className="social-icon">
-                          <a href="#">
-                            <i className="fa-brands fa-facebook" />
-                          </a>
-                        </li>
-                        <li className="social-icon">
-                          <a href="#">
-                            <i className="fa-brands fa-x-twitter" />
-                          </a>
-                        </li>
-                        <li className="social-icon">
-                          <a href="#">
-                            <i className="fa-brands fa-youtube" />
-                          </a>
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <h4 className="member-title">John Marconi</h4>
-              <p className="member-subtitle">Web Developer</p>
-            </div>
-          </div>
-          {/* Member End */}
-          <div className="col-md-3 col-sm-6">
-            <div className="member text-center">
-              <div className="team-member-container">
-                {" "}
-                <img
-                  src="/images/team/team-04.jpg"
-                  className="img-responsive"
-                  alt="team-03"
-                />
-                <div className="member-caption">
-                  <div className="member-description text-center">
-                    <div className="member-description-wrap">
-                      <ul className="member-icons">
-                        <li className="social-icon">
-                          <a href="#">
-                            <i className="fa-brands fa-facebook" />
-                          </a>
-                        </li>
-                        <li className="social-icon">
-                          <a href="#">
-                            <i className="fa-brands fa-x-twitter" />
-                          </a>
-                        </li>
-                        <li className="social-icon">
-                          <a href="#">
-                            <i className="fa-brands fa-youtube" />
-                          </a>
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <h4 className="member-title">Chris Ogren</h4>
-              <p className="member-subtitle">CEO / Founder</p>
-            </div>
-          </div>
-          {/* Member End */}
+      </section>
 
-          {/* Member End */}
-          <div className="col-md-3 col-sm-6">
-            <div className="member text-center">
-              <div className="team-member-container">
-                {" "}
-                <img
-                  src="/images/team/team-05.jpg"
-                  className="img-responsive"
-                  alt="team-03"
-                />
-                <div className="member-caption">
-                  <div className="member-description text-center">
-                    <div className="member-description-wrap">
-                      <ul className="member-icons">
-                        <li className="social-icon">
-                          <a href="#">
-                            <i className="fa-brands fa-facebook" />
-                          </a>
-                        </li>
-                        <li className="social-icon">
-                          <a href="#">
-                            <i className="fa-brands fa-x-twitter" />
-                          </a>
-                        </li>
-                        <li className="social-icon">
-                          <a href="#">
-                            <i className="fa-brands fa-youtube" />
-                          </a>
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <h4 className="member-title">John Marconi</h4>
-              <p className="member-subtitle">Web Developer</p>
+      {/* ═══════════════════════════════════════
+          SECTION 2 — Our Team
+      ═══════════════════════════════════════ */}
+      <section className="staff-section">
+        <div className="container">
+          {/* Heading */}
+          <div className="row team-heading-wrap">
+            <div className="col-md-7 col-sm-12">
+              <span className="team-eyebrow light">Our People</span>
+              <h2 className="team-main-title light">
+                Meet The <span>Team</span>
+              </h2>
+              <div className="team-title-divider light" />
+              <p className="team-subtitle light">
+                Behind every harvest is a team of committed, passionate
+                individuals who bring skill and heart to everything they do.
+                These are the people who make Agroventures thrive.
+              </p>
             </div>
           </div>
-          {/* Member End */}
 
-          {/* Member End */}
-          <div className="col-md-3 col-sm-6">
-            <div className="member text-center">
-              <div className="team-member-container">
-                {" "}
-                <img
-                  src="/images/team/team-06.jpg"
-                  className="img-responsive"
-                  alt="team-03"
-                />
-                <div className="member-caption">
-                  <div className="member-description text-center">
-                    <div className="member-description-wrap">
-                      <ul className="member-icons">
-                        <li className="social-icon">
-                          <a href="#">
-                            <i className="fa-brands fa-facebook" />
-                          </a>
-                        </li>
-                        <li className="social-icon">
-                          <a href="#">
-                            <i className="fa-brands fa-x-twitter" />
-                          </a>
-                        </li>
-                        <li className="social-icon">
-                          <a href="#">
-                            <i className="fa-brands fa-youtube" />
-                          </a>
-                        </li>
+          {/* Staff Cards */}
+          <div className="row">
+            {teamMembers.map((member, i) => (
+              <div key={i} className="col-md-3 col-sm-6 staff-card-wrap">
+                <div className="staff-card">
+                  <div className="staff-card-img-wrap">
+                    <img src={member.img} alt={member.name} />
+                    <div className="staff-card-overlay">
+                      <ul className="staff-card-socials">
+                        {socialLinks.map((s, j) => (
+                          <li key={j}>
+                            <a href={s.href} aria-label="social">
+                              <i className={s.icon} />
+                            </a>
+                          </li>
+                        ))}
                       </ul>
                     </div>
+                    <span className="staff-count-badge">Team</span>
+                  </div>
+                  <div className="staff-card-info">
+                    <p className="staff-card-name">{member.name}</p>
+                    <p className="staff-card-role">{member.role}</p>
                   </div>
                 </div>
               </div>
-              <h4 className="member-title">John Marconi</h4>
-              <p className="member-subtitle">Web Developer</p>
-            </div>
+            ))}
           </div>
-          {/* Member End */}
-
-          {/* Member End */}
-          <div className="col-md-3 col-sm-6">
-            <div className="member text-center">
-              <div className="team-member-container">
-                {" "}
-                <img
-                  src="/images/team/team-07.jpg"
-                  className="img-responsive"
-                  alt="team-03"
-                />
-                <div className="member-caption">
-                  <div className="member-description text-center">
-                    <div className="member-description-wrap">
-                      <ul className="member-icons">
-                        <li className="social-icon">
-                          <a href="#">
-                            <i className="fa-brands fa-facebook" />
-                          </a>
-                        </li>
-                        <li className="social-icon">
-                          <a href="#">
-                            <i className="fa-brands fa-x-twitter" />
-                          </a>
-                        </li>
-                        <li className="social-icon">
-                          <a href="#">
-                            <i className="fa-brands fa-youtube" />
-                          </a>
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <h4 className="member-title">John Marconi</h4>
-              <p className="member-subtitle">Web Developer</p>
-            </div>
-          </div>
-          {/* Member End */}
-
-          {/* Member End */}
-          <div className="col-md-3 col-sm-6">
-            <div className="member text-center">
-              <div className="team-member-container">
-                {" "}
-                <img
-                  src="/images/team/team-08.jpg"
-                  className="img-responsive"
-                  alt="team-08"
-                />
-                <div className="member-caption">
-                  <div className="member-description text-center">
-                    <div className="member-description-wrap">
-                      <ul className="member-icons">
-                        <li className="social-icon">
-                          <a href="#">
-                            <i className="fa-brands fa-facebook" />
-                          </a>
-                        </li>
-                        <li className="social-icon">
-                          <a href="#">
-                            <i className="fa-brands fa-x-twitter" />
-                          </a>
-                        </li>
-                        <li className="social-icon">
-                          <a href="#">
-                            <i className="fa-brands fa-youtube" />
-                          </a>
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <h4 className="member-title">John Marconi</h4>
-              <p className="member-subtitle">Web Developer</p>
-            </div>
-          </div>
-          {/* Member End */}
         </div>
-      </div>
-    </section>
+      </section>
+    </>
   );
 };
 

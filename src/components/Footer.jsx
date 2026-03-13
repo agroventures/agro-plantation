@@ -57,22 +57,22 @@ const Footer = () => {
               <div className="widget widget-text">
                 <h5 className="widget-title">Certificates</h5>
                <div style={{ display: "flex", flexWrap: "wrap", gap: "15px", alignItems: "center" }}>
-            
-                   <img
-                    src="/images/certificate2.png"
-                    alt="Certificate"
-                    style={{ width: "100px", height: "auto" }}
-                  />
-                  <img
-                    src="/images/certificate.png"
-                    alt="Certificate"
-                    style={{ width: "100px", height: "auto" }}
-                  />
-                   <img
+             <img
                     src="/images/gwp.png"
                     alt="Great Place to Work Badge"
                     style={{ width: "70px", height: "auto" }}
                   />
+                   <img
+                    src="/images/certificate2.png"
+                    alt="Certificate"
+                    style={{ width: "120px", height: "auto" }}
+                  />
+                  <img
+                    src="/images/certificate.png"
+                    alt="Certificate"
+                    style={{ width: "80px", height: "auto" }}
+                  />
+                 
                  
                 </div>
               </div>
