@@ -1,4 +1,4 @@
-const AboutMeHRSection = () => {
+const AboutManagerSection = () => {
   return (
    <section className="hr-section">
         <div className="hr-accent-bar" />
@@ -6,7 +6,7 @@ const AboutMeHRSection = () => {
         <div className="container" >
           <div className="row">
  
-            {/* ── Content (LEFT on desktop) ── */}
+
             <div className="col-md-7 col-sm-12 hr-content-col">
               <span className="hr-bg-watermark" aria-hidden="true">👥</span>
  
@@ -20,7 +20,6 @@ const AboutMeHRSection = () => {
  
                 <div className="hr-divider" />
  
-                {/* Focus area tags */}
                 <div className="hr-tags">
                   <span className="hr-tag"><span className="hr-tag-dot" />Talent Development</span>
                   <span className="hr-tag"><span className="hr-tag-dot" />Employee Wellbeing</span>
@@ -82,4 +81,4 @@ const AboutMeHRSection = () => {
   );
 };
 
-export default AboutMeHRSection;
+export default AboutManagerSection;
