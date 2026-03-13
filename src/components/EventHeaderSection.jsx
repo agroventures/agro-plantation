@@ -13,7 +13,7 @@ const EventsHeaderSection = () => {
           <div className="hero-text white-color">
             <div className="container text-center">
               
-              <h1 className="white-color oswald-font text-uppercase">Events</h1>
+              <h1 className="white-color oswald-font text-uppercase">Our Events</h1>
                <h3 className="white-color oswald-font font-30px text-uppercase">
                 Timeless Beauty and Heritage
               </h3>
