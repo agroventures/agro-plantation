@@ -1,4 +1,4 @@
-const AboutMeHrSection = () => {
+const AboutMeHRSection = () => {
   return (
    <section className="hr-section">
         <div className="hr-accent-bar" />
@@ -82,4 +82,4 @@ const AboutMeHrSection = () => {
   );
 };
 
-export default AboutMeHrSection;
+export default AboutMeHRSection;

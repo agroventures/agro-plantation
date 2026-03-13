@@ -8,7 +8,7 @@ const BranchHeaderSection = () => {
           className="parallax-img"
           style={{
             background:
-              "url(/images/paralax/network-bg.jpg) center center / cover scroll no-repeat",
+              "url(/images/paralax/paralax4.webp) center center / cover scroll no-repeat",
           }}
         />
         <div className="hero-text-wrap video-alpha">

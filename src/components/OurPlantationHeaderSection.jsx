@@ -8,7 +8,7 @@ const OurPlantationHeaderSection = () => {
           className="parallax-img"
           style={{
             background:
-              "url(/images/paralax/plantation-header.png) center center / cover scroll no-repeat",
+              "url(/images/paralax/paralax6.webp) center center / cover scroll no-repeat",
           }}
         />
         <div className="hero-text-wrap video-alpha">

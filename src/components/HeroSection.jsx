@@ -30,7 +30,7 @@ const HeroSection = () => {
           <div
             className="slide-img"
             style={{
-              backgroundImage: `url(/images/slides/home-bg-1.jpg)`,
+              backgroundImage: `url(/images/slides/home-bg-1.webp)`,
               backgroundPosition: 'center center',
               backgroundSize: 'cover',
               backgroundRepeat: 'no-repeat',
@@ -60,7 +60,7 @@ const HeroSection = () => {
           <div
             className="slide-img"
             style={{
-              backgroundImage: `url(/images/slides/home-bg-2.jpg)`,
+              backgroundImage: `url(/images/slides/home-bg-2.webp)`,
               backgroundPosition: 'center center',
               backgroundSize: 'cover',
               backgroundRepeat: 'no-repeat',
@@ -88,7 +88,7 @@ const HeroSection = () => {
           <div
             className="slide-img"
             style={{
-              backgroundImage: `url(/images/slides/home-bg-3.jpg)`,
+              backgroundImage: `url(/images/slides/home-bg-3.webp)`,
               backgroundPosition: 'center center',
               backgroundSize: 'cover',
               backgroundRepeat: 'no-repeat',

@@ -6,7 +6,7 @@ const AboutHeaderSection = () => {
           className="parallax-img"
           style={{
             background:
-              "url(/images/paralax/parallax-bg.jpg) center center / cover scroll no-repeat",
+              "url(/images/paralax/paralax2.webp) center center / cover scroll no-repeat",
           }}
         />
         <div className="hero-text-wrap video-alpha">
