@@ -1,96 +1,157 @@
 const OurPrincipalSection = () => {
-    return (
-        <>
-  {/* Our Principal Virtues Start */}
-  <div id="feature" >
-    <div className="container pt-50 pb-0">
-      <div className="row">
-        <div className="row">
-          <div className="col-sm-8 section-heading pb-0">
-            <h1 className="dark-green-color">
-              <i className="mdi mdi-leaf" style={{ marginRight: "10px" }} />
-              Our 
-            </h1>
-            <h2 className="oswald-font font-100">Principal Virtues</h2>
-          </div>
-        </div>
-      </div>
-      <div className="row mt-0">
-        <div className="col-md-4 col-sm-12">
-          <div className="pt-50 pb-0 pull-left">
-            <div
-              className="feature-box text-left wow fadeInLeft"
-              data-wow-delay="0.1s"
-            >
-              <div className="pull-left">
-                <i className="fas fa-seedling font-50px agro-green-icon" />
-              </div>
-              <div className="pull-right">
-                <h5 className="mt-0">Scale</h5>
-                <p>Each acre of land is planted with 2,000 vanilla vines.</p>
-              </div>
-            </div>
-            <div
-              className="feature-box text-left mt-30 wow fadeInLeft"
-              data-wow-delay="0.3s"
-            >
-              <div className="pull-left">
-                <i className="fas fa-lightbulb font-50px agro-green-icon" />
-              </div>
-              <div className="pull-right">
-                <h5 className="mt-0">Yield</h5>
-                <p>
-                  By 2030, we plan to cultivate 4,000,000 vines, expecting a
-                  minimum yield of 4 kg per vine, resulting in 16,000,000 kg of
-                  raw vanilla beans.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className="col-md-4 wow fadeInUp col-sm-12" data-wow-delay="0.2s">
-          <img
-            className="img-responsive"
-            src="/images/slides/flower.png"
-            alt="iphone-big"
-          />
-        </div>
-        <div className="col-md-4 col-sm-12">
-          <div className="pt-50 pb-100 pull-left">
-            <div
-              className="feature-box-right text-right wow fadeInRight"
-              data-wow-delay="0.1s"
-            >
-              <div className="pull-right">
-                <i className="fas fa-hourglass-half font-50px agro-green-icon" />
-              </div>
-              <div className="pull-left">
-                <h5 className="mt-0">Timeline</h5>
-                <p>Vanilla vines begin yielding harvests after 2.5 years.</p>
-              </div>
-            </div>
-            <div
-              className="feature-box-right text-right mt-30 wow fadeInRight"
-              data-wow-delay="0.2s"
-            >
-              <div className="pull-right">
-                <i className="fas fa-cogs font-50px agro-green-icon" />
-              </div>
-              <div className="pull-left">
-                <h5 className="mt-0">Processing</h5>
-                <p>
-                  These beans are processed to produce approximately 4,000,000
-                  kg of finished vanilla product.
-                </p>
+  const leftVirtues = [
+    {
+      icon: "fas fa-seedling",
+      title: "Scale",
+      desc: "Each acre of land is planted with 2,000 vanilla vines, maximising density for premium yield.",
+      number: "01",
+    },
+    {
+      icon: "fas fa-lightbulb",
+      title: "Yield",
+      desc: "By 2030, we plan to cultivate 4,000,000 vines, expecting a minimum yield of 4 kg per vine — resulting in 16,000,000 kg of raw vanilla beans.",
+      number: "02",
+    },
+  ];
+
+  const rightVirtues = [
+    {
+      icon: "fas fa-hourglass-half",
+      title: "Timeline",
+      desc: "Vanilla vines begin yielding harvests after 2.5 years, delivering consistent long-term returns.",
+      number: "03",
+    },
+    {
+      icon: "fas fa-cogs",
+      title: "Processing",
+      desc: "These beans are processed to produce approximately 4,000,000 kg of premium finished vanilla product.",
+      number: "04",
+    },
+  ];
+
+  return (
+    <>
+      {/* Our Principal Virtues Start */}
+      <section className="virtues-section" id="feature">
+
+        {/* ── Background decoration ── */}
+        <div className="virtues-bg-glow" />
+        <div className="virtues-bg-dots" />
+
+        <div className="container">
+
+          {/* ── Section heading ── */}
+          <div className="row">
+            <div className="col-sm-12">
+              <div className="virtues-heading">
+                <span className="virtues-eyebrow">
+                  <span className="virtues-eyebrow-line" />
+                  Our Principal Virtues
+                  <span className="virtues-eyebrow-line" />
+                </span>
+                <h2 className="virtues-main-title">
+                  Built On
+                  <span className="virtues-title-accent"> Precision </span>
+                  &amp; Purpose
+                </h2>
+                <div className="virtues-title-divider" />
               </div>
             </div>
           </div>
+
+          {/* ── Three column layout ── */}
+          <div className="row virtues-content-row">
+
+            {/* ── Left virtues ── */}
+            <div className="col-md-4 col-sm-12 virtues-col-left">
+              {leftVirtues.map((v, i) => (
+                <div className="virtue-card virtue-card-left" key={i}>
+                  <div className="virtue-card-inner">
+                    {/* Number */}
+                    <span className="virtue-number">{v.number}</span>
+                    {/* Icon */}
+                    <div className="virtue-icon-wrap">
+                      <i className={`${v.icon} virtue-icon`} />
+                    </div>
+                    {/* Text */}
+                    <div className="virtue-text">
+                      <h5 className="virtue-title">{v.title}</h5>
+                      <p className="virtue-desc">{v.desc}</p>
+                    </div>
+                    {/* Bottom accent */}
+                    <div className="virtue-card-bar" />
+                  </div>
+                </div>
+              ))}
+            </div>
+
+            {/* ── Center image ── */}
+            <div className="col-md-4 col-sm-12 virtues-col-center">
+              <div className="virtues-center-wrap">
+
+                {/* Decorative ring */}
+                <div className="virtues-ring virtues-ring-outer" />
+                <div className="virtues-ring virtues-ring-inner" />
+
+                {/* Image */}
+                <div className="virtues-img-wrap">
+                  <img
+                    className="virtues-img"
+                    src="/images/slides/flower2.JPG"
+                    alt="Vanilla flower"
+                  />
+                </div>
+
+                {/* Center badge */}
+                <div className="virtues-center-badge">
+                  <span className="virtues-badge-icon">🌸</span>
+                  <span className="virtues-badge-text">Vanilla Planifolia</span>
+                </div>
+
+                {/* Stat pill top */}
+                <div className="virtues-stat-pill virtues-stat-top">
+                  <span className="virtues-stat-num">4M+</span>
+                  <span className="virtues-stat-lbl">Vines by 2030</span>
+                </div>
+
+                {/* Stat pill bottom */}
+                <div className="virtues-stat-pill virtues-stat-bottom">
+                  <span className="virtues-stat-num">16M kg</span>
+                  <span className="virtues-stat-lbl">Raw beans target</span>
+                </div>
+
+              </div>
+            </div>
+
+            {/* ── Right virtues ── */}
+            <div className="col-md-4 col-sm-12 virtues-col-right">
+              {rightVirtues.map((v, i) => (
+                <div className="virtue-card virtue-card-right" key={i}>
+                  <div className="virtue-card-inner">
+                    {/* Number */}
+                    <span className="virtue-number">{v.number}</span>
+                    {/* Icon */}
+                    <div className="virtue-icon-wrap">
+                      <i className={`${v.icon} virtue-icon`} />
+                    </div>
+                    {/* Text */}
+                    <div className="virtue-text">
+                      <h5 className="virtue-title">{v.title}</h5>
+                      <p className="virtue-desc">{v.desc}</p>
+                    </div>
+                    {/* Bottom accent */}
+                    <div className="virtue-card-bar" />
+                  </div>
+                </div>
+              ))}
+            </div>
+
+          </div>
         </div>
-      </div>
-    </div>
-  </div>
-  {/* Our Principal Virtues End */}
-</>
-    );
-}
+      </section>
+      {/* Our Principal Virtues End */}
+    </>
+  );
+};
+
 export default OurPrincipalSection;

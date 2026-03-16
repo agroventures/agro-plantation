@@ -92,8 +92,10 @@ const Header = () => {
               <li>
                 <Link to="/">Home</Link>
               </li>
-
-              <li className="dropdown">
+ <li>
+                    <Link to="/about-us">About Us</Link>
+                  </li>
+              {/* <li className="dropdown">
                 {" "}
                 <a href="#" className="dropdown-toggle" data-toggle="dropdown">
                   About us
@@ -108,13 +110,16 @@ const Header = () => {
                     <Link to="/our-plantations">Our plantations</Link>
                   </li>
                 </ul>
-              </li>
+              </li> */}
               <li>
                 <Link to="/events">Events</Link>
               </li>
               <li>
                 <Link to="/branch-network">Branch Network</Link>
               </li>
+              <li>
+                    <Link to="/our-plantations">Our plantations</Link>
+                  </li>
               <li>
                 <Link to="/contact-us">Contact Us</Link>
               </li>
