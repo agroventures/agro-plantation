@@ -1,6 +1,6 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
-import FooterGalleriesBox from './FooterGalleriesBox';
+import React from "react";
+import { Link } from "react-router-dom";
+import FooterGalleriesBox from "./FooterGalleriesBox";
 
 const Footer = () => {
   return (
@@ -24,14 +24,15 @@ const Footer = () => {
                     Rebranding Sri Lanka's Flavour as a Vanilla Exporter
                   </p>
                   <p className="mb-10">
-                    <i className="fas fa-phone blue-color mr-10" /> +94 (70) 520 0900
+                    <i className="fas fa-phone orange-color mr-10" /> +94 (70)
+                    520 0900
                   </p>
                   <p className="mb-10">
-                    <i className="fas fa-map-marker-alt blue-color mr-10" />
+                    <i className="fas fa-map-marker-alt orange-color mr-10" />
                     No.253 Kaduwela Road Thalangama Koswatta Battaramulla
                   </p>
                   <p className="mb-20">
-                    <i className="fas fa-envelope blue-color mr-10" />
+                    <i className="fas fa-envelope orange-color mr-10" />
                     info@agroventuresplantations.com
                   </p>
                 </div>
@@ -43,11 +44,21 @@ const Footer = () => {
               <div className="widget widget-links">
                 <h5 className="widget-title">Useful Links</h5>
                 <ul>
-                  <li><Link to="/events">Events</Link></li>
-                  <li><Link to="/about-us">About Us</Link></li>
-                  <li><Link to="/contact-us">Contact Us</Link></li>
-                   <li><Link to="/our-plantations">Our Plantations</Link></li>
-                  <li><Link to="/branch-network">Branch Network</Link></li>
+                  <li>
+                    <Link to="/events">Events</Link>
+                  </li>
+                  <li>
+                    <Link to="/about-us">About Us</Link>
+                  </li>
+                  <li>
+                    <Link to="/contact-us">Contact Us</Link>
+                  </li>
+                  <li>
+                    <Link to="/our-plantations">Our Plantations</Link>
+                  </li>
+                  <li>
+                    <Link to="/branch-network">Branch Network</Link>
+                  </li>
                 </ul>
               </div>
             </div>
@@ -56,13 +67,20 @@ const Footer = () => {
             <div className="col-sm-6 col-md-3">
               <div className="widget widget-text">
                 <h5 className="widget-title">Certificates</h5>
-               <div style={{ display: "flex", flexWrap: "wrap", gap: "15px", alignItems: "center" }}>
-             <img
+                <div
+                  style={{
+                    display: "flex",
+                    flexWrap: "wrap",
+                    gap: "15px",
+                    alignItems: "center",
+                  }}
+                >
+                  <img
                     src="/images/gwp.png"
                     alt="Great Place to Work Badge"
                     style={{ width: "70px", height: "auto" }}
                   />
-                   <img
+                  <img
                     src="/images/certificate2.png"
                     alt="Certificate"
                     style={{ width: "120px", height: "auto" }}
@@ -72,18 +90,14 @@ const Footer = () => {
                     alt="Certificate"
                     style={{ width: "80px", height: "auto" }}
                   />
-                 
-                 
                 </div>
               </div>
             </div>
 
             {/* Gallery - ALL ORIGINAL IMAGE PATHS PRESERVED EXACTLY */}
             <div className="col-sm-6 col-md-4">
-             <FooterGalleriesBox/>
+              <FooterGalleriesBox />
             </div>
-
-            
           </div>
         </div>
       </div>
@@ -94,14 +108,21 @@ const Footer = () => {
           <div className="row">
             <div className="col-md-8 col-xs-12">
               <div className="copy-right">
-             © 2026.<Link to="https://www.ventrax.lk/" target="_blank" rel="noopener noreferrer">
-                Ventrax.lk
-              </Link> - All Right Reserved
+                © 2026.
+                <Link
+                  to="https://www.ventrax.lk/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  style={{ color: "#fc885d" }}
+                >
+                  Ventrax.lk
+                </Link>{" "}
+                - All Right Reserved
               </div>
             </div>
             <div className="col-md-4 col-xs-12">
               <ul className="social-media">
-                 <li>
+                <li>
                   <a
                     href="https://www.youtube.com/@AgroVenturesPlantations.Deshan"
                     target="_blank"
@@ -120,7 +141,11 @@ const Footer = () => {
                   </a>
                 </li>
                 <li>
-                  <a href="https://x.com/agroventurespl" target="_blank" rel="noopener noreferrer">
+                  <a
+                    href="https://x.com/agroventurespl"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     <i className="fa-brands fa-x-twitter" />
                   </a>
                 </li>
@@ -134,7 +159,11 @@ const Footer = () => {
                   </a>
                 </li>
                 <li>
-                  <a href="https://www.linkedin.com/company/agro-ventures-plantations-pvt/" target="_blank" rel="noopener noreferrer">
+                  <a
+                    href="https://www.linkedin.com/company/agro-ventures-plantations-pvt/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     <i className="fa-brands fa-linkedin" />
                   </a>
                 </li>
