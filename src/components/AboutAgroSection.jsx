@@ -2,105 +2,142 @@ import React, { useState } from "react";
 
 const AboutAgroSection = () => {
   const [isExpanded, setIsExpanded] = useState(false);
-
-  const toggleExpand = () => {
-    setIsExpanded(!isExpanded);
-  };
+ 
+  const stats = [
+    { num: "$1B", label: "Revenue Goal by 2030" },
+    { num: "100%", label: "Sustainable Farming" },
+    { num: "4M+", label: "Vines by 2030" },
+    { num: "30+", label: "Export Markets" },
+  ];
 
   return (
-    <section className="white-bg  pb-50 pt-50" id="about">
-      <div className="container">
-        <div className="row">
-          <div className="col-md-6 pt-60 pb-60">
-            <h4 className="text-uppercase">Agroventures Plantations</h4>
-            <h1 className="dark-green-color">
-              <i className="mdi mdi-leaf" style={{ marginRight: "10px" }} />
-              who we are
-            </h1>
-            <p className="mt-30">
-              Agroventures Plantations (Pvt) Ltd, a pioneering company dedicated
-              to the cultivation of vanilla and other export-oriented spices.
-              Our vision is to generate USD 1 billion for Sri Lanka by 2030
-              through sustainable and large-scale vanilla cultivation. Our
-              diverse range includes high-quality spices, vanilla, and various
-              other crops that are meticulously grown to meet the stringent
-              standards of international markets. Alongside our robust export
-              operations, we are equally committed to serving the local market,
-              catering to the refined tastes and preferences of Sri Lankan
-              consumers.
-            </p>
-            {isExpanded && (
-              <>
-                <p className="mt-20">
-                  Our unwavering dedication to sustainability is at the core of
-                  our operations. We employ advanced, responsible farming
-                  practices that ensure minimal environmental impact while
-                  maximizing yield and quality. By integrating cutting-edge
-                  agricultural technologies with traditional farming knowledge,
-                  we maintain a delicate balance between innovation and
-                  heritage, ensuring the long-term health and productivity of
-                  our lands.
+    <section className="white-bg pb-50 pt-10" id="about">
+       <section className="about-agro-section" id="about">
+        <div className="container">
+          <div className="row about-agro-row">
+
+            {/* ── Left: Content ── */}
+            <div className="col-md-6 col-sm-12 about-agro-content-col">
+
+              {/* Eyebrow */}
+              <div className="about-agro-eyebrow">
+                <span className="about-agro-eyebrow-dot" />
+                <span className="about-agro-eyebrow-text">Agroventures Plantations</span>
+              </div>
+
+              {/* Heading */}
+              <h2 className="about-agro-title">
+                Who <span className="about-agro-title-accent">We Are</span>
+              </h2>
+
+              <div className="about-agro-divider" />
+
+              {/* Body */}
+              <div className="about-agro-body">
+                <p>
+                  <strong>Agroventures Plantations (Pvt) Ltd</strong> is a pioneering
+                  company dedicated to the cultivation of vanilla and other
+                  export-oriented spices. Our vision is to generate{" "}
+                  <strong>USD 1 billion for Sri Lanka by 2030</strong> through
+                  sustainable and large-scale vanilla cultivation.
+                </p>
+                <p>
+                  Our diverse range includes high-quality spices, vanilla, and
+                  various other crops meticulously grown to meet the stringent
+                  standards of international markets — while equally serving
+                  Sri Lankan consumers.
                 </p>
 
-                <p className="mt-20">
-                  As industry leaders, we pride ourselves on our ethical
-                  approach to agriculture. We believe in creating value not just
-                  for our customers but for the entire ecosystem involved in our
-                  operations. This includes fair labor practices, community
-                  engagement, and investment in local economies, all of which
-                  are integral to our business model.
-                </p>
+                {/* Expanded content */}
+                <div className={`about-agro-expand-wrap ${isExpanded ? "about-agro-expanded" : ""}`}>
+                  <p>
+                    Our unwavering dedication to sustainability is at the core of
+                    our operations. We employ advanced, responsible farming
+                    practices that ensure minimal environmental impact while
+                    maximizing yield and quality — integrating cutting-edge
+                    technology with traditional farming knowledge.
+                  </p>
+                  <p>
+                    As industry leaders, we pride ourselves on our ethical
+                    approach to agriculture — creating value for customers,
+                    communities and the entire ecosystem through fair labor
+                    practices and investment in local economies.
+                  </p>
+                  <p>
+                    Agroventures Plantations offers unparalleled investment
+                    opportunities for those passionate about ethical and
+                    environmentally conscious agriculture, providing significant
+                    returns while promoting sustainability and ecological balance.
+                  </p>
+                </div>
 
-                <p className="mt-20">
-                  Agroventures Plantations offers unparalleled investment
-                  opportunities for those who are passionate about ethical and
-                  environmentally conscious agriculture. Our initiatives are
-                  designed to provide significant returns while promoting
-                  sustainability and ecological balance. Investors can be
-                  confident that their involvement is contributing to a greater
-                  good, fostering a future where agricultural practices are
-                  synonymous with responsibility and care for the environment.
-                </p>
-              </>
-            )}
-            <p className="text-left mt-30">
-              <button
-                className="btn btn-color btn-default"
-                onClick={toggleExpand}
-              >
-                {isExpanded ? "Read less" : "Read more"}
-              </button>
-            </p>
-          </div>
-          <div className="col-md-6">
+                {/* Read more toggle */}
+                <button
+                  className="about-agro-toggle-btn"
+                  onClick={() => setIsExpanded(!isExpanded)}
+                  aria-expanded={isExpanded}
+                >
+                  <span>{isExpanded ? "Read Less" : "Read More"}</span>
+                  <span className={`about-agro-toggle-icon ${isExpanded ? "about-agro-icon-up" : ""}`}>
+                    <i className="fa fa-chevron-down" />
+                  </span>
+                </button>
+              </div>
+
+              {/* Stats row */}
+              <div className="about-agro-stats">
+                {stats.map((s, i) => (
+                  <div className="about-agro-stat" key={i}>
+                    <span className="about-agro-stat-num">{s.num}</span>
+                    <span className="about-agro-stat-label">{s.label}</span>
+                  </div>
+                ))}
+              </div>
+
+            </div>
+
+            {/* ── Right: Image ── */}
+           <div className="col-md-6">
             <img
               className="img-responsive"
               src="/images/about-nature.jpg"
               alt="nature-img"
-            />
-          </div>
-        </div>
-      </div>
+              />
+              </div>
 
-      {/* Parallax Start */}
-      <section
-        className="parallax-bg-12 fixed-bg nature-section pt-60 pb-60"
-        data-stellar-background-ratio="0.2"
-        style={{backgroundColor:"#1f4e04"}}
-      >
-     
-        <div className="container">
-          <div className="row">
-            <div className="col-md-12 text-center white-color">
-              <h2 className="text-uppercase">
-                "ALL OUR FARMS <span className="green">CAREFULLY</span> TENDERED
-                BY OUR EXPERTS"
-              </h2>
-             
-            </div>
           </div>
         </div>
       </section>
+
+      {/* Parallax Start */}
+       <div className="about-agro-parallax parallax-bg-12 fixed-bg">
+        <div className="about-agro-parallax-overlay" />
+        <div className="container">
+          <div className="row">
+            <div className="col-md-10 col-md-offset-1 col-sm-12 text-center">
+
+              <span className="about-agro-parallax-eyebrow">Our Commitment</span>
+
+              <h2 className="about-agro-parallax-title">
+                "All Our Farms{" "}
+                <span className="about-agro-parallax-accent">Carefully</span>{" "}
+                Tendered By Our Experts"
+              </h2>
+
+              <div className="about-agro-parallax-divider">
+                <span className="about-agro-parallax-line" />
+                <span className="about-agro-parallax-leaf">🌱</span>
+                <span className="about-agro-parallax-line" />
+              </div>
+
+              <p className="about-agro-parallax-sub">
+                From soil to export — every step guided by expertise and passion.
+              </p>
+
+            </div>
+          </div>
+        </div>
+      </div>
       {/* Parallax End */}
     </section>
   );

@@ -4,59 +4,122 @@ const WeAgroSection = () => {
   return (
     <>
       {/* Who We Are Start */}
-      <section className="first-ico-box grey-bg pt-50 pb-50" id="about">
+      <section className="weagro-section" id="about">
+
+        {/* ── Background decorative elements ── */}
+        <div className="weagro-bg-top-bar" />
+        <div className="weagro-bg-pattern" />
+
         <div className="container">
-          <div className="row">
-            <div className="col-sm-8 section-heading">
-              <h1 className="dark-green-color">
-              <i className="mdi mdi-leaf" style={{ marginRight: "10px" }} />
-              WE ARE
-            </h1>
-              <h2 className="mt-10 oswald-font font-100">
-                AgroVentures Plantations
-              </h2>
-              <div className="mt-30">
-                <p>
-                  <span className="font-500">
-                    Agroventures Plantations (Pvt) Ltd {""}
-                  </span>
-                  is a company that is focused on Sri Lankan agriculture
-                  exports, as well as the local market, of{" "}
-                  <span className="font-500">
-                    spices, fruits and vegetables{" "}
-                  </span>
-                  along with other crops that can be grown here.
-                  {/* We cultivate on behalf of our customers, who will
-          fund a plantation themselves, and we will handle everything so
-          that once the harvest is done our customers receive a very
-          generous return on their investment. All of our cultivations are
-          locally produced and are environmentally safe as we take part in
-          sustainable practices. Our main cultivation is Vanilla, often
-          considered as green gold. Vanilla is one of the most sought
-          after and expensive spices with many uses and an ever-growing
-          demand, making it one of the most expensive spices ever and
-          being valued more than silver itself. We at Agro-Ventures are
-          harnessing our country’s rich climate and soil in order to grow
-          this valued asset in a highly sustainable way to give back to
-          the environment and country. */}
-                </p>
-                <Link
-                  to="/about-us"
-                  className="btn btn-color btn-circle btn-animate"
-                >
-                  <span>
-                    Read more <i className="fa-brands fa-readme" />
-                  </span>
-                </Link>
+          <div className="row weagro-flex-row">
+
+            {/* ── Left: Big identity block ── */}
+            <div className="col-md-5 col-sm-12 weagro-left-col">
+              <div className="weagro-identity-block">
+
+                {/* Large decorative text */}
+                <span className="weagro-bg-text" aria-hidden="true">AGRO</span>
+
+                {/* Logo / brand mark area */}
+                <div className="weagro-brand-mark">
+                  <div className="weagro-brand-icon">🌿</div>
+                  <div className="weagro-brand-ring" />
+                </div>
+
+                {/* Big heading */}
+                <div className="weagro-title-wrap">
+                  <span className="weagro-we">We Are</span>
+                  <h2 className="weagro-company-name">
+                    Agro<span>Ventures</span>
+                  </h2>
+                  <span className="weagro-tagline">Plantations (Pvt) Ltd</span>
+                </div>
+
+                {/* Vertical divider line */}
+                <div className="weagro-v-line" />
+
+                {/* Est. badge */}
+                <div className="weagro-est-badge">
+                  <span className="weagro-est-label">Est.</span>
+                  <span className="weagro-est-year">2018</span>
+                  <span className="weagro-est-country">Sri Lanka</span>
+                </div>
+
               </div>
-              {/* <div class="mt-30">
-        <p>
-          We are hoping to continue the timely tradition of our ancestors
-          and strengthen the agro-investment industry in Sri Lanka. So
-          join us in our innovative ventures that are sure to provide a
-          great return to you and the environment.
-        </p>
-      </div> */}
+            </div>
+
+            {/* ── Right: Content ── */}
+            <div className="col-md-7 col-sm-12 weagro-right-col">
+
+              {/* Eyebrow */}
+              <div className="weagro-eyebrow">
+                <span className="weagro-eyebrow-line" />
+                <span className="weagro-eyebrow-text">Who We Are</span>
+                <span className="weagro-eyebrow-line" />
+              </div>
+
+              {/* Headline */}
+              <h3 className="weagro-headline">
+                Sri Lanka's Premier
+                <span className="weagro-headline-accent"> Agricultural </span>
+                Export Company
+              </h3>
+
+              {/* Divider */}
+              <div className="weagro-divider" />
+
+              {/* Body text */}
+              <p className="weagro-body-lead">
+                <strong>Agroventures Plantations (Pvt) Ltd</strong> is a company
+                focused on Sri Lankan agriculture exports, as well as the local
+                market, of <strong>spices, fruits and vegetables</strong> along
+                with other crops grown in this island nation.
+              </p>
+              <p className="weagro-body">
+                We cultivate on behalf of our customers who fund plantations,
+                handling everything from soil to harvest — so our customers
+                receive a generous return on their investment. All our
+                cultivations are locally produced and environmentally safe,
+                following sustainable practices at every step.
+              </p>
+
+              {/* Feature pillars */}
+              <div className="weagro-pillars">
+                <div className="weagro-pillar">
+                  <div className="weagro-pillar-icon">🌱</div>
+                  <div>
+                    <span className="weagro-pillar-title">Sustainable</span>
+                    <span className="weagro-pillar-sub">Eco-safe cultivation</span>
+                  </div>
+                </div>
+                <div className="weagro-pillar">
+                  <div className="weagro-pillar-icon">🤝</div>
+                  <div>
+                    <span className="weagro-pillar-title">Investor-Driven</span>
+                    <span className="weagro-pillar-sub">Managed on your behalf</span>
+                  </div>
+                </div>
+                <div className="weagro-pillar">
+                  <div className="weagro-pillar-icon">🌍</div>
+                  <div>
+                    <span className="weagro-pillar-title">Export-Ready</span>
+                    <span className="weagro-pillar-sub">Global market reach</span>
+                  </div>
+                </div>
+              </div>
+
+              {/* CTA */}
+              <div className="weagro-cta">
+                <Link to="/about-us" className="weagro-btn-primary">
+                  <span>Read More</span>
+                  <i className="fa fa-arrow-right weagro-btn-icon" />
+                </Link>
+                <div className="weagro-trust-badge">
+                  <span className="weagro-trust-num">12+</span>
+                  <span className="weagro-trust-label">Years Trusted</span>
+                </div>
+              </div>
+
             </div>
           </div>
         </div>
@@ -65,4 +128,5 @@ const WeAgroSection = () => {
     </>
   );
 };
+
 export default WeAgroSection;
