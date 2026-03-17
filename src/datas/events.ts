@@ -24,29 +24,29 @@ export const eventsData = [
       "https://res.cloudinary.com/avplantations/image/upload/v1773728332/bk13_r0r3f4.webp",
     ],
   },
-  {
-    id: 1,
-    title: "Natural Vanilla Ice Cream Dansal 2025",
-    date: "December 26, 2024",
-    excerpt:
-      "The ice cream festival made using natural vanilla, organized by Agro Ventures ....",
-    brief:
-      "The ice cream festival made using natural vanilla, organized by Agro Ventures Plantations Limited to mark the Vesak festival, was held on 12.05.2025 in front of the Agro Ventures head office in Battaramulla.🍦",
-    images: [
-      `${EVENTS_IMAGE_BASE}/ic0.png`,
-      `${EVENTS_IMAGE_BASE}/ic1.webp`,
-      `${EVENTS_IMAGE_BASE}/ic2.webp`,
-      `${EVENTS_IMAGE_BASE}/ic3.webp`,
-      `${EVENTS_IMAGE_BASE}/ic4.webp`,
-      `${EVENTS_IMAGE_BASE}/ic5.webp`,
-      `${EVENTS_IMAGE_BASE}/ic6.webp`,
-      `${EVENTS_IMAGE_BASE}/ic7.webp`,
-      `${EVENTS_IMAGE_BASE}/ic8.webp`,
-      `${EVENTS_IMAGE_BASE}/ic9.webp`,
-      `${EVENTS_IMAGE_BASE}/ic10.webp`,
-      `${EVENTS_IMAGE_BASE}/ic11.webp`,
-    ],
-  },
+//   {
+//     id: 1,
+//     title: "Natural Vanilla Ice Cream Dansal 2025",
+//     date: "December 26, 2024",
+//     excerpt:
+//       "The ice cream festival made using natural vanilla, organized by Agro Ventures ....",
+//     brief:
+//       "The ice cream festival made using natural vanilla, organized by Agro Ventures Plantations Limited to mark the Vesak festival, was held on 12.05.2025 in front of the Agro Ventures head office in Battaramulla.🍦",
+//     images: [
+//       `${EVENTS_IMAGE_BASE}/ic0.png`,
+//       `${EVENTS_IMAGE_BASE}/ic1.webp`,
+//       `${EVENTS_IMAGE_BASE}/ic2.webp`,
+//       `${EVENTS_IMAGE_BASE}/ic3.webp`,
+//       `${EVENTS_IMAGE_BASE}/ic4.webp`,
+//       `${EVENTS_IMAGE_BASE}/ic5.webp`,
+//       `${EVENTS_IMAGE_BASE}/ic6.webp`,
+//       `${EVENTS_IMAGE_BASE}/ic7.webp`,
+//       `${EVENTS_IMAGE_BASE}/ic8.webp`,
+//       `${EVENTS_IMAGE_BASE}/ic9.webp`,
+//       `${EVENTS_IMAGE_BASE}/ic10.webp`,
+//       `${EVENTS_IMAGE_BASE}/ic11.webp`,
+//     ],
+//   },
   {
     id: 2,
     title: "Annual Field Convention 2025",
