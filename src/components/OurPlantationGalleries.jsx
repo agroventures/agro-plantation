@@ -87,7 +87,7 @@ const OurPlantationGalleries = () => {
           </h2>
           <div className="gallery-divider" />
           <p className="gallery-subtitle">
-            Explore our estates across Sri Lanka — {galleryImages.length} images across {filterTabs.length - 1} estates.
+            Explore our estates across Sri Lanka - {galleryImages.length} images across {filterTabs.length - 1} estates.
           </p>
         </div>
 

@@ -44,7 +44,7 @@ const AboutAgroSection = () => {
                 <p>
                   Our diverse range includes high-quality spices, vanilla, and
                   various other crops meticulously grown to meet the stringent
-                  standards of international markets — while equally serving
+                  standards of international markets - while equally serving
                   Sri Lankan consumers.
                 </p>
 
@@ -54,12 +54,12 @@ const AboutAgroSection = () => {
                     Our unwavering dedication to sustainability is at the core of
                     our operations. We employ advanced, responsible farming
                     practices that ensure minimal environmental impact while
-                    maximizing yield and quality — integrating cutting-edge
+                    maximizing yield and quality - integrating cutting-edge
                     technology with traditional farming knowledge.
                   </p>
                   <p>
                     As industry leaders, we pride ourselves on our ethical
-                    approach to agriculture — creating value for customers,
+                    approach to agriculture - creating value for customers,
                     communities and the entire ecosystem through fair labor
                     practices and investment in local economies.
                   </p>
@@ -131,7 +131,7 @@ const AboutAgroSection = () => {
               </div>
 
               <p className="about-agro-parallax-sub">
-                From soil to export — every step guided by expertise and passion.
+                From soil to export - every step guided by expertise and passion.
               </p>
 
             </div>

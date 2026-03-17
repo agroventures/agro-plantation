@@ -9,7 +9,7 @@ const OurPrincipalSection = () => {
     {
       icon: "fas fa-lightbulb",
       title: "Yield",
-      desc: "By 2030, we plan to cultivate 4,000,000 vines, expecting a minimum yield of 4 kg per vine — resulting in 16,000,000 kg of raw vanilla beans.",
+      desc: "By 2030, we plan to cultivate 4,000,000 vines, expecting a minimum yield of 4 kg per vine - resulting in 16,000,000 kg of raw vanilla beans.",
       number: "02",
     },
   ];

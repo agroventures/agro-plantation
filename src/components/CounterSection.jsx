@@ -18,7 +18,7 @@ const CounterSection = () => {
             <div className="col-md-3 counter text-center col-sm-6">
               <i className="fas fa-thumbs-up light-icon font-30px" />
               <h2 className="count blue-color font-200 oswald-font">12440</h2>
-              <h3>Client Satisfications</h3>
+              <h3>Client Satisfactions</h3>
             </div>
             <div className="col-md-3 counter text-center col-sm-6">
               <i className="fas fa-trophy light-icon font-30px" />

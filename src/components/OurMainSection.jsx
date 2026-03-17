@@ -40,7 +40,6 @@ const OurMainSection = () => {
 
               {/* Latin name badge */}
               <div className="produce-latin-badge">
-                <span className="produce-latin-icon">🌸</span>
                 <div>
                   <span className="produce-latin-label">Botanical Name</span>
                   <span className="produce-latin-name">Vanilla Planifolia</span>
@@ -64,7 +63,7 @@ const OurMainSection = () => {
               <div className="produce-callout">
                 <span className="produce-callout-quote">"</span>
                 <p className="produce-callout-text">
-                  Valued at more than silver itself — the world's most sought-after spice.
+                  Valued at more than silver itself - the world's most sought-after spice.
                 </p>
               </div>
 

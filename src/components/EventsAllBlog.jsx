@@ -28,7 +28,7 @@ const eventsData = [
       `${EVENTS_IMAGE_BASE}/ic7.webp`,
       `${EVENTS_IMAGE_BASE}/ic8.webp`,
       `${EVENTS_IMAGE_BASE}/ic9.webp`,
-      `${EVENTS_IMAGE_BASE}/ic10.webp`, 
+      `${EVENTS_IMAGE_BASE}/ic10.webp`,
       `${EVENTS_IMAGE_BASE}/ic11.webp`,
     ],
   },
@@ -251,7 +251,6 @@ const eventsData = [
       `${EVENTS_IMAGE_BASE}/as8.webp`,
       `${EVENTS_IMAGE_BASE}/as9.webp`,
       `${EVENTS_IMAGE_BASE}/as10.webp`,
-      
     ],
   },
   {
@@ -293,7 +292,7 @@ const EventsAllBlogs = () => {
     navigate("/event-detail", { state: { eventData: event } });
   };
   return (
-    <section className="pt-100 pb-100">
+    <section className="pt-100 pb-10">
       <div className="container">
         <Swiper
           modules={[Pagination]}

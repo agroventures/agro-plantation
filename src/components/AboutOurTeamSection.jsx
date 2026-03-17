@@ -2,55 +2,55 @@ const AboutOurTeamSection = () => {
     const gmMembers = [
     {
       img: "/images/team/placeholder-image.jpg",
-      name: "Tyson Marks",
-      role: "General Manager – Operations",
-      initials: "TM",
+      name: "Kushan Jayasinghe",
+      role: "Senior Deputy General Manager - Southern Business Unit",
+      initials: "KJ",
     },
     {
       img: "/images/team/placeholder-image.jpg",
-      name: "Daria Aliyeva",
-      role: "General Manager – Finance",
-      initials: "DA",
+      name: "Dilum Sirimanna",
+      role: "Deputy General Manager - Western Zone",
+      initials: "DS",
     },
     {
       img: "/images/team/placeholder-image.jpg",
-      name: "John Marconi",
-      role: "General Manager – Agronomy",
-      initials: "JM",
+      name: "Prabhath Gamage",
+      role: "General Manager – Agro Ventures Property Development",
+      initials: "PG",
     },
     {
       img: "/images/team/placeholder-image.jpg",
-      name: "Chris Ogren",
-      role: "General Manager – Business Dev",
-      initials: "CO",
+      name: "Nirmala Premarathna",
+      role: "General Manager – Marketing",
+      initials: "NP",
     },
   ];
  
   const teamMembers = [
     {
       img: "/images/team/placeholder-image.jpg",
-      name: "Alex Fernando",
-      role: "Plantation Supervisor",
-      initials: "AF",
+      name: "Gayan Jayarathne",
+      role: "Head of HR",
+      initials: "GJ",
     },
     {
       img: "/images/team/placeholder-image.jpg",
-      name: "Nimal Perera",
-      role: "Field Operations Lead",
-      initials: "NP",
+      name: "Sriyani Senadeera",
+      role: "Head of Finance",
+      initials: "SS",
     },
-    {
-      img: "/images/team/placeholder-image.jpg",
-      name: "Kamala Silva",
-      role: "Quality Assurance",
-      initials: "KS",
-    },
-    {
-      img: "/images/team/placeholder-image.jpg",
-      name: "Roshan Jayawardena",
-      role: "Export Coordinator",
-      initials: "RJ",
-    },
+    // {
+    //   img: "/images/team/placeholder-image.jpg",
+    //   name: "Kamala Silva",
+    //   role: "Quality Assurance",
+    //   initials: "KS",
+    // },
+    // {
+    //   img: "/images/team/placeholder-image.jpg",
+    //   name: "Roshan Jayawardena",
+    //   role: "Export Coordinator",
+    //   initials: "RJ",
+    // },
   ];
  
   const socialLinks = [
@@ -61,7 +61,7 @@ const AboutOurTeamSection = () => {
   return (
     <>
       {/* ═══════════════════════════════════════
-          SECTION 1 — General Managers
+          SECTION 1 - General Managers
       ═══════════════════════════════════════ */}
       <section className="gm-section">
         <div className="container">
@@ -74,7 +74,7 @@ const AboutOurTeamSection = () => {
               </h2>
               <div className="team-title-divider" />
               <p className="team-subtitle">
-                Guiding Agroventures Plantations with vision and experience —
+                Guiding Agroventures Plantations with vision and experience -
                 our General Managers lead each division with dedication and a
                 passion for sustainable growth.
               </p>
@@ -114,7 +114,7 @@ const AboutOurTeamSection = () => {
       </section>
 
       {/* ═══════════════════════════════════════
-          SECTION 2 — Our Team
+          SECTION 2 - Our Team
       ═══════════════════════════════════════ */}
       <section className="staff-section">
         <div className="container">

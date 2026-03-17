@@ -1,135 +1,158 @@
-import React, { useEffect } from "react";
-import { Link } from "react-router-dom";
+import { useState, useEffect } from "react";
+import { Link, useLocation } from "react-router-dom";
+
+const navLinks = [
+  { to: "/",               label: "Home" },
+  { to: "/about-us",       label: "About Us" },
+  { to: "/events",         label: "Events" },
+  { to: "/branch-network", label: "Branch Network" },
+  { to: "/our-plantations",label: "Our Plantations" },
+  // { to: "/contact-us",     label: "Contact Us" },
+];
 
 const Header = () => {
+  const [scrolled, setScrolled]   = useState(false);
+  const [menuOpen, setMenuOpen]   = useState(false);
+  const location                  = useLocation();
+
+  /* ── Scroll handler ── */
   useEffect(() => {
-    // Initialize navbar functionality
-    const timer = setTimeout(() => {
-      if (window.jQuery) {
-        const $ = window.jQuery;
-
-        // Initialize navbar scroll behavior
-        $(window).scroll(function () {
-          if ($(this).scrollTop() > 50) {
-            $(".navbar-fixed").removeClass("navbar-transparent");
-            $(".navbar-fixed").addClass("on");
-          } else {
-            $(".navbar-fixed").addClass("navbar-transparent");
-            $(".navbar-fixed").removeClass("on");
-          }
-        });
-
-        // Initialize navbar toggle
-        $(".navbar-toggle").on("click", function () {
-          $("#navbar-menu").collapse("toggle");
-        });
-
-        // Initialize dropdown functionality
-        if ($.fn.dropdown) {
-          $(".dropdown-toggle").dropdown();
-        }
-      }
-    }, 100);
-
-    return () => clearTimeout(timer);
+    const onScroll = () => setScrolled(window.scrollY > 50);
+    window.addEventListener("scroll", onScroll, { passive: true });
+    return () => window.removeEventListener("scroll", onScroll);
   }, []);
+
+  /* ── Close mobile menu on route change ── */
+  useEffect(() => {
+    setMenuOpen(false);
+  }, [location.pathname]);
+
+  /* ── Lock body scroll when mobile menu is open ── */
+  useEffect(() => {
+    document.body.style.overflow = menuOpen ? "hidden" : "";
+    return () => { document.body.style.overflow = ""; };
+  }, [menuOpen]);
+
+  const isActive = (to) =>
+    to === "/" ? location.pathname === "/" : location.pathname.startsWith(to);
 
   return (
     <>
-      {/* Header Start */}
-      <nav className="navbar navbar-default navbar-fixed navbar-transparent white bootsnav on no-full">
-        {/* Start Top Search */}
-        <div className="top-search">
-          <div className="container">
-            <div className="input-group">
-              <span className="input-group-addon">
-                <i className="fa fa-search" />
-              </span>
-              <input
-                type="text"
-                className="form-control"
-                placeholder="Search"
-              />
-              <span className="input-group-addon close-search">
-                <i className="fa fa-times" />
-              </span>
-            </div>
-          </div>
-        </div>
-        {/* End Top Search */}
+      <header className={`site-header ${scrolled ? "site-header-scrolled" : "site-header-top"}`}>
         <div className="container">
-          {/* Start Header Navigation */}
-          <div className="navbar-header">
-            <button
-              type="button"
-              className="navbar-toggle"
-              data-toggle="collapse"
-              data-target="#navbar-menu"
-            >
-              <i className="fa fa-bars" />
-            </button>
-            <Link to="/" className="logo navbar-brand">
+          <div className="site-header-inner">
+
+            {/* ── Logo ── */}
+            <Link to="/" className="site-logo" aria-label="Agroventures Home">
               <img
-                className="logo logo-display"
-                src="/images/logo-white.png"
-                alt=""
-              />
-              <img
-                className="logo logo-scrolled"
-                src="/images/logo-black.png"
-                alt=""
+                src={scrolled ? "/images/logo-black.png" : "/images/logo-white.png"}
+                alt="Agroventures Plantations"
+                className="site-logo-img"
               />
             </Link>
-          </div>
-          {/* End Header Navigation */}
-          {/* Collect the nav links, forms, and other content for toggling */}
-          <div className="collapse navbar-collapse" id="navbar-menu">
-            <ul
-              className="nav navbar-nav navbar-right"
-              data-in="fadeIn"
-              data-out="fadeOut"
-            >
-              <li>
-                <Link to="/">Home</Link>
-              </li>
- <li>
-                    <Link to="/about-us">About Us</Link>
-                  </li>
-              {/* <li className="dropdown">
-                {" "}
-                <a href="#" className="dropdown-toggle" data-toggle="dropdown">
-                  About us
-                </a>
-                <ul className="dropdown-menu">
-                  <li className="dropdown"> </li>
 
-                  <li>
-                    <Link to="/about-us">About company</Link>
+            {/* ── Desktop nav ── */}
+            <nav className="site-nav" aria-label="Main navigation">
+              <ul className="site-nav-list">
+                {navLinks.map((link) => (
+                  <li key={link.to} className="site-nav-item">
+                    <Link
+                      to={link.to}
+                      className={`site-nav-link ${isActive(link.to) ? "site-nav-link-active" : ""}`}
+                    >
+                      {link.label}
+                      <span className="site-nav-underline" />
+                    </Link>
                   </li>
-                  <li>
-                    <Link to="/our-plantations">Our plantations</Link>
-                  </li>
-                </ul>
-              </li> */}
-              <li>
-                <Link to="/events">Events</Link>
-              </li>
-              <li>
-                <Link to="/branch-network">Branch Network</Link>
-              </li>
-              <li>
-                    <Link to="/our-plantations">Our plantations</Link>
-                  </li>
-              <li>
-                <Link to="/contact-us">Contact Us</Link>
-              </li>
-            </ul>
+                ))}
+              </ul>
+            </nav>
+
+            {/* ── CTA button (desktop) ── */}
+            <div className="site-header-cta">
+              <Link to="/contact-us" className="site-header-btn">
+                <i className="fa fa-leaf site-header-btn-icon" />
+                Contact Us
+              </Link>
+            </div>
+
+            {/* ── Mobile hamburger ── */}
+            <button
+              className={`site-hamburger ${menuOpen ? "site-hamburger-open" : ""}`}
+              onClick={() => setMenuOpen(!menuOpen)}
+              aria-label={menuOpen ? "Close menu" : "Open menu"}
+              aria-expanded={menuOpen}
+            >
+              <span className="site-hamburger-bar" />
+              <span className="site-hamburger-bar" />
+              <span className="site-hamburger-bar" />
+            </button>
+
           </div>
-          {/* /.navbar-collapse */}
         </div>
-      </nav>
-      {/* Header End */}
+      </header>
+
+      {/* ── Mobile menu backdrop ── */}
+      <div
+        className={`site-mobile-backdrop ${menuOpen ? "site-mobile-backdrop-visible" : ""}`}
+        onClick={() => setMenuOpen(false)}
+        aria-hidden="true"
+      />
+
+      {/* ── Mobile menu drawer ── */}
+      <div
+        className={`site-mobile-menu ${menuOpen ? "site-mobile-menu-open" : ""}`}
+        role="dialog"
+        aria-modal="true"
+        aria-label="Mobile navigation"
+      >
+        {/* Drawer header */}
+        <div className="site-mobile-header">
+          <Link to="/" className="site-mobile-logo" onClick={() => setMenuOpen(false)}>
+            <img src="/images/logo-white.png" alt="Agroventures" className="site-mobile-logo-img" />
+          </Link>
+          <button
+            className="site-mobile-close"
+            onClick={() => setMenuOpen(false)}
+            aria-label="Close menu"
+          >
+            <i className="fa fa-times" />
+          </button>
+        </div>
+
+        {/* Nav links */}
+        <nav className="site-mobile-nav" aria-label="Mobile navigation">
+          <ul className="site-mobile-nav-list">
+            {navLinks.map((link, i) => (
+              <li
+                key={link.to}
+                className="site-mobile-nav-item"
+                style={{ animationDelay: `${i * 0.06}s` }}
+              >
+                <Link
+                  to={link.to}
+                  className={`site-mobile-nav-link ${isActive(link.to) ? "site-mobile-nav-active" : ""}`}
+                  onClick={() => setMenuOpen(false)}
+                >
+                  <span className="site-mobile-nav-dot" />
+                  {link.label}
+                  <i className="fa fa-chevron-right site-mobile-nav-arrow" />
+                </Link>
+              </li>
+            ))}
+          </ul>
+        </nav>
+
+        {/* Drawer footer CTA */}
+        <div className="site-mobile-footer">
+          <Link to="/contact-us" className="site-mobile-cta" onClick={() => setMenuOpen(false)}>
+            <i className="fa fa-leaf" />
+            Start Contact Us
+          </Link>
+        </div>
+      </div>
     </>
   );
 };
+
 export default Header;

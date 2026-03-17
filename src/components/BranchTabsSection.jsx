@@ -60,7 +60,7 @@ const BranchTabsSection = () => {
               </h2>
               <div className="branch-divider" />
               <p className="branch-subtitle">
-                {branches.length} locations across Sri Lanka — find the branch nearest to you.
+                {branches.length} locations across Sri Lanka - find the branch nearest to you.
               </p>
             </div>
           </div>
@@ -185,7 +185,7 @@ const BranchTabsSection = () => {
               <div className="branch-map-wrap">
                 <div className="branch-map-header">
                   <i className="fas fa-map branch-map-header-icon" />
-                  <span>Location Map — {branch.name}</span>
+                  <span>Location Map - {branch.name}</span>
                 </div>
                 <div className="branch-map-frame">
                   <iframe

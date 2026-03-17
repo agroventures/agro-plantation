@@ -48,7 +48,7 @@ const AboutMeSection = () => {
                     As the Founder of Agroventures Plantations, I am filled with
                     immense pride and gratitude for the journey we have
                     undertaken together. From the very inception of this
-                    company, our vision was clear — to revolutionize Sri Lanka's
+                    company, our vision was clear - to revolutionize Sri Lanka's
                     agricultural landscape by fostering sustainability,
                     empowering communities, and delivering exceptional produce
                     to the world.

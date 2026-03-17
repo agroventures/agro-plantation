@@ -4,7 +4,7 @@ const AboutmeCEOMessage = () => {
         <div className="container" style={{ padding: 0 }}>
           <div className="ceo-flex-row">
  
-            {/* ── Image column — LEFT on desktop, TOP on mobile ── */}
+            {/* ── Image column - LEFT on desktop, TOP on mobile ── */}
             <div className="col-md-5 ceo-image-col">
               <img
                 src="/images/team/team-ceo.jpg"
@@ -21,7 +21,7 @@ const AboutmeCEOMessage = () => {
               </div>
             </div>
  
-            {/* ── Content column — RIGHT on desktop, BELOW image on mobile ── */}
+            {/* ── Content column - RIGHT on desktop, BELOW image on mobile ── */}
             <div className="col-md-7 ceo-content-col">
               <span className="ceo-eyebrow">CEO's Message</span>
  
@@ -36,7 +36,7 @@ const AboutmeCEOMessage = () => {
  
               <div className="ceo-body">
                 <p>
-                  At Agroventures Plantations, leadership isn't just a title —
+                  At Agroventures Plantations, leadership isn't just a title -
                   it's a responsibility we bear to every farmer, every community,
                   and every acre of land we cultivate. Since taking on this role,
                   my focus has been on bridging modern agricultural innovation
@@ -54,16 +54,16 @@ const AboutmeCEOMessage = () => {
  
               <div className="ceo-stats-row">
                 <div className="ceo-stat">
-                  <div className="ceo-stat-number">500+</div>
-                  <div className="ceo-stat-label">Farmer Partners</div>
+                  <div className="ceo-stat-number">645+</div>
+                  <div className="ceo-stat-label">Team Members</div>
                 </div>
                 <div className="ceo-stat">
-                  <div className="ceo-stat-number">12+</div>
+                  <div className="ceo-stat-number">10+</div>
                   <div className="ceo-stat-label">Years Experience</div>
                 </div>
                 <div className="ceo-stat">
-                  <div className="ceo-stat-number">30+</div>
-                  <div className="ceo-stat-label">Export Markets</div>
+                  <div className="ceo-stat-number">12,440+</div>
+                  <div className="ceo-stat-label">Clients' Satisfactions</div>
                 </div>
               </div>
             </div>

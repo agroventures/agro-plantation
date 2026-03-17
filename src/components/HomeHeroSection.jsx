@@ -69,24 +69,24 @@ const HomeHeroSection = () => {
         <div className="hero-info-bar">
           <div className="container">
             <div className="hero-info-inner">
-              <div className="hero-info-item">
-                <span className="hero-info-number">500+</span>
-                <span className="hero-info-label">Farmer Partners</span>
-              </div>
-              <div className="hero-info-divider" />
-              <div className="hero-info-item">
-                <span className="hero-info-number">30+</span>
-                <span className="hero-info-label">Export Markets</span>
-              </div>
-              <div className="hero-info-divider" />
-              <div className="hero-info-item">
-                <span className="hero-info-number">12+</span>
+               <div className="hero-info-item">
+                <span className="hero-info-number">10+</span>
                 <span className="hero-info-label">Years of Excellence</span>
               </div>
+               <div className="hero-info-divider" />
+              <div className="hero-info-item">
+                <span className="hero-info-number">645+</span>
+                <span className="hero-info-label">Team Members</span>
+              </div>
               <div className="hero-info-divider" />
               <div className="hero-info-item">
-                <span className="hero-info-number">100%</span>
-                <span className="hero-info-label">Sustainable Practices</span>
+                <span className="hero-info-number">10+</span>
+                <span className="hero-info-label">Awards</span>
+              </div>
+              <div className="hero-info-divider" />
+              <div className="hero-info-item">
+                <span className="hero-info-number">12,440+</span>
+                <span className="hero-info-label">Clients' Satisfaction</span>
               </div>
             </div>
           </div>

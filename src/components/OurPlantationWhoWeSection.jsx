@@ -50,7 +50,7 @@ const OurPlantationWhoWeSection = () => {
             <div className="plantation-who-body">
               <p>
                 At Agroventures Plantations (Pvt) Ltd, our lands represent more
-                than just fields and orchards — they embody our unwavering
+                than just fields and orchards - they embody our unwavering
                 commitment to <strong>sustainability</strong>, responsible
                 farming practices, and community development. Nestled in the
                 picturesque landscapes of Sri Lanka, our plantations serve as a
@@ -62,7 +62,7 @@ const OurPlantationWhoWeSection = () => {
                 <p>
                   Our approach to farming is deeply rooted in environmental
                   stewardship. We employ advanced agricultural techniques that
-                  minimize our ecological footprint — integrating crop rotation,
+                  minimize our ecological footprint - integrating crop rotation,
                   organic fertilizers, and water conservation methods to
                   maintain soil health and preserve natural resources.
                 </p>
@@ -74,7 +74,7 @@ const OurPlantationWhoWeSection = () => {
                 </p>
                 <p>
                   Each crop is carefully nurtured from seed to harvest, ensuring
-                  only the finest products reach our consumers — fresh,
+                  only the finest products reach our consumers - fresh,
                   nutritious, and sustainably grown. At Agroventures, we are not
                   just growing crops; we are cultivating a legacy of
                   sustainability, community support, and agricultural excellence.

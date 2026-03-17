@@ -31,7 +31,7 @@ const AboutManagerSection = () => {
                 <div className="hr-body">
                   <p>
                     At Agroventures Plantations, our greatest asset is not the land
-                    we cultivate — it is the people who tend to it. As Director of
+                    we cultivate - it is the people who tend to it. As Director of
                     Human Resources, my commitment is to ensure that every individual
                     who walks through our doors finds not just a job, but a purpose,
                     a community, and a pathway to grow.
@@ -41,7 +41,7 @@ const AboutManagerSection = () => {
                     plantation teams in the field to our management staff in the
                     office. Through continuous training, fair opportunities, and a
                     culture of respect, we are building an organization where people
-                    thrive — because when our people flourish, so does every harvest
+                    thrive - because when our people flourish, so does every harvest
                     we bring to the world.
                   </p>
                 </div>

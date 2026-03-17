@@ -18,7 +18,7 @@ const WeAgroSection = () => {
               <div className="weagro-identity-block">
 
                 {/* Large decorative text */}
-                <span className="weagro-bg-text" aria-hidden="true">AGRO</span>
+                <span className="weagro-bg-text" aria-hidden="true">AGROVENTURES</span>
 
                 {/* Logo / brand mark area */}
                 <div className="weagro-brand-mark">
@@ -41,7 +41,7 @@ const WeAgroSection = () => {
                 {/* Est. badge */}
                 <div className="weagro-est-badge">
                   <span className="weagro-est-label">Est.</span>
-                  <span className="weagro-est-year">2018</span>
+                  <span className="weagro-est-year">2016</span>
                   <span className="weagro-est-country">Sri Lanka</span>
                 </div>
 
@@ -77,7 +77,7 @@ const WeAgroSection = () => {
               </p>
               <p className="weagro-body">
                 We cultivate on behalf of our customers who fund plantations,
-                handling everything from soil to harvest — so our customers
+                handling everything from soil to harvest - so our customers
                 receive a generous return on their investment. All our
                 cultivations are locally produced and environmentally safe,
                 following sustainable practices at every step.
@@ -115,7 +115,7 @@ const WeAgroSection = () => {
                   <i className="fa fa-arrow-right weagro-btn-icon" />
                 </Link>
                 <div className="weagro-trust-badge">
-                  <span className="weagro-trust-num">12+</span>
+                  <span className="weagro-trust-num">10+</span>
                   <span className="weagro-trust-label">Years Trusted</span>
                 </div>
               </div>

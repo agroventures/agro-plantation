@@ -81,7 +81,7 @@ const OverseaSection = () => {
               <p>
                 Our dedicated teams work diligently to coordinate efforts,
                 address challenges promptly, and uphold the highest standards of
-                excellence in every area we operate in — delivering exceptional
+                excellence in every area we operate in - delivering exceptional
                 results and fostering strong relationships with our global partners.
               </p>
             </div>

@@ -34,7 +34,7 @@ const coreValues = [
     label: "Growth",
     title: "Community Growth",
     desc: "We strive to uplift local communities by providing meaningful livelihood opportunities, investing in people, and supporting sustainable development across the regions we operate in.",
-    highlight: "500+ farmer partners",
+    highlight: "12,440+ Clients' Satisfactions",
     color: "#06a8a8",
   },
 ];
