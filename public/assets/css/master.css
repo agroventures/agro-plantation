@@ -6966,7 +6966,7 @@ body {
         /* GM card info bar */
         .gm-card-info {
           padding: 20px 22px 22px;
-          height: 90px;
+          height: 110px;
           background: #fff;
           position: relative;
         }
@@ -14041,4 +14041,64 @@ form.register {
 }
 .career-category {
   padding-top: 14px;
+}
+
+/* =============================================
+   25.0 - Preloader
+============================================= */
+#loader-overlay {
+  position: fixed;
+  inset: 0;
+  background: #004d4d;
+  z-index: 99999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.loader-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+/* ── Leaf icon ── */
+.loader-leaf-icon {
+  font-size: 42px;
+  color: #94dfa6;
+  animation: loaderLeafPulse 1.6s ease-in-out infinite;
+  line-height: 1;
+}
+
+@keyframes loaderLeafPulse {
+  0%, 100% { transform: scale(1) rotate(-8deg); opacity: 1; }
+  50%       { transform: scale(1.18) rotate(8deg); opacity: 0.7; }
+}
+
+/* ── Spinner dots ── */
+.alpha-dots {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.alpha-child {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: #94dfa6;
+}
+
+.alpha-dot1 {
+  animation: loaderDot 1.2s ease-in-out infinite;
+}
+
+.alpha-dot2 {
+  animation: loaderDot 1.2s ease-in-out 0.4s infinite;
+}
+
+@keyframes loaderDot {
+  0%, 100% { transform: translateY(0); opacity: 1; }
+  50%       { transform: translateY(-10px); opacity: 0.4; }
 }

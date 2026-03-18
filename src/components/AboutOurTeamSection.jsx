@@ -89,7 +89,6 @@ const AboutOurTeamSection = () => {
                   <div className="gm-card-img-wrap">
                     <img src={gm.img} alt={gm.name} />
                     <div className="gm-card-overlay">
-                      <span className="gm-overlay-role">{gm.role}</span>
                       <ul className="gm-card-socials">
                         {socialLinks.map((s, j) => (
                           <li key={j}>

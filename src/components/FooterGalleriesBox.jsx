@@ -7,7 +7,7 @@ const FooterGalleriesBox = () => {
     { src: "/images/gallery/05.png", alt: "gallery-5" },
     { src: "/images/gallery/06.png", alt: "gallery-6" },
     { src: "/images/gallery/07.png", alt: "gallery-7" },
-    { src: "/images/events/af3.webp", alt: "gallery-8" },
+    { src: "/images/gallery/af3.webp", alt: "gallery-8" },
   ];
 
   return (
