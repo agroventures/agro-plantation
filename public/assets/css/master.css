@@ -76,6 +76,7 @@ body {
   font-family: "Inter", sans-serif;
 }
 
+
 /* =============================================
    Plantation Gallery Item Card
 ============================================= */
@@ -11597,7 +11598,7 @@ a.readmore > span {
 }
 
 .post-tags a:hover {
-  background: #667eea;
+  background: #E9612F;
   border: 1px solid #667eea;
   color: #fff;
   text-decoration: none;

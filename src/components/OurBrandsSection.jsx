@@ -34,7 +34,7 @@ const OurBrandsSection = () => {
             <div className="virtues-heading">
               <span className="virtues-eyebrow">
                 <span className="virtues-eyebrow-line" />
-                Trusted partners driving Sri Lanka's agricultural future
+                Sri Lanka's agricultural future
                 <span className="virtues-eyebrow-line" />
               </span>
               <h2 className="virtues-main-title">

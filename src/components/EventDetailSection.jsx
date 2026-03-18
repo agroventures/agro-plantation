@@ -70,11 +70,11 @@ const EventDetailSection = () => {
               </div>
               <div className="blog-standard">
                 <div className="post-tags">
-                  <a href="#">Design</a>
-                  <a href="#">Branding</a>
-                  <a href="#">Stationery</a>
-                  <a href="#">Development</a>
-                  <a href="#">Concept</a>
+                  <a href="#"> Branch Expansion</a>
+                  <a href="#">Annual Convention</a>
+                  <a href="#">Sustainable Agriculture</a>
+                  <a href="#">Community Impact</a>
+  
                 </div>
               </div>
 

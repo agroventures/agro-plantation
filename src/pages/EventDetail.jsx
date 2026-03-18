@@ -1,10 +1,7 @@
 import EventDetailSection from "../components/EventDetailSection";
 
 const EventDetail = () => {
-    return (
-      <EventDetailSection />
-      
-  );
+  return <EventDetailSection />;
 };
 
 export default EventDetail;

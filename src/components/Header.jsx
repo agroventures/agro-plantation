@@ -14,6 +14,7 @@ const Header = () => {
   const [scrolled, setScrolled]   = useState(false);
   const [menuOpen, setMenuOpen]   = useState(false);
   const location                  = useLocation();
+  const isEventDetail = location.pathname === "/event-detail";
 
   /* ── Scroll handler ── */
   useEffect(() => {
@@ -21,11 +22,6 @@ const Header = () => {
     window.addEventListener("scroll", onScroll, { passive: true });
     return () => window.removeEventListener("scroll", onScroll);
   }, []);
-
-  /* ── Close mobile menu on route change ── */
-  useEffect(() => {
-    setMenuOpen(false);
-  }, [location.pathname]);
 
   /* ── Lock body scroll when mobile menu is open ── */
   useEffect(() => {
@@ -38,14 +34,14 @@ const Header = () => {
 
   return (
     <>
-      <header className={`site-header ${scrolled ? "site-header-scrolled" : "site-header-top"}`}>
+      <header className={`site-header ${scrolled || isEventDetail ? "site-header-scrolled" : "site-header-top"}`}>
         <div className="container">
           <div className="site-header-inner">
 
             {/* ── Logo ── */}
             <Link to="/" className="site-logo" aria-label="Agroventures Home">
               <img
-                src={scrolled ? "/images/logo-black.png" : "/images/logo-white.png"}
+                src={scrolled || isEventDetail ? "/images/logo-black.png" : "/images/logo-white.png"}
                 alt="Agroventures Plantations"
                 className="site-logo-img"
               />

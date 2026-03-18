@@ -10,7 +10,7 @@ import 'swiper/css/effect-fade';
 
 const slides = [
   {
-    image: '/images/events/af3.webp',
+    image: 'https://res.cloudinary.com/avplantations/image/upload/v1773740205/850_3091_vehj6t.webp',
     eyebrow: 'Sri Lanka Agriculture',
     titleLight: 'Working Towards',
     titleBold: 'A Brighter Future',
@@ -20,7 +20,7 @@ const slides = [
     position: 'center center',
   },
   {
-    image: '/images/events/gt6.webp',
+    image: 'https://res.cloudinary.com/avplantations/image/upload/v1773737188/1_mlk1vw.webp',
     eyebrow: 'Premium Vanilla',
     titleLight: 'Premium Quality',
     titleBold: 'Vanilla Cultivation',
@@ -30,7 +30,7 @@ const slides = [
     position: 'center center',
   },
   {
-    image: '/images/events/yg0.webp',
+    image: 'https://res.cloudinary.com/avplantations/image/upload/v1773742174/crown_2_nzqzf9.jpg',
     eyebrow: 'Investment Opportunity',
     titleLight: 'Invest in',
     titleBold: "Sri Lanka's Future",
