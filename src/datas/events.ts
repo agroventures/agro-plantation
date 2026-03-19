@@ -33,7 +33,7 @@ export const eventsData = [
   {
     id: 2,
     title: "Crown of Excellence - 2025",
-    date: "February 26, 2026",
+    date: "February 22, 2026",
     excerpt:
       "Agroventures Crown of Excellence 2025 – Annual Sales Awards...",
     brief: `

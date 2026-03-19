@@ -8,9 +8,10 @@ import WeAgroSection from "../components/WeAgroSection";
 import WelcomePopup from "../components/WelcomePopup";
 import WhyChooseSection from "../components/WhyChooseSection";
 import HomeHeroSection from "../components/HomeHeroSection";
+import OurTrustedPartnerSection from "../components/OurTrustedPartnerSection";
 
 const Home = () => {
-     const [showPopup, setShowPopup] = useState(false);
+  const [showPopup, setShowPopup] = useState(false);
 
   useEffect(() => {
     const timer = setTimeout(() => {
@@ -18,21 +19,21 @@ const Home = () => {
     }, 5000);
     return () => clearTimeout(timer);
   }, []);
-    
-    return (
-        <>
-           <HomeHeroSection/>
-            <WeAgroSection />
-            <OurPrincipalSection />
-            {/* <CounterSection /> */}
-            <OurMainSection />
-            <OverseaSection />
-            <WhyChooseSection />
-            <OurBrandsSection />
-              {showPopup && <WelcomePopup onClose={() => setShowPopup(false)} />}
-            
-        </>
-    );
+
+  return (
+    <>
+      <HomeHeroSection />
+      <WeAgroSection />
+      <OurPrincipalSection />
+      {/* <CounterSection /> */}
+      <OurMainSection />
+      <OverseaSection />
+      <WhyChooseSection />
+      <OurTrustedPartnerSection />
+      <OurBrandsSection />
+      {showPopup && <WelcomePopup onClose={() => setShowPopup(false)} />}
+    </>
+  );
 };
 
 export default Home;

@@ -76,6 +76,479 @@ body {
   font-family: "Inter", sans-serif;
 }
 
+/* ══════════════════════════════════════
+   Event Detail Section — Green/Nature Theme
+   ══════════════════════════════════════ */
+
+.event-detail-section {
+  padding: 60px 0 80px;
+  background-color: #f7faf3;
+}
+
+/* ── Media Block ── */
+.eds-media-block {
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 8px 32px rgba(59, 109, 17, 0.12);
+  margin-bottom: 32px;
+  background: #fff;
+}
+
+.eds-main-swiper {
+  width: 100%;
+  height: 460px;
+}
+
+.eds-slide-wrap {
+  position: relative;
+  width: 100%;
+  height: 460px;
+}
+
+.eds-slide-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.eds-slide-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 120px;
+  background: linear-gradient(to top, rgba(23, 52, 4, 0.55), transparent);
+  pointer-events: none;
+}
+
+/* Custom Nav */
+.eds-nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  padding: 12px 16px;
+  background: #fff;
+}
+
+.eds-nav-btn {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  border: 1.5px solid #C0DD97;
+  background: #fff;
+  color: #3B6D11;
+  font-size: 13px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.2s, border-color 0.2s;
+  flex-shrink: 0;
+}
+
+.eds-nav-btn:hover {
+  background: #3B6D11;
+  border-color: #3B6D11;
+  color: #fff;
+}
+
+.eds-pagination {
+  display: flex;
+  gap: 6px;
+  align-items: center;
+}
+
+.eds-pagination .swiper-pagination-bullet {
+  width: 8px;
+  height: 8px;
+  background: #C0DD97;
+  opacity: 1;
+  border-radius: 50%;
+}
+
+.eds-pagination .swiper-pagination-bullet-active {
+  background: #3B6D11;
+  width: 22px;
+  border-radius: 4px;
+}
+
+/* Thumbnails */
+.eds-thumb-swiper {
+  padding: 10px 12px 12px;
+  background: #fff;
+}
+
+.eds-thumb-img {
+  width: 100%;
+  height: 72px;
+  object-fit: cover;
+  border-radius: 8px;
+  cursor: pointer;
+  border: 2px solid transparent;
+  transition: border-color 0.2s;
+  display: block;
+}
+
+.swiper-slide-thumb-active .eds-thumb-img {
+  border-color: #3B6D11;
+}
+
+/* Single image */
+.eds-single-img-wrap {
+  position: relative;
+  height: 460px;
+}
+
+.eds-single-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+/* ── Post Info ── */
+.eds-post-info {
+  background: #fff;
+  border-radius: 16px;
+  padding: 32px;
+  margin-bottom: 24px;
+  border: 1px solid #e8f3d8;
+}
+
+.eds-meta {
+  margin-bottom: 16px;
+}
+
+.eds-date-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  background: #EAF3DE;
+  color: #3B6D11;
+  font-size: 12px;
+  font-weight: 600;
+  padding: 5px 14px;
+  border-radius: 20px;
+  border: 1px solid #C0DD97;
+}
+
+.eds-title {
+  font-size: 26px;
+  font-weight: 700;
+  color: #27500A;
+  margin: 0 0 20px;
+  line-height: 1.35;
+}
+
+.eds-leaf-icon {
+  color: #3B6D11;
+  margin-right: 10px;
+  font-size: 22px;
+}
+
+.eds-body {
+  font-size: 15px;
+  color: #444;
+  line-height: 1.8;
+}
+
+/* ── Share Bar ── */
+.eds-share-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #fff;
+  border-radius: 12px;
+  padding: 16px 24px;
+  margin-bottom: 32px;
+  border: 1px solid #e8f3d8;
+}
+
+.eds-share-left {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.eds-share-label {
+  font-size: 13px;
+  font-weight: 600;
+  color: #3B6D11;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+.eds-share-icons {
+  display: flex;
+  gap: 8px;
+}
+
+.eds-share-btn {
+  width: 34px;
+  height: 34px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  text-decoration: none;
+  border: 1.5px solid #C0DD97;
+  color: #3B6D11;
+  background: #fff;
+  transition: background 0.2s, color 0.2s, border-color 0.2s;
+}
+
+.eds-share-btn:hover {
+  background: #3B6D11;
+  color: #fff;
+  border-color: #3B6D11;
+}
+
+.eds-comments-count {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  font-size: 13px;
+  color: #888;
+}
+
+.eds-comments-count i {
+  color: #3B6D11;
+}
+
+/* ── Sidebar ── */
+.eds-sidebar {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.eds-sidebar-card {
+  background: #fff;
+  border-radius: 14px;
+  padding: 24px;
+  border: 1px solid #e8f3d8;
+}
+
+.eds-sidebar-title {
+  font-size: 14px;
+  font-weight: 700;
+  color: #27500A;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  margin: 0 0 16px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.eds-sidebar-title i {
+  color: #3B6D11;
+  font-size: 14px;
+}
+
+/* Search */
+.eds-search-form {
+  display: flex;
+  gap: 0;
+  border: 1.5px solid #C0DD97;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.eds-search-input {
+  flex: 1;
+  border: none;
+  outline: none;
+  padding: 10px 14px;
+  font-size: 13px;
+  color: #333;
+  background: #fff;
+}
+
+.eds-search-btn {
+  background: #3B6D11;
+  border: none;
+  color: #fff;
+  padding: 10px 16px;
+  cursor: pointer;
+  font-size: 13px;
+  transition: background 0.2s;
+}
+
+.eds-search-btn:hover {
+  background: #27500A;
+}
+
+/* Address */
+.eds-address p {
+  font-size: 13px;
+  color: #555;
+  line-height: 1.6;
+  margin: 0 0 10px;
+  display: flex;
+  align-items: flex-start;
+  gap: 9px;
+}
+
+.eds-address p:last-child {
+  margin-bottom: 0;
+}
+
+.eds-addr-icon {
+  color: #3B6D11;
+  margin-top: 3px;
+  flex-shrink: 0;
+  font-size: 13px;
+}
+
+.eds-address a {
+  color: #3B6D11;
+  text-decoration: none;
+  word-break: break-all;
+}
+
+.eds-address a:hover {
+  text-decoration: underline;
+}
+
+/* Map */
+.eds-map-wrap {
+  border-radius: 10px;
+  overflow: hidden;
+  border: 1px solid #e8f3d8;
+}
+
+/* ── Responsive ── */
+@media (max-width: 768px) {
+  .eds-main-swiper,
+  .eds-slide-wrap,
+  .eds-single-img-wrap {
+    height: 260px;
+  }
+
+  .eds-post-info {
+    padding: 20px;
+  }
+
+  .eds-title {
+    font-size: 20px;
+  }
+
+  .eds-share-bar {
+    flex-direction: column;
+    gap: 14px;
+    align-items: flex-start;
+  }
+
+  .eds-sidebar {
+    margin-top: 32px;
+  }
+}
+
+
+/* ── Trusted Partner Section ── */
+/* ── Trusted Partner Section ── */
+.trusted-partner-section {
+  position: relative;
+  overflow: hidden;
+  padding: 56px 0 48px;
+  border-top: 2px solid #3B6D11;
+  background-color: #EAF3DE;
+  text-align: center;
+}
+
+/* KPMG text watermark */
+.tp-watermark {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 180px;
+  font-weight: 800;
+  letter-spacing: 0.1em;
+  color: #3B6D11;
+  opacity: 0.05;
+  pointer-events: none;
+  user-select: none;
+  white-space: nowrap;
+  line-height: 1;
+  z-index: 0;
+}
+
+/* Content sits above watermark */
+.tp-content {
+  position: relative;
+  z-index: 1;
+}
+
+/* Card wrap */
+.tp-card-wrap {
+  display: flex;
+  justify-content: center;
+}
+
+.tp-card {
+  display: inline-flex;
+  align-items: center;
+  gap: 20px;
+  background: #ffffff;
+  border: 1.5px solid #C0DD97;
+  border-radius: 12px;
+  padding: 20px 36px;
+  text-decoration: none;
+  transition: border-color 0.2s ease;
+}
+
+.tp-card:hover {
+  border-color: #639922;
+  text-decoration: none;
+}
+
+.tp-logo {
+  height: 38px;
+  width: auto;
+  display: block;
+}
+
+.tp-divider {
+  width: 1px;
+  height: 48px;
+  background-color: #C0DD97;
+  flex-shrink: 0;
+}
+
+.tp-info {
+  text-align: left;
+}
+
+.tp-name {
+  font-size: 15px;
+  font-weight: 600;
+  color: #27500A;
+  margin: 0 0 3px;
+  line-height: 1.3;
+}
+
+.tp-tagline {
+  font-size: 12px;
+  color: #3B6D11;
+  margin: 0;
+}
+
+.tp-badge {
+  margin-left: 4px;
+  background-color: #EAF3DE;
+  color: #3B6D11;
+  font-size: 11px;
+  font-weight: 600;
+  padding: 4px 12px;
+  border-radius: 20px;
+  border: 1px solid #C0DD97;
+  white-space: nowrap;
+}
 
 /* =============================================
    Plantation Gallery Item Card
@@ -2831,8 +3304,8 @@ body {
   background-repeat: no-repeat;
   z-index: 0;
   /* Ken Burns zoom effect on active slide */
-  transform: scale(1.08);
-  transition: transform 8s ease-out;
+  transform: scale(1.02);
+  transition: transform 8s ease;
 }
 
 .hero-swiper .swiper-slide-active .hero-slide-bg {

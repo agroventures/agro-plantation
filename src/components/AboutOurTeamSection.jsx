@@ -1,5 +1,5 @@
 const AboutOurTeamSection = () => {
-    const gmMembers = [
+  const gmMembers = [
     {
       img: "/images/team/placeholder-image.jpg",
       name: "Kushan Jayasinghe",
@@ -13,9 +13,9 @@ const AboutOurTeamSection = () => {
       initials: "DS",
     },
     {
-      img: "/images/team/placeholder-image.jpg",
+      img: "https://avproperty.lk/images/team/prabhath.jpg",
       name: "Prabhath Gamage",
-      role: "General Manager – Agro Ventures Property Development",
+      role: "General Manager",
       initials: "PG",
     },
     {
@@ -25,7 +25,7 @@ const AboutOurTeamSection = () => {
       initials: "NP",
     },
   ];
- 
+
   const teamMembers = [
     {
       img: "/images/team/placeholder-image.jpg",
@@ -52,12 +52,12 @@ const AboutOurTeamSection = () => {
     //   initials: "RJ",
     // },
   ];
- 
-  const socialLinks = [
-    { icon: "fa-brands fa-facebook", href: "#" },
-    { icon: "fa-brands fa-linkedin", href: "#" },
-    { icon: "fa-brands fa-x-twitter", href: "#" },
-  ];
+
+  // const socialLinks = [
+  //   { icon: "fa-brands fa-facebook", href: "#" },
+  //   { icon: "fa-brands fa-linkedin", href: "#" },
+  //   { icon: "fa-brands fa-x-twitter", href: "#" },
+  // ];
   return (
     <>
       {/* ═══════════════════════════════════════
@@ -88,17 +88,7 @@ const AboutOurTeamSection = () => {
                 <div className="gm-card">
                   <div className="gm-card-img-wrap">
                     <img src={gm.img} alt={gm.name} />
-                    <div className="gm-card-overlay">
-                      <ul className="gm-card-socials">
-                        {socialLinks.map((s, j) => (
-                          <li key={j}>
-                            <a href={s.href} aria-label="social">
-                              <i className={s.icon} />
-                            </a>
-                          </li>
-                        ))}
-                      </ul>
-                    </div>
+                    <div className="gm-card-overlay"></div>
                     <div className="gm-card-number">0{i + 1}</div>
                   </div>
                   <div className="gm-card-info">
@@ -140,17 +130,7 @@ const AboutOurTeamSection = () => {
                 <div className="staff-card">
                   <div className="staff-card-img-wrap">
                     <img src={member.img} alt={member.name} />
-                    <div className="staff-card-overlay">
-                      <ul className="staff-card-socials">
-                        {socialLinks.map((s, j) => (
-                          <li key={j}>
-                            <a href={s.href} aria-label="social">
-                              <i className={s.icon} />
-                            </a>
-                          </li>
-                        ))}
-                      </ul>
-                    </div>
+                    <div className="staff-card-overlay"></div>
                     <span className="staff-count-badge">Team</span>
                   </div>
                   <div className="staff-card-info">
