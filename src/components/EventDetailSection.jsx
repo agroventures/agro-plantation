@@ -30,10 +30,8 @@ const EventDetailSection = () => {
       <section className="event-detail-section">
         <div className="container">
           <div className="row">
-
             {/* ── Main Content ── */}
             <div className="col-md-8">
-
               {/* Image Block */}
               <div className="eds-media-block">
                 {hasMultiple ? (
@@ -128,26 +126,32 @@ const EventDetailSection = () => {
               </div>
 
               {/* Share Bar */}
-              <div className="eds-share-bar">
-                <div className="eds-share-left">
-                  <span className="eds-share-label">Share this event</span>
-                  <div className="eds-share-icons">
-                    <a href="#" className="eds-share-btn eds-fb">
-                      <i className="fa-brands fa-facebook" />
-                    </a>
-                    <a href="#" className="eds-share-btn eds-tw">
+              {currentEvent.facebookLink && (
+                <div className="eds-share-bar">
+                  <div className="eds-share-left">
+                    <span className="eds-share-label">Read more</span>
+                    <div className="eds-share-icons">
+                      <a
+                        href={currentEvent.facebookLink}
+                        target="_blank"
+                        className="eds-share-btn eds-fb"
+                      >
+                        <i className="fa-brands fa-facebook" />
+                      </a>
+                      {/* <a href="#" className="eds-share-btn eds-tw">
                       <i className="fa-brands fa-x-twitter" />
                     </a>
                     <a href="#" className="eds-share-btn eds-li">
                       <i className="fa-brands fa-linkedin" />
-                    </a>
+                    </a> */}
+                    </div>
                   </div>
-                </div>
-                <div className="eds-comments-count">
+                  {/* <div className="eds-comments-count">
                   <i className="fa fa-comment" />
                   <span>0 Comments</span>
+                </div> */}
                 </div>
-              </div>
+              )}
 
               {/* Comments */}
               <EventsPostSection />
@@ -156,7 +160,6 @@ const EventDetailSection = () => {
             {/* ── Sidebar ── */}
             <div className="col-md-4">
               <div className="eds-sidebar">
-
                 {/* Search */}
                 <div className="eds-sidebar-card">
                   <h5 className="eds-sidebar-title">
@@ -215,10 +218,8 @@ const EventDetailSection = () => {
                     />
                   </div>
                 </div>
-
               </div>
             </div>
-
           </div>
         </div>
       </section>

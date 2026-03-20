@@ -73,7 +73,7 @@ const HeroSection = () => {
 
             {/* ── Layered overlays ── */}
             <div className="hero-slide-overlay" />
-            {/* <div className="hero-slide-gradient" /> */}
+            <div className="hero-slide-gradient" />
 
             {/* ── Content ── */}
             <div className="hero-slide-content">

@@ -43,8 +43,8 @@ const OurTrustedPartnerSection = () => {
                 <div className="tp-info">
                   <p className="tp-name">KPMG Sri Lanka</p>
                   <p className="tp-tagline">Audit · Tax · Advisory</p>
+                  <span className="tp-badge">Official Partner</span>
                 </div>
-                <span className="tp-badge">Official Partner</span>
               </a>
             </div>
           </div>

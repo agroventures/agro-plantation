@@ -24,15 +24,15 @@ const Footer = () => {
                     Rebranding Sri Lanka's Flavour as a Vanilla Exporter
                   </p>
                   <p className="mb-10">
-                    <i className="fas fa-phone orange-color mr-10" /> +94 (70)
-                    520 0900
+                    <i className="fas fa-phone orange-color mr-10" />{" "}
+                    +94 (70) 520 0900
                   </p>
                   <p className="mb-10">
-                    <i className="fas fa-map-marker-alt orange-color mr-10" />
+                    <i className="fas fa-map-marker-alt orange-color mr-10" />{" "}
                     No.253 Kaduwela Road Thalangama Koswatta Battaramulla
                   </p>
                   <p className="mb-20">
-                    <i className="fas fa-envelope orange-color mr-10" />
+                    <i className="fas fa-envelope orange-color mr-12 " />{" "}
                     info@agroventuresplantations.com
                   </p>
                 </div>

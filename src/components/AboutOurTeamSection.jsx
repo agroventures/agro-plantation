@@ -1,13 +1,13 @@
 const AboutOurTeamSection = () => {
   const gmMembers = [
     {
-      img: "/images/team/placeholder-image.jpg",
+      img: "/images/team/kushan.webp",
       name: "Kushan Jayasinghe",
       role: "Senior Deputy General Manager - Southern Business Unit",
       initials: "KJ",
     },
     {
-      img: "/images/team/placeholder-image.jpg",
+      img: "/images/team/dilum.webp",
       name: "Dilum Sirimanna",
       role: "Deputy General Manager - Western Zone",
       initials: "DS",
@@ -30,13 +30,13 @@ const AboutOurTeamSection = () => {
     {
       img: "/images/team/placeholder-image.jpg",
       name: "Gayan Jayarathne",
-      role: "Head of HR",
+      role: "Group HR Manager",
       initials: "GJ",
     },
     {
       img: "/images/team/placeholder-image.jpg",
       name: "Sriyani Senadeera",
-      role: "Head of Finance",
+      role: "Group Finance Manager",
       initials: "SS",
     },
     // {
