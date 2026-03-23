@@ -1,11 +1,82 @@
-import React from "react";
+import { useRef, useState, useEffect } from "react";
 import OurBrandsSection from "./OurBrandsSection";
+import emailjs from "@emailjs/browser";
 
 const ContactUsSection = () => {
+  const [formData, setFormData] = useState({
+    name: "",
+    email: "",
+    subject: "",
+    message: "",
+  });
+
+  const [isSubmitting, setIsSubmitting] = useState(false);
+  const [submitStatus, setSubmitStatus] = useState(null); 
+  const [showToast, setShowToast] = useState(false);
+
+  const formRef = useRef();
+
+  // Auto-hide toast after 4 seconds
+  useEffect(() => {
+    if (showToast) {
+      const timer = setTimeout(() => {
+        setShowToast(false);
+        setSubmitStatus(null);
+      }, 4000);
+      return () => clearTimeout(timer);
+    }
+  }, [showToast]);
+
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+    setFormData((prev) => ({ ...prev, [name]: value }));
+  };
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    setIsSubmitting(true);
+
+    try {
+      await emailjs.sendForm(
+        import.meta.env.VITE_EMAILJS_SERVICE_ID,
+        import.meta.env.VITE_EMAILJS_TEMPLATE_ID,
+        formRef.current,
+        import.meta.env.VITE_EMAILJS_PUBLIC_KEY
+      );
+      setSubmitStatus("success");
+      setFormData({ name: "", email: "", subject: "", message: "" });
+    } catch (error) {
+      console.error(error);
+      setSubmitStatus("error");
+    } finally {
+      setIsSubmitting(false);
+      setShowToast(true);
+    }
+  };
+
   return (
     <>
-      {/* Page Title Section Start */}
+      {/* Toast Notification */}
+      <div className="toast-wrapper">
+        <div className={`toast-box ${submitStatus} ${showToast ? "show" : ""}`}>
+          <span className="toast-icon">
+            {submitStatus === "success" ? "✓" : "✕"}
+          </span>
+          <span className="toast-message">
+            {submitStatus === "success"
+              ? "Message sent! We'll get back to you soon."
+              : "Something went wrong. Please try again."}
+          </span>
+          <button
+            className="toast-close"
+            onClick={() => setShowToast(false)}
+          >
+            ×
+          </button>
+        </div>
+      </div>
 
+      {/* Page Title Section */}
       <section className="pt-0 pb-0">
         <div className="full-screen-bg">
           <div
@@ -30,22 +101,20 @@ const ContactUsSection = () => {
         </div>
       </section>
 
-      {/* Page Title Section End */}
-
-      {/* Contact Us Start */}
+      {/* Contact Us */}
       <section className="contact-us pt-0 pb-50">
         <div className="container">
           <OurBrandsSection />
           <div className="row mt-0">
+
             {/* Contact Form */}
             <div className="col-md-8 pb-30">
               <form
+                ref={formRef}
                 name="contact-form"
                 id="contact-form"
-                action="php/contact.php"
-                method="POST"
+                onSubmit={handleSubmit}
               >
-                <div className="messages"></div>
                 <div className="row">
                   <div className="col-md-6">
                     <div className="form-group">
@@ -56,6 +125,8 @@ const ContactUsSection = () => {
                         type="text"
                         name="name"
                         className="form-control"
+                        value={formData.name}
+                        onChange={handleChange}
                         id="name"
                         required
                         placeholder="Your Name"
@@ -74,9 +145,11 @@ const ContactUsSection = () => {
                         type="email"
                         name="email"
                         className="form-control"
+                        value={formData.email}
+                        onChange={handleChange}
                         id="email"
-                        placeholder="Your Email"
                         required
+                        placeholder="Your Email"
                         data-error="Please Enter Valid Email"
                       />
                       <div className="help-block with-errors mt-20"></div>
@@ -88,13 +161,21 @@ const ContactUsSection = () => {
                   <label className="sr-only" htmlFor="subject">
                     Subject
                   </label>
-                  <input
-                    type="text"
+                  <select
                     name="subject"
                     className="form-control"
                     id="subject"
-                    placeholder="Your Subject"
-                  />
+                    value={formData.subject}
+                    onChange={handleChange}
+                    required
+                  >
+                    <option value="" disabled>
+                      Your Subject
+                    </option>
+                    <option value="General Inquiry">General Inquiry</option>
+                    <option value="Partnership">Partnership</option>
+                    <option value="Other">Other</option>
+                  </select>
                 </div>
 
                 <div className="form-group">
@@ -109,7 +190,9 @@ const ContactUsSection = () => {
                     placeholder="Your Message"
                     required
                     data-error="Please, Leave us a message"
-                  ></textarea>
+                    value={formData.message}
+                    onChange={handleChange}
+                  />
                   <div className="help-block with-errors mt-20"></div>
                 </div>
 
@@ -117,21 +200,24 @@ const ContactUsSection = () => {
                   type="submit"
                   name="submit"
                   className="btn btn-color btn-circle"
+                  disabled={isSubmitting}
                 >
-                  Send Message
+                  {isSubmitting ? "Sending…" : "Send Message"}
                 </button>
               </form>
             </div>
 
             {/* Contact Info Sidebar */}
-            <div className="col-md-4 ">
+            <div className="col-md-4">
               <h3>Postal Location</h3>
               <address>
                 No.253 Kaduwela Road Thalangama Koswatta Battaramulla
                 <br />
                 <abbr title="Phone">PN:</abbr> +94 (70) 520 0900
                 <br />
-                <a href="mailto:#">info@agroventuresplantations.com</a>
+                <a href="mailto:info@agroventuresplantations.com">
+                  info@agroventuresplantations.com
+                </a>
               </address>
 
               {/* Google Map */}
@@ -144,13 +230,13 @@ const ContactUsSection = () => {
                   allowFullScreen=""
                   loading="lazy"
                   referrerPolicy="no-referrer-when-downgrade"
-                ></iframe>
+                />
               </div>
             </div>
+
           </div>
         </div>
       </section>
-      {/* Contact Us End */}
     </>
   );
 };

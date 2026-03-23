@@ -76,12 +76,83 @@ body {
   font-family: "Inter", sans-serif;
 }
 
+/* Toast message */
+.toast-wrapper {
+  position: fixed;
+  top: 24px;
+  right: 24px;
+  z-index: 9999;
+  min-width: 300px;
+  max-width: 380px;
+  pointer-events: none;
+}
+
+.toast-box {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 14px 18px;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: 500;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.12);
+  pointer-events: auto;
+  opacity: 0;
+  transform: translateY(-12px);
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.toast-box.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.toast-box.success {
+  background: #e6f4ea;
+  color: #2d5a27;
+  border: 1px solid #a8d5a2;
+}
+
+.toast-box.error {
+  background: #fce8e8;
+  color: #a32d2d;
+  border: 1px solid #f09595;
+}
+
+.toast-icon {
+  font-size: 18px;
+  line-height: 1;
+  flex-shrink: 0;
+}
+
+.toast-message {
+  flex: 1;
+  line-height: 1.4;
+}
+
+.toast-close {
+  margin-left: auto;
+  cursor: pointer;
+  opacity: 0.5;
+  font-size: 18px;
+  line-height: 1;
+  flex-shrink: 0;
+  background: none;
+  border: none;
+  color: inherit;
+  padding: 0;
+}
+
+.toast-close:hover {
+  opacity: 1;
+}
+
 /* ══════════════════════════════════════
    Event Detail Section — Green/Nature Theme
    ══════════════════════════════════════ */
 
 .event-detail-section {
-  padding: 60px 0 80px;
+  padding: 80px 0px 60px;
   background-color: #f7faf3;
 }
 
@@ -7910,7 +7981,7 @@ section {
 }
 
 .site-logo-img {
-  height: 40px;
+  height: 45px;
   width: auto;
   display: block;
   transition: opacity 0.2s;
@@ -11815,6 +11886,9 @@ img.mfp-img {
 /*=============================================
                         Our Blog
 =============================================*/
+
+
+
 .blog-slider .post {
   margin: 20px 0;
   padding: 0 10px;
