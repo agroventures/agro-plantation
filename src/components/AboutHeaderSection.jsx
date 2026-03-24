@@ -2,13 +2,20 @@ const AboutHeaderSection = () => {
   return (
     <section className="pt-0 pb-0">
       <div className="full-screen-bg">
-        <div
-          className="parallax-img"
-          style={{
-            background:
-              "url(/images/paralax/paralax2.webp) center center / cover scroll no-repeat",
-          }}
-        />
+        <div className="parallax-img video-background-wrapper">
+          <video
+            autoPlay
+            muted
+            loop
+            playsInline
+            className="bg-video"
+          >
+            <source src="https://res.cloudinary.com/avplantations/video/upload/v1774338027/6-1_hzllfq.mp4" type="video/mp4" />
+            {/* <source src="/videos/about-bg.webm" type="video/webm" /> */}
+          </video>
+          <div className="video-overlay" />
+        </div>
+
         <div className="hero-text-wrap video-alpha">
           <div className="hero-text white-color">
             <div className="container text-center">
@@ -16,11 +23,8 @@ const AboutHeaderSection = () => {
                 About
               </h3>
               <h1 className="white-color oswald-font text-uppercase">
-               Agroventures Plantations
+                Agroventures Plantations
               </h1>
-              {/* <h4 className="white-color oswald-font font-30px mt-30 text-uppercase">
-                Creative solutions to improve your business
-              </h4> */}
               <a
                 href="https://www.youtube.com/watch?v=DyPH-yGnL9w"
                 className="btn btn-white btn-circle popup-youtube mt-30"

@@ -4,13 +4,16 @@ const BranchHeaderSection = () => {
   return (
     <section className="pt-0 pb-0">
       <div className="full-screen-bg">
-        <div
-          className="parallax-img"
-          style={{
-            background:
-              "url(/images/paralax/paralax4.webp) center center / cover scroll no-repeat",
-          }}
-        />
+        <div className="parallax-img video-background-wrapper">
+          <video autoPlay muted loop playsInline className="bg-video">
+            <source
+              src="https://res.cloudinary.com/avplantations/video/upload/v1774338027/9-1_tifudo.mp4"
+              type="video/mp4"
+            />
+          </video>
+          <div className="video-overlay" />
+        </div>
+
         <div className="hero-text-wrap video-alpha">
           <div className="hero-text white-color">
             <div className="container text-center">
@@ -38,4 +41,5 @@ const BranchHeaderSection = () => {
     </section>
   );
 };
+
 export default BranchHeaderSection;
