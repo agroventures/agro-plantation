@@ -152,9 +152,6 @@ const EventDetailSection = () => {
                 </div> */}
                 </div>
               )}
-
-              {/* Comments */}
-              <EventsPostSection />
             </div>
 
             {/* ── Sidebar ── */}

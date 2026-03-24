@@ -66,7 +66,7 @@ const Footer = () => {
             {/* Certificates */}
             <div className="col-sm-6 col-md-3">
               <div className="widget widget-text">
-                <h5 className="widget-title">Certificates</h5>
+                <h5 className="widget-title">Certificates & Awards</h5>
                 <div
                   style={{
                     display: "flex",
@@ -83,7 +83,7 @@ const Footer = () => {
                   <img
                     src="/images/certificate2.png"
                     alt="Certificate"
-                    style={{ width: "120px", height: "auto" }}
+                    style={{ width: "100px", height: "auto" }}
                   />
                   <img
                     src="/images/certificate.png"
