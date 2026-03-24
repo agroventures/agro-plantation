@@ -17,7 +17,7 @@ const HomeHeroSection = () => {
         <div className="hero-grain" />
 
         <div className="container hero-container">
-          <div className="row">
+          <div className="row" style={{ position: "relative", zIndex: 2 }}>
             <div className="col-md-10 col-sm-12">
               <div className="hero-eyebrow">
                 <span className="hero-eyebrow-dot" />
@@ -26,7 +26,7 @@ const HomeHeroSection = () => {
                 </span>
                 <span className="hero-eyebrow-line" />
               </div>
-              <div class="container">
+              {/* <div class="container"> */}
                 <h1 className="hero-title">
                   <span className="hero-title-line1">Growing</span>
                   <span className="hero-title-line2">Nature's</span>
@@ -62,7 +62,7 @@ const HomeHeroSection = () => {
                     <div className="hero-award-connector" />
                   </div>
                 </div>
-              </div>
+              {/* </div> */}
 
               <div className="hero-cta-wrap">
                 <a href="/about-us" className="hero-btn-primary">
