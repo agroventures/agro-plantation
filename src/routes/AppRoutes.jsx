@@ -8,6 +8,7 @@ import EventDetail from "../pages/EventDetail";
 import OurPlantations from "../pages/OurPlantations";
 import OurCultivationPlan from "../pages/OurCultivationPlan";
 import BranchNetwork from "../pages/BranchNetwork";
+import AwardsRecognitions from "../pages/AwardsPage";
 
 const ScrollToTop = () => {
   const { pathname } = useLocation();
@@ -32,6 +33,7 @@ const AppRoutes = () => {
         <Route path="/event-detail" element={<EventDetail />} />
         <Route path="/our-cultivation-plan" element={<OurCultivationPlan />} />
         <Route path="/branch-network" element={<BranchNetwork />} />
+        <Route path="/awards" element={<AwardsRecognitions />} />
       </Routes>
     </>
   );

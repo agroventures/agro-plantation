@@ -116,7 +116,7 @@ const OurPlantationWhoWeSection = () => {
 
               {/* Floating stat badge */}
               <div className="plantation-who-float-badge">
-                <span className="plantation-who-badge-icon">🌿</span>
+                {/* <span className="plantation-who-badge-icon">🌿</span> */}
                 <div>
                   <span className="plantation-who-badge-num">4M+</span>
                   <span className="plantation-who-badge-label">Vines Planned by 2030</span>

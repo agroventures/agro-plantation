@@ -5,13 +5,11 @@ const OurMainSection = () => {
     <>
       {/* Our Main produce start */}
       <section className="produce-section" id="about">
-
         {/* ── Background decorative elements ── */}
         <div className="produce-bg-circle" />
         <div className="produce-bg-line" />
 
         <div className="container">
-
           {/* ── Section heading ── */}
           <div className="row">
             <div className="col-sm-12">
@@ -25,19 +23,21 @@ const OurMainSection = () => {
                   Vanilla
                   <span className="produce-title-accent"> Planifolia</span>
                 </h2>
-                <div className="produce-title-divider">
-                  <span className="produce-divider-leaf">🌿</span>
-                </div>
+              
+                  <img
+                    src="/images/divider.png"
+                    alt="divider"
+                   
+                  />
+               
               </div>
             </div>
           </div>
 
           {/* ── Main content ── */}
           <div className="row produce-content-row">
-
             {/* ── Left: Text content ── */}
             <div className="col-md-5 produce-text-col">
-
               {/* Latin name badge */}
               <div className="produce-latin-badge">
                 <div>
@@ -49,13 +49,16 @@ const OurMainSection = () => {
               {/* Feature tags */}
               <div className="produce-tags">
                 <span className="produce-tag">
-                  <span className="produce-tag-dot" />Tropical Orchid
+                  <span className="produce-tag-dot" />
+                  Tropical Orchid
                 </span>
                 <span className="produce-tag">
-                  <span className="produce-tag-dot" />Premium Export
+                  <span className="produce-tag-dot" />
+                  Premium Export
                 </span>
                 <span className="produce-tag">
-                  <span className="produce-tag-dot" />Sri Lanka Origin
+                  <span className="produce-tag-dot" />
+                  Sri Lanka Origin
                 </span>
               </div>
 
@@ -63,7 +66,8 @@ const OurMainSection = () => {
               <div className="produce-callout">
                 <span className="produce-callout-quote">"</span>
                 <p className="produce-callout-text">
-                  Valued at more than silver itself - the world's most sought-after spice.
+                  Valued at more than silver itself - the world's most
+                  sought-after spice.
                 </p>
               </div>
 
@@ -79,8 +83,8 @@ const OurMainSection = () => {
                   At Agroventures Plantations we have established Vanilla
                   Plantations in the most optimal regions across Sri Lanka,
                   ensuring the finest quality beans for export. Our goal is to
-                  make Sri Lanka the number one Vanilla Exporter while delivering
-                  the best returns for our customers.
+                  make Sri Lanka the number one Vanilla Exporter while
+                  delivering the best returns for our customers.
                 </p>
               </div>
 
@@ -112,15 +116,12 @@ const OurMainSection = () => {
                   Partner With Us
                 </Link>
               </div>
-
             </div>
 
             {/* ── Right: Image layout ── */}
             <div className="col-md-7 produce-img-col">
-
               {/* Decorative frame */}
               <div className="produce-img-frame">
-
                 {/* Main large image */}
                 <div className="produce-img-main-wrap">
                   <img
@@ -148,14 +149,16 @@ const OurMainSection = () => {
                 <div className="produce-float-card">
                   <div className="produce-float-card-icon">🌱</div>
                   <div className="produce-float-card-text">
-                    <span className="produce-float-card-title">Sustainably Grown</span>
-                    <span className="produce-float-card-sub">Zero chemical farming</span>
+                    <span className="produce-float-card-title">
+                      Sustainably Grown
+                    </span>
+                    <span className="produce-float-card-sub">
+                      Zero chemical farming
+                    </span>
                   </div>
                 </div>
-
               </div>
             </div>
-
           </div>
         </div>
       </section>

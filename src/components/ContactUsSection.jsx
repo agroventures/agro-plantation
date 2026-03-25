@@ -213,7 +213,7 @@ const ContactUsSection = () => {
               <address>
                 No.253 Kaduwela Road Thalangama Koswatta Battaramulla
                 <br />
-                <abbr title="Phone">PN:</abbr> +94 (70) 520 0900
+                <abbr title="Phone">PN:</abbr>  +94 (112) 878 766 / +94 (705) 130 907
                 <br />
                 <a href="mailto:info@agroventuresplantations.com">
                   info@agroventuresplantations.com

@@ -104,7 +104,7 @@ const OurPrincipalSection = () => {
 
                 {/* Center badge */}
                 <div className="virtues-center-badge">
-                  <span className="virtues-badge-icon">🌸</span>
+                  {/* <span className="virtues-badge-icon">🌸</span> */}
                   <span className="virtues-badge-text">Vanilla Planifolia</span>
                 </div>
 

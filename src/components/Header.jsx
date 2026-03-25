@@ -7,6 +7,7 @@ const navLinks = [
   { to: "/events",         label: "Events" },
   { to: "/branch-network", label: "Branch Network" },
   { to: "/our-plantations",label: "Our Plantations" },
+  {to: "/awards", label:"Awards & Recognitions"},
   // { to: "/contact-us",     label: "Contact Us" },
 ];
 
@@ -67,7 +68,7 @@ const Header = () => {
             {/* ── CTA button (desktop) ── */}
             <div className="site-header-cta">
               <Link to="/contact-us" className="site-header-btn">
-                <i className="fa fa-leaf site-header-btn-icon" />
+                {/* <i className="fa fa-leaf site-header-btn-icon" /> */}
                 Contact Us
               </Link>
             </div>

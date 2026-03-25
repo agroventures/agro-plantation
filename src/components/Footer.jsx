@@ -25,7 +25,7 @@ const Footer = () => {
                   </p>
                   <p className="mb-10">
                     <i className="fas fa-phone orange-color mr-10" />{" "}
-                    +94 (70) 520 0900
+                   +94 112 878 766 / +94 705 130 907
                   </p>
                   <p className="mb-10">
                     <i className="fas fa-map-marker-alt orange-color mr-10" />{" "}
