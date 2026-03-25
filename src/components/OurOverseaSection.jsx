@@ -58,10 +58,9 @@ const OverseaSection = () => {
               <span className="oversea-title-accent"> Operations</span>
             </h2>
 
-            <div className="oversea-divider" />
-
+           <img src="/images/divider.png" alt="divider" />{" "}
             {/* Quote callout */}
-            <div className="oversea-callout">
+            <div className="oversea-callout" >
               <i className="fas fa-globe oversea-callout-icon" />
               <p className="oversea-callout-text">
                 Seamless integration &amp; optimal performance across all international markets.

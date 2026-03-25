@@ -85,7 +85,7 @@ const OurPlantationGalleries = () => {
             Our Plantation
             <span className="gallery-title-accent"> Galleries</span>
           </h2>
-          <div className="gallery-divider" />
+            <img src="/images/divider.png" alt="divider" /> {""}
           <p className="gallery-subtitle">
             Explore our estates across Sri Lanka - {galleryImages.length} images across {filterTabs.length - 1} estates.
           </p>

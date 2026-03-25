@@ -18,7 +18,7 @@ const AboutManagerSection = () => {
                 <span className="hr-title-accent">Growing Together</span>
               </h2>
 
-              <div className="hr-divider" />
+             <img src="/images/divider.png" alt="divider" /> {""}
 
               <div className="hr-tags">
                 <span className="hr-tag"><span className="hr-tag-dot" />Talent Development</span>
@@ -47,7 +47,7 @@ const AboutManagerSection = () => {
                 </div>
               </div>
 
-              <div className="hr-signature-block">
+              {/* <div className="hr-signature-block">
                 <div className="hr-avatar">MH</div>
                 <div>
                   <p className="hr-sig-name">Mrs. Manori Hettiarachi</p>
@@ -55,7 +55,7 @@ const AboutManagerSection = () => {
                     Director of Human Resources, Agroventures Plantations
                   </p>
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
 

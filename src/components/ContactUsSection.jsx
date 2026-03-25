@@ -209,7 +209,7 @@ const ContactUsSection = () => {
 
             {/* Contact Info Sidebar */}
             <div className="col-md-4">
-              <h3>Postal Location</h3>
+              <h3 className="eds-sidebar-title">Postal Location</h3>
               <address>
                 No.253 Kaduwela Road Thalangama Koswatta Battaramulla
                 <br />

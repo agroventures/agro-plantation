@@ -59,6 +59,9 @@ const Footer = () => {
                   <li>
                     <Link to="/branch-network">Branch Network</Link>
                   </li>
+                   <li>
+                    <Link to="/awards">Awards & Recognitions</Link>
+                  </li>
                 </ul>
               </div>
             </div>
@@ -113,7 +116,7 @@ const Footer = () => {
                   to="https://www.ventrax.lk/"
                   target="_blank"
                   rel="noopener noreferrer"
-                  style={{ color: "#fc885d" }}
+                  style={{ color: "#027a7a" }}
                 >
                   Ventrax.lk
                 </Link>{" "}

@@ -72,7 +72,7 @@ const AboutOurTeamSection = () => {
               <h2 className="team-main-title">
                 General <span>Managers</span>
               </h2>
-              <div className="team-title-divider" />
+            <img src="/images/divider.png" alt="divider" /> {""}
               <p className="team-subtitle">
                 Guiding Agroventures Plantations with vision and experience -
                 our General Managers lead each division with dedication and a

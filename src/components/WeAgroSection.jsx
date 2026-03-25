@@ -66,7 +66,7 @@ const WeAgroSection = () => {
               </h3>
 
               {/* Divider */}
-              <div className="weagro-divider" />
+             <img src="/images/divider.png" alt="divider" />{" "}
 
               {/* Body text */}
               <p className="weagro-body-lead">

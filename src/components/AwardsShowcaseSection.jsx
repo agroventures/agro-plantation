@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect } from "react";
 
 const AwardsShowcaseSection = () => {
   const [selectedImage, setSelectedImage] = useState(null);
@@ -13,14 +13,15 @@ const AwardsShowcaseSection = () => {
       year: "2025",
       category: "Workplace Excellence",
       organization: "Great Place to Work® Institute",
-      description: "We are proud to be certified as a Great Place to Work®, recognizing our commitment to creating an outstanding employee experience. This certification reflects our dedication to building trust, pride, and camaraderie among our team members.",
+      description:
+        "We are proud to be certified as a Great Place to Work®, recognizing our commitment to creating an outstanding employee experience. This certification reflects our dedication to building trust, pride, and camaraderie among our team members.",
       highlights: [
         "95% employee satisfaction rate",
         "Inclusive workplace culture",
         "Employee growth & development programs",
-        "Work-life balance initiatives"
+        "Work-life balance initiatives",
       ],
-      color: "#004d4d"
+      color: "#004d4d",
     },
     {
       id: 2,
@@ -31,14 +32,15 @@ const AwardsShowcaseSection = () => {
       year: "2026",
       category: "Industry Recognition",
       organization: "Great Place to Work® Sri Lanka",
-      description: "Recognized among the Best Workplaces in Manufacturing & Production sector in Sri Lanka. This award acknowledges our innovative practices, safety standards, and commitment to employee welfare in the agricultural manufacturing industry.",
+      description:
+        "Recognized among the Best Workplaces in Manufacturing & Production sector in Sri Lanka. This award acknowledges our innovative practices, safety standards, and commitment to employee welfare in the agricultural manufacturing industry.",
       highlights: [
         "Top-tier safety standards",
         "Innovation in production processes",
         "Sustainable manufacturing practices",
-        "Employee empowerment programs"
+        "Employee empowerment programs",
       ],
-      color: "#004d4d"
+      color: "#004d4d",
     },
     {
       id: 3,
@@ -49,39 +51,40 @@ const AwardsShowcaseSection = () => {
       year: "Certified",
       category: "Food Safety Management",
       organization: "International Organization for Standardization",
-      description: "Our ISO 22000 certification demonstrates our unwavering commitment to food safety management systems. This internationally recognized standard ensures that our products meet the highest quality and safety requirements throughout the entire supply chain.",
+      description:
+        "Our ISO 22000 certification demonstrates our unwavering commitment to food safety management systems. This internationally recognized standard ensures that our products meet the highest quality and safety requirements throughout the entire supply chain.",
       highlights: [
         "International food safety standards",
         "Hazard analysis & critical control points",
         "Continuous improvement protocols",
-        "Traceability & quality assurance"
+        "Traceability & quality assurance",
       ],
-      color: "#004d4d"
-    }
+      color: "#004d4d",
+    },
   ];
 
-   const awardsGallery = [
-    {
-      id: 1,
-      image: "/images/certificate2.png",
-      certificateImage: "/images/certificate2.png",
-      title: "Asian Heroes Platinum Award",
-      year: "2023",
-      description:
-        "A prestigious recognition honoring outstanding leadership, innovation, and impactful contributions across Asia.",
-      color: "#004d4d",
-    },
-    {
-      id: 2,
-      image: "/images/certificate2.png",
-      certificateImage: "/images/certificate2.png",
-      title: "CEO Sri Lanka Award - Innovative Entrepreneur of the year",
-      year: "2022",
-      description:
-        "Awarded for exceptional entrepreneurial vision, creativity, and the ability to drive business growth through innovative strategies in Sri Lanka.",
-      color: "#004d4d",
-    },
-  ];
+  // const awardsGallery = [
+  //   {
+  //     id: 1,
+  //     image: "/images/no-image.jpg",
+  //     certificateImage: "/images/no-image.jpg",
+  //     title: "Asian Heroes Platinum Award",
+  //     year: "2023",
+  //     description:
+  //       "A prestigious recognition honoring outstanding leadership, innovation, and impactful contributions across Asia.",
+  //     color: "#004d4d",
+  //   },
+  //   {
+  //     id: 2,
+  //     image: "/images/no-image.jpg",
+  //     certificateImage: "/images/no-image.jpg",
+  //     title: "CEO Sri Lanka Award - Innovative Entrepreneur of the year",
+  //     year: "2022",
+  //     description:
+  //       "Awarded for exceptional entrepreneurial vision, creativity, and the ability to drive business growth through innovative strategies in Sri Lanka.",
+  //     color: "#004d4d",
+  //   },
+  // ];
 
   const openCertificate = (certificateImg) => {
     setSelectedImage(certificateImg);
@@ -93,20 +96,19 @@ const AwardsShowcaseSection = () => {
 
   useEffect(() => {
     if (selectedImage) {
-      document.body.style.overflow = 'hidden';
+      document.body.style.overflow = "hidden";
     } else {
-      document.body.style.overflow = 'auto';
+      document.body.style.overflow = "auto";
     }
 
     return () => {
-      document.body.style.overflow = 'auto';
+      document.body.style.overflow = "auto";
     };
   }, [selectedImage]);
 
   return (
     <section className="awards-showcase" id="awards-showcase">
       <div className="container">
-
         {/* Section Header */}
         <div className="awards-section-header">
           <span className="awards-section-tag">Our Pride</span>
@@ -114,8 +116,8 @@ const AwardsShowcaseSection = () => {
             Milestones of <span>Excellence</span>
           </h2>
           <p className="awards-section-subtitle">
-            Each recognition reflects our team's dedication to quality, safety, and creating
-            a positive impact in the agricultural industry.
+            Each recognition reflects our team's dedication to quality, safety,
+            and creating a positive impact in the agricultural industry.
           </p>
         </div>
 
@@ -123,22 +125,33 @@ const AwardsShowcaseSection = () => {
         <div className="awards-list">
           {awards.map((award, index) => (
             <div
-              className={`award-card ${index % 2 !== 0 ? 'award-card-reverse' : ''}`}
+              className={`award-card ${index % 2 !== 0 ? "award-card-reverse" : ""}`}
               key={award.id}
             >
               <div className="award-card-image">
                 <div className="award-image-wrapper">
                   <div
                     className="award-image-bg"
-                    style={{ background: `linear-gradient(135deg, ${award.color}15, ${award.color}30)` }}
+                    style={{
+                      background: `linear-gradient(135deg, ${award.color}15, ${award.color}30)`,
+                    }}
                   />
                   <img src={award.image} alt={award.title} />
-                  <div className="award-year-badge" style={{ background: award.color }}>
+                  <div
+                    className="award-year-badge"
+                    style={{ background: award.color }}
+                  >
                     {award.year}
                   </div>
                 </div>
-                <div className="award-image-deco award-image-deco-1" style={{ borderColor: award.color }} />
-                <div className="award-image-deco award-image-deco-2" style={{ borderColor: award.color }} />
+                <div
+                  className="award-image-deco award-image-deco-1"
+                  style={{ borderColor: award.color }}
+                />
+                <div
+                  className="award-image-deco award-image-deco-2"
+                  style={{ borderColor: award.color }}
+                />
               </div>
 
               <div className="award-card-content">
@@ -160,7 +173,10 @@ const AwardsShowcaseSection = () => {
                   <ul className="award-highlights-list">
                     {award.highlights.map((highlight, i) => (
                       <li key={i}>
-                        <span className="highlight-icon" style={{ background: award.color }}>
+                        <span
+                          className="highlight-icon"
+                          style={{ background: award.color }}
+                        >
                           <i className="fa fa-check" />
                         </span>
                         <span>{highlight}</span>
@@ -187,7 +203,7 @@ const AwardsShowcaseSection = () => {
         </div>
 
         {/* Awards Gallery Section */}
-        <div className="awards-gallery-section">
+        {/* <div className="awards-gallery-section">
           <div className="awards-gallery-header">
             <span className="awards-gallery-tag">
               <i className="fa fa-th-large" />
@@ -237,23 +253,23 @@ const AwardsShowcaseSection = () => {
               </div>
             ))}
           </div>
-        </div>
+        </div> */}
 
-       {/* ═══════════════════════════════════════════
+{/* ═══════════════════════════════════════════
    Certificate Popup - Centered
 ═══════════════════════════════════════════ */}
-{selectedImage && (
-  <div className="cert-popup-overlay" onClick={closeCertificate}>
-    <div className="cert-popup" onClick={(e) => e.stopPropagation()}>
-      <button className="cert-popup-close" onClick={closeCertificate}>
-        <i className="fa fa-times" />
-      </button>
-      <div className="cert-popup-image-area">
-        <img src={selectedImage} alt="Certificate" />
-      </div>
-    </div>
-  </div>
-)}
+        {selectedImage && (
+          <div className="cert-popup-overlay" onClick={closeCertificate}>
+            <div className="cert-popup" onClick={(e) => e.stopPropagation()}>
+              <button className="cert-popup-close" onClick={closeCertificate}>
+                <i className="fa fa-times" />
+              </button>
+              <div className="cert-popup-image-area">
+                <img src={selectedImage} alt="Certificate" />
+              </div>
+            </div>
+          </div>
+        )}
 
         {/* Stats Section */}
         <div className="awards-stats">
@@ -331,7 +347,6 @@ const AwardsShowcaseSection = () => {
             </div>
           </div>
         </div> */}
-
       </div>
     </section>
   );

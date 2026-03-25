@@ -20,7 +20,7 @@ const OurTrustedPartnerSection = () => {
                 Trusted
                 <span className="virtues-title-accent"> Partner</span>
               </h2>
-              <div className="virtues-title-divider" />
+             <img src="/images/divider.png" alt="divider" />{" "}
             </div>
           </div>
         </div>

@@ -178,7 +178,7 @@ const EventDetailSection = () => {
                 {/* Location Card */}
                 <div className="eds-sidebar-card eds-location-card">
                   <h5 className="eds-sidebar-title">
-                    <i className="fa fa-map-marker-alt" /> Postal Location
+                     Postal Location
                   </h5>
                   <div className="eds-address">
                     <p>

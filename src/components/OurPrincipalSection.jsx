@@ -54,7 +54,7 @@ const OurPrincipalSection = () => {
                   <span className="virtues-title-accent"> Precision </span>
                   &amp; Purpose
                 </h2>
-                <div className="virtues-title-divider" />
+              <img src="/images/divider.png" alt="divider" />{" "}
               </div>
             </div>
           </div>

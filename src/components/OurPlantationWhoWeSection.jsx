@@ -34,7 +34,7 @@ const OurPlantationWhoWeSection = () => {
               <span className="plantation-who-title-accent"> Plantations</span>
             </h2>
 
-            <div className="plantation-who-divider" />
+              <img src="/images/divider.png" alt="divider" /> {""}
 
             {/* Feature pills */}
             <div className="plantation-who-features">

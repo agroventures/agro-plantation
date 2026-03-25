@@ -39,7 +39,7 @@ const AboutMeSection = () => {
                 </span>
               </h2>
 
-              <div className="director-divider" />
+             <img src="/images/divider.png" alt="divider" />{" "}
 
               <div className="director-quote-wrap">
                 <span className="director-open-quote">&ldquo;</span>
@@ -65,7 +65,7 @@ const AboutMeSection = () => {
                 </div>
               </div>
 
-              <div className="director-signature-block">
+              {/* <div className="director-signature-block">
                 <div className="director-avatar">NK</div>
                 <div>
                   <p className="director-sig-name">Mr. Nilanga Karunarathne</p>
@@ -73,7 +73,7 @@ const AboutMeSection = () => {
                     Founder &amp; Director, Agroventures Plantations
                   </p>
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>

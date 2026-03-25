@@ -171,7 +171,7 @@ const BranchTabsSection = () => {
                 Our
                 <span className="branch-title-accent"> Branches</span>
               </h2>
-              <div className="branch-divider" />
+             <img src="/images/divider.png" alt="divider" /> {""}
               <p className="branch-subtitle">
                 {branches.length} locations across  - find the branch
                 nearest to you.
