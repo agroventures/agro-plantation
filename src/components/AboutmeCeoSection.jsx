@@ -13,7 +13,7 @@ const AboutmeCEOMessage = () => {
               <div className="ceo-image-tint" />
               <div className="ceo-image-frame" />
               <div className="ceo-badge">
-                <div className="ceo-badge-icon">🌿</div>
+                {/* <div className="ceo-badge-icon">🌿</div> */}
                 <div>
                   <div className="ceo-badge-label">Chief Executive Officer</div>
                   <div className="ceo-badge-name">Mr. Heshan Nanayakkara</div>
