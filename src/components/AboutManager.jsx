@@ -8,7 +8,7 @@ const AboutManagerSection = () => {
 
           {/* ── Content (LEFT on desktop, BOTTOM on mobile) ── */}
           <div className="col-md-7 col-sm-12 hr-content-col">
-            {/* <span className="hr-bg-watermark" aria-hidden="true">👥</span> */}
+            <span className="hr-bg-watermark" aria-hidden="true">👥</span> 
 
             <div className="hr-content-inner">
               <span className="hr-eyebrow">Director of HR's Message</span>
@@ -68,7 +68,7 @@ const AboutManagerSection = () => {
             <div className="hr-image-overlay" />
             <div className="hr-image-frame" />
             <div className="hr-badge">
-              <div className="hr-badge-icon">👥</div>
+              {/* <div className="hr-badge-icon">👥</div> */}
               <div>
                 <div className="hr-badge-label">Director of HR</div>
                 <div className="hr-badge-name">Mrs. Manori Hettiarachi</div>
