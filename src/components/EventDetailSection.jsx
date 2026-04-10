@@ -134,7 +134,7 @@ const EventDetailSection = () => {
                 <br />
                 <abbr title="Phone">PN:</abbr> (+94) 11 287-8766
                 <br />
-                <a href="mailto:#">info@agroventuresplantations.com</a>
+                <a href="mailto:#">info@agroventures.lk</a>
               </address>
 
               {/* Google Map */}

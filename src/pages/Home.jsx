@@ -1,5 +1,4 @@
 import { useEffect, useState } from "react";
-import CounterSection from "../components/CounterSection";
 import OurBrandsSection from "../components/OurBrandsSection";
 import OurMainSection from "../components/OurMainSection";
 import OverseaSection from "../components/OurOverseaSection";
