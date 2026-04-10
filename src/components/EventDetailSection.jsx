@@ -191,8 +191,8 @@ const EventDetailSection = () => {
                     </p>
                     <p>
                       <i className="fa fa-envelope eds-addr-icon" />
-                      <a href="mailto:info@agroventuresplantations.com">
-                        info@agroventuresplantations.com
+                      <a href="mailto:info@agroventures.lk">
+                        info@agroventures.lk
                       </a>
                     </p>
                   </div>

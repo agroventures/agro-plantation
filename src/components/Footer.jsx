@@ -33,7 +33,7 @@ const Footer = () => {
                   </p>
                   <p className="mb-20">
                     <i className="fas fa-envelope orange-color mr-12 " />{" "}
-                    info@agroventuresplantations.com
+                    info@agroventures.lk
                   </p>
                 </div>
               </div>
