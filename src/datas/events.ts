@@ -96,7 +96,7 @@ export const eventsData = [
       <div style="margin-top: 30px; padding: 20px; background: #f8f9fa; border-radius: 8px;">
         <p><strong>📞 Voice:</strong> +94 11 287 87 66</p>
         <p><strong>📍 Address:</strong> No. 253, Kaduwela Road, Thalangama, Koswatta, Baththaramulla</p>
-        <p><strong>✉️ E-mail:</strong> info@agroventuresplantations.com</p>
+        <p><strong>✉️ E-mail:</strong> info@agroventures.lk</p>
       </div>
       
       <p style="text-align: center; font-size: 1.3em; margin-top: 30px;"><strong>👉 Stop by and celebrate the love of vanilla with us! 🥳</strong></p>

@@ -9,20 +9,6 @@ import AppRoutes from "./routes/AppRoutes";
 function App() {
   return (
     <Router>
-      {/* Loader */}
-      <div id="loader-overlay">
-        <div className="loader-wrapper">
-          <div className="loader-leaf-icon">
-            <i className="fa fa-leaf"></i>
-          </div>
-          <div className="alpha-dots">
-            <div className="alpha-child alpha-dot1"></div>
-            <div className="alpha-child alpha-dot2"></div>
-          </div>
-        </div>
-      </div>
-      {/* End Loader */}
-
       <Header />
       <AppRoutes />
       <Footer />

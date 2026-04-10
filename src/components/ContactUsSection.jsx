@@ -215,8 +215,8 @@ const ContactUsSection = () => {
                 <br />
                 <abbr title="Phone">PN:</abbr>  +94 (112) 878 766 / +94 (705) 130 907
                 <br />
-                <a href="mailto:info@agroventuresplantations.com">
-                  info@agroventuresplantations.com
+                <a href="mailto:info@agroventures.lk">
+                  info@agroventures.lk
                 </a>
               </address>
 
