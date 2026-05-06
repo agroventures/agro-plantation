@@ -8,7 +8,7 @@ const AwardsHeaderSection = () => {
         {/* Background Video */}
         <video
           className="awards-hero-video"
-          src="https://res.cloudinary.com/avplantations/video/upload/v1774346476/gg-1_lnwfyx.mp4"
+          src="https://res.cloudinary.com/dyvixdh7n/video/upload/v1778037414/gg-1_lnwfyx_zig1d8.mp4"
           autoPlay
           muted
           loop

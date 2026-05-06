@@ -20,23 +20,23 @@ export const eventsData = [
       <p style="text-align: center; font-size: 1.2em; margin-top: 30px;"><strong>👏 A sincere appreciation to Mrs. Sabeetha Hettiarachchi for her inspiring leadership and commitment to empowering women within the Agroventures family.</strong></p>
     `,
     images: [
-      "https://res.cloudinary.com/avplantations/image/upload/v1773810243/women_rs6v5p.webp",
-      "https://res.cloudinary.com/avplantations/image/upload/v1773737185/23_kup5mu.webp",
-      "https://res.cloudinary.com/avplantations/image/upload/v1773737185/41_pn0piw.webp",
-      "https://res.cloudinary.com/avplantations/image/upload/v1773737185/38_ylbuly.webp",
-      "https://res.cloudinary.com/avplantations/image/upload/v1773737184/19_v1qwly.webp",
-      "https://res.cloudinary.com/avplantations/image/upload/v1773737185/32_xmbg4w.webp",
-      "https://res.cloudinary.com/avplantations/image/upload/v1773737184/3_tku0jz.webp",
-      "https://res.cloudinary.com/avplantations/image/upload/v1773737186/37_ro4kaf.webp",
+      "https://res.cloudinary.com/dyvixdh7n/image/upload/v1778037392/women_rs6v5p_kp01eb.webp",
+      "https://res.cloudinary.com/dyvixdh7n/image/upload/v1778037392/41_pn0piw_ua5zfh.webp",
+      "https://res.cloudinary.com/dyvixdh7n/image/upload/v1778037391/3_tku0jz_elwwno.webp",
+      "https://res.cloudinary.com/dyvixdh7n/image/upload/v1778037390/38_ylbuly_kzu6xy.webp",
+      "https://res.cloudinary.com/dyvixdh7n/image/upload/v1778037389/37_ro4kaf_vf7bs1.webp",
+      "https://res.cloudinary.com/dyvixdh7n/image/upload/v1778037388/32_xmbg4w_ohnxsj.webp",
+      "https://res.cloudinary.com/dyvixdh7n/image/upload/v1778037388/23_kup5mu_hci7m9.webp",
+      "https://res.cloudinary.com/dyvixdh7n/image/upload/v1778037387/1_mlk1vw_z6notu.webp",
     ],
-    facebookLink: "https://www.facebook.com/share/p/1as5WFwq5F/?mibextid=wwXlfr",
+    facebookLink:
+      "https://www.facebook.com/share/p/1as5WFwq5F/?mibextid=wwXlfr",
   },
   {
     id: 2,
     title: "Crown of Excellence - 2025",
     date: "February 22, 2026",
-    excerpt:
-      "Agroventures Crown of Excellence 2025 – Annual Sales Awards...",
+    excerpt: "Agroventures Crown of Excellence 2025 – Annual Sales Awards...",
     brief: `
       <h4>Agroventures Crown of Excellence 2025 – Annual Sales Awards Ceremony</h4>
       <p>The prestigious Agroventures <strong>"Crown of Excellence 2025"</strong> – Annual Sales Awards Ceremony was successfully held on <strong>22nd February</strong> at the elegant <strong>Monarch Imperial Hotel</strong>.</p>
@@ -51,19 +51,19 @@ export const eventsData = [
       <p style="text-align: center; font-size: 1.2em; margin-top: 30px;"><strong>A truly memorable evening of recognition, inspiration, and success — marking yet another milestone in the Agroventures journey.</strong></p>
     `,
     images: [
-      "https://res.cloudinary.com/avplantations/image/upload/v1773742172/crown_csb2c4.jpg",
-      "https://res.cloudinary.com/avplantations/image/upload/v1773742174/crown_2_nzqzf9.jpg",
-      "https://res.cloudinary.com/avplantations/image/upload/v1773740205/850_3091_vehj6t.webp",
-      "https://res.cloudinary.com/avplantations/image/upload/v1773740210/850_3134_q8dsxr.webp",
-      "https://res.cloudinary.com/avplantations/image/upload/v1773740207/850_3067_hbdvxy.webp",
-      "https://res.cloudinary.com/avplantations/image/upload/v1773740203/850_3054_wcnjd4.webp",
-      "https://res.cloudinary.com/avplantations/image/upload/v1773740199/ASH_8880_skexwf.webp",
-      "https://res.cloudinary.com/avplantations/image/upload/v1773740197/ASH_8748_nopyyx.webp",
-      "https://res.cloudinary.com/avplantations/image/upload/v1773740194/850_3268_cfqq0k.webp",
-      "https://res.cloudinary.com/avplantations/image/upload/v1773740194/ASH_8853_tfrofb.webp",
-      "https://res.cloudinary.com/avplantations/image/upload/v1773740190/ASH_8753_cxbqvq.webp",
+      "https://res.cloudinary.com/dyvixdh7n/image/upload/v1778037413/850_3067_hbdvxy_kcuwd1.webp",
+      "https://res.cloudinary.com/dyvixdh7n/image/upload/v1778037413/850_3134_q8dsxr_igxtlf.webp",
+      "https://res.cloudinary.com/dyvixdh7n/image/upload/v1778037410/850_3054_wcnjd4_tqn3pf.webp",
+      "https://res.cloudinary.com/dyvixdh7n/image/upload/v1778037408/ASH_8748_nopyyx_m7vh9k.webp",
+      "https://res.cloudinary.com/dyvixdh7n/image/upload/v1778037408/850_3268_cfqq0k_y2kbyj.webp",
+      "https://res.cloudinary.com/dyvixdh7n/image/upload/v1778037406/ASH_8753_cxbqvq_ww4vwf.webp",
+      "https://res.cloudinary.com/dyvixdh7n/image/upload/v1778037406/ASH_8853_tfrofb_kujdct.webp",
+      "https://res.cloudinary.com/dyvixdh7n/image/upload/v1778037385/crown_2_nzqzf9_lds48r.jpg",
+      "https://res.cloudinary.com/dyvixdh7n/image/upload/v1778037385/crown_csb2c4_illtnn.jpg",
+      "https://res.cloudinary.com/dyvixdh7n/image/upload/v1778037411/ASH_8880_skexwf_xm2qnd.webp",
     ],
-    facebookLink: "https://www.facebook.com/share/p/18VsuA4bk7/?mibextid=wwXIfr"
+    facebookLink:
+      "https://www.facebook.com/share/p/18VsuA4bk7/?mibextid=wwXIfr",
   },
   {
     id: 3,
@@ -102,19 +102,19 @@ export const eventsData = [
       <p style="text-align: center; font-size: 1.3em; margin-top: 30px;"><strong>👉 Stop by and celebrate the love of vanilla with us! 🥳</strong></p>
     `,
     images: [
-      "https://res.cloudinary.com/avplantations/image/upload/v1773729280/CS_08200_xzwvsg.webp",
-      "https://res.cloudinary.com/avplantations/image/upload/v1773729278/CS_08083_l8c5xd.webp",
-      "https://res.cloudinary.com/avplantations/image/upload/v1773729276/CS_08077_ecxvun.webp",
-      "https://res.cloudinary.com/avplantations/image/upload/v1773729273/CS_07881_bexp1a.webp",
-      "https://res.cloudinary.com/avplantations/image/upload/v1773729271/CS_08574_mw90vs.webp",
-      "https://res.cloudinary.com/avplantations/image/upload/v1773729270/CS_08476_dgwggz.webp",
-      "https://res.cloudinary.com/avplantations/image/upload/v1773729267/CS_08455_anvvs9.webp",
-      "https://res.cloudinary.com/avplantations/image/upload/v1773729265/CS_08469_alzqa2.webp",
-      "https://res.cloudinary.com/avplantations/image/upload/v1773729263/CS_08204_kradsx.webp",
-      "https://res.cloudinary.com/avplantations/image/upload/v1773729261/CS_08286_qqpace.webp",
-      "https://res.cloudinary.com/avplantations/image/upload/v1773729258/CS_08276_nzo1tt.webp",
+      "https://res.cloudinary.com/dyvixdh7n/image/upload/v1778037401/CS_08200_xzwvsg_iy0ggm.webp",
+      "https://res.cloudinary.com/dyvixdh7n/image/upload/v1778037405/CS_08455_anvvs9_eaqbm5.webp",
+      "https://res.cloudinary.com/dyvixdh7n/image/upload/v1778037405/CS_08574_mw90vs_idqce0.webp",
+      "https://res.cloudinary.com/dyvixdh7n/image/upload/v1778037404/CS_08476_dgwggz_sht9io.webp",
+      "https://res.cloudinary.com/dyvixdh7n/image/upload/v1778037403/CS_08469_alzqa2_g1tolx.webp",
+      "https://res.cloudinary.com/dyvixdh7n/image/upload/v1778037403/CS_08204_kradsx_q1opuu.webp",
+      "https://res.cloudinary.com/dyvixdh7n/image/upload/v1778037402/CS_08083_l8c5xd_qzgr51.webp",
+      "https://res.cloudinary.com/dyvixdh7n/image/upload/v1778037401/CS_07881_bexp1a_vxnp9v.webp",
+      "https://res.cloudinary.com/dyvixdh7n/image/upload/v1778037400/CS_08077_ecxvun_onb7lr.webp",
+      "https://res.cloudinary.com/dyvixdh7n/image/upload/v1778037342/CS_08286_qqpace_en74cw.webp",
+      "https://res.cloudinary.com/dyvixdh7n/image/upload/v1778037342/CS_08276_nzo1tt_gq5kja.webp",
     ],
-    facebookLink: "https://www.facebook.com/share/p/18ghBzeCrM/"
+    facebookLink: "https://www.facebook.com/share/p/18ghBzeCrM/",
   },
   {
     id: 4,
@@ -135,18 +135,18 @@ export const eventsData = [
       <p style="text-align: center; font-size: 1.2em; margin-top: 40px;"><strong>Together, we've achieved remarkable milestones, and the future looks even brighter!</strong></p>
     `,
     images: [
-      "https://res.cloudinary.com/avplantations/image/upload/v1773738781/yg0_zrerqo.webp",
-      "https://res.cloudinary.com/avplantations/image/upload/v1773738794/yg10_jxsshv.webp",
-      "https://res.cloudinary.com/avplantations/image/upload/v1773738797/yg1_iqtdpv.webp",
-      "https://res.cloudinary.com/avplantations/image/upload/v1773738792/yg11_k9evi4.webp",
-      "https://res.cloudinary.com/avplantations/image/upload/v1773738791/yg2_qi8ucg.webp",
-      "https://res.cloudinary.com/avplantations/image/upload/v1773738785/yg5_bhydeu.webp",
-      "https://res.cloudinary.com/avplantations/image/upload/v1773738785/yg6_yowom5.webp",
-      "https://res.cloudinary.com/avplantations/image/upload/v1773738782/yg8_ye8duk.webp",
-      "https://res.cloudinary.com/avplantations/image/upload/v1773738781/yg7_uueiiv.webp",
-      "https://res.cloudinary.com/avplantations/image/upload/v1773738781/yg9_tixkst.webp",
+      "https://res.cloudinary.com/dyvixdh7n/image/upload/v1778037192/yg2_qi8ucg_auaeax.webp",
+      "https://res.cloudinary.com/dyvixdh7n/image/upload/v1778037191/yg1_iqtdpv_encmi0.webp",
+      "https://res.cloudinary.com/dyvixdh7n/image/upload/v1778037191/yg0_zrerqo_cdo9ho.webp",
+      "https://res.cloudinary.com/dyvixdh7n/image/upload/v1778037191/yg11_k9evi4_delqrc.webp",
+      "https://res.cloudinary.com/dyvixdh7n/image/upload/v1778037190/yg9_tixkst_dko1z2.webp",
+      "https://res.cloudinary.com/dyvixdh7n/image/upload/v1778037190/yg10_jxsshv_hen93m.webp",
+      "https://res.cloudinary.com/dyvixdh7n/image/upload/v1778037189/yg8_ye8duk_ohvgwn.webp",
+      "https://res.cloudinary.com/dyvixdh7n/image/upload/v1778037189/yg7_uueiiv_lcdu9f.webp",
+      "https://res.cloudinary.com/dyvixdh7n/image/upload/v1778037188/yg6_yowom5_f4zyvx.webp",
+      "https://res.cloudinary.com/dyvixdh7n/image/upload/v1778037188/yg5_bhydeu_eaag3l.webp",
     ],
-    facebookLink: ""
+    facebookLink: "",
   },
   {
     id: 5,
@@ -162,19 +162,10 @@ export const eventsData = [
       <p style="text-align: center; font-size: 1.2em; margin-top: 30px;"><strong>Sharing the sweetness of nature with our community! 💚</strong></p>
     `,
     images: [
-      "https://res.cloudinary.com/avplantations/image/upload/v1773741246/ic0_nzksqy.png",
-      "https://res.cloudinary.com/avplantations/image/upload/v1773741258/ic6_vv5lyo.webp",
-      "https://res.cloudinary.com/avplantations/image/upload/v1773741278/ic1_lsub5y.webp",
-      "https://res.cloudinary.com/avplantations/image/upload/v1773741275/ic10_l4gi6c.webp",
-      "https://res.cloudinary.com/avplantations/image/upload/v1773741273/ic11_npdbuw.webp",
-      "https://res.cloudinary.com/avplantations/image/upload/v1773741270/ic2_knjpkv.webp",
-      "https://res.cloudinary.com/avplantations/image/upload/v1773741267/ic3_z5og1t.webp",
-      "https://res.cloudinary.com/avplantations/image/upload/v1773741265/ic4_amqftw.webp",
-      "https://res.cloudinary.com/avplantations/image/upload/v1773741262/ic5_szsngd.webp",
-      "https://res.cloudinary.com/avplantations/image/upload/v1773741254/ic7_znupts.webp",
-      "https://res.cloudinary.com/avplantations/image/upload/v1773741251/ic8_ox1nou.webp",
-      "https://res.cloudinary.com/avplantations/image/upload/v1773741247/ic9_yz1byc.webp",
-     
+      "https://res.cloudinary.com/dyvixdh7n/image/upload/v1778037305/d0_znducp_c6bh2t.webp",
+      "https://res.cloudinary.com/dyvixdh7n/image/upload/v1778037311/d8_fzzxkq_vvfcwz.webp",
+      "https://res.cloudinary.com/dyvixdh7n/image/upload/v1778037308/d2_tx6v2u_udphmy.webp",
+      "https://res.cloudinary.com/dyvixdh7n/image/upload/v1778037312/d9_tuab42_wcrb7j.webp",
     ],
     facebookLink: "https://www.facebook.com/share/p/1GW5jBNNxJ",
   },
@@ -210,19 +201,19 @@ export const eventsData = [
       <p style="text-align: center; font-size: 1.4em; margin-top: 40px;"><strong>Together, we grow stronger. Together, we make a difference.</strong> 💚</p>
     `,
     images: [
-      "https://res.cloudinary.com/avplantations/image/upload/v1773739834/af0_juclsl.png",
-      "https://res.cloudinary.com/avplantations/image/upload/v1773739841/af6_jawjpi.webp",
-      "https://res.cloudinary.com/avplantations/image/upload/v1773739839/af7_ejjuh9.webp",
-      "https://res.cloudinary.com/avplantations/image/upload/v1773739837/af8_klhe5k.webp",
-      "https://res.cloudinary.com/avplantations/image/upload/v1773739835/af9_gdvkvl.webp",
-      "https://res.cloudinary.com/avplantations/image/upload/v1773739831/af1_moaebp.webp",
-      "https://res.cloudinary.com/avplantations/image/upload/v1773739830/af10_abkvtz.webp",
-      "https://res.cloudinary.com/avplantations/image/upload/v1773739828/af2_of1z9y.webp",
-      "https://res.cloudinary.com/avplantations/image/upload/v1773739826/af3_iepefk.webp",
-      "https://res.cloudinary.com/avplantations/image/upload/v1773739825/af4_qpz289.webp",
-      "https://res.cloudinary.com/avplantations/image/upload/v1773739824/af5_wa1gcf.webp",
+      "https://res.cloudinary.com/dyvixdh7n/image/upload/v1778037368/af0_juclsl_mjmwsn.png",
+      "https://res.cloudinary.com/dyvixdh7n/image/upload/v1778037377/af9_gdvkvl_mvzikf.webp",
+      "https://res.cloudinary.com/dyvixdh7n/image/upload/v1778037376/af8_klhe5k_cpsle6.webp",
+      "https://res.cloudinary.com/dyvixdh7n/image/upload/v1778037376/af7_ejjuh9_b6rwgk.webp",
+      "https://res.cloudinary.com/dyvixdh7n/image/upload/v1778037375/af6_jawjpi_bbvkfy.webp",
+      "https://res.cloudinary.com/dyvixdh7n/image/upload/v1778037374/af5_wa1gcf_mznjzd.webp",
+      "https://res.cloudinary.com/dyvixdh7n/image/upload/v1778037373/af4_qpz289_kfuvbc.webp",
+      "https://res.cloudinary.com/dyvixdh7n/image/upload/v1778037373/af3_iepefk_duwimx.webp",
+      "https://res.cloudinary.com/dyvixdh7n/image/upload/v1778037371/af2_of1z9y_pahpf8.webp",
+      "https://res.cloudinary.com/dyvixdh7n/image/upload/v1778037369/af1_moaebp_tnsy11.webp",
+      "https://res.cloudinary.com/dyvixdh7n/image/upload/v1778037368/af10_abkvtz_sspq6z.webp",
     ],
-    facebookLink: "https://www.facebook.com/share/p/1b3Decmcxx/"
+    facebookLink: "https://www.facebook.com/share/p/1b3Decmcxx/",
   },
   {
     id: 7,
@@ -240,25 +231,23 @@ export const eventsData = [
       <p style="text-align: center; font-size: 1.2em; margin-top: 30px;"><strong>Together, we continue to grow and thrive! 🌱</strong></p>
     `,
     images: [
-      "https://res.cloudinary.com/avplantations/image/upload/v1773740481/kt1_cwcvrd.webp",
-      "https://res.cloudinary.com/avplantations/image/upload/v1773740478/kt10_mnubor.webp",
-      "https://res.cloudinary.com/avplantations/image/upload/v1773740475/kt11_mtrrix.webp",
-      "https://res.cloudinary.com/avplantations/image/upload/v1773740472/kt2_lszavj.webp",
-      "https://res.cloudinary.com/avplantations/image/upload/v1773740470/kt3_zv7xcc.webp",
-      "https://res.cloudinary.com/avplantations/image/upload/v1773740468/kt4_eohqqg.webp",
-      "https://res.cloudinary.com/avplantations/image/upload/v1773740465/kt5_axvdgv.webp",
-      "https://res.cloudinary.com/avplantations/image/upload/v1773740462/kt6_vjpjel.webp",
-      "https://res.cloudinary.com/avplantations/image/upload/v1773740457/kt8_ugwjn9.webp",
-      "https://res.cloudinary.com/avplantations/image/upload/v1773740452/kt0_dumptg.webp",
+      "https://res.cloudinary.com/dyvixdh7n/image/upload/v1778037336/kt1_cwcvrd_i8ycr9.webp",
+      "https://res.cloudinary.com/dyvixdh7n/image/upload/v1778037340/kt8_ugwjn9_bcb2f6.webp",
+      "https://res.cloudinary.com/dyvixdh7n/image/upload/v1778037337/kt4_eohqqg_ndmvdf.webp",
+      "https://res.cloudinary.com/dyvixdh7n/image/upload/v1778037337/kt3_zv7xcc_wrcwz7.webp",
+      "https://res.cloudinary.com/dyvixdh7n/image/upload/v1778037336/kt2_lszavj_bqt5ih.webp",
+      "https://res.cloudinary.com/dyvixdh7n/image/upload/v1778037335/kt11_mtrrix_hgkf29.webp",
+      "https://res.cloudinary.com/dyvixdh7n/image/upload/v1778037334/kt0_dumptg_pgvrep.webp",
+      "https://res.cloudinary.com/dyvixdh7n/image/upload/v1778037334/kt10_mnubor_z4qpnn.webp",
+     
     ],
-    facebookLink: "https://www.facebook.com/share/p/19zXnKAZv4/"
+    facebookLink: "https://www.facebook.com/share/p/19zXnKAZv4/",
   },
   {
     id: 8,
     title: "Annual Convention 2025- Bangkok",
     date: "March 07, 2025",
-    excerpt:
-      "Celebrating Success at the International Green Awards 2025...",
+    excerpt: "Celebrating Success at the International Green Awards 2025...",
     brief: `
       <h4>🌟 International Green Awards 2025 🌟</h4>
       <p>We are proud to share that <strong>Agroventures Plantations Private Ltd.</strong> has received remarkable recognition for its significant contributions to sustainable agriculture development at the <strong>International Green Awards 2025</strong> held on <strong>7th March 2025</strong> at the <strong>Amari Bangkok Hotel, Thailand</strong>!</p>
@@ -270,25 +259,27 @@ export const eventsData = [
       <p style="text-align: center; font-size: 1.2em; margin-top: 30px;"><strong>Stay connected for more updates as we continue our mission for a greener planet. 💚</strong></p>
     `,
     images: [
-      "https://res.cloudinary.com/avplantations/image/upload/v1773728341/bk11_hr9rca.webp",
-      "https://res.cloudinary.com/avplantations/image/upload/v1773728340/bk12_opehmf.webp",
-      "https://res.cloudinary.com/avplantations/image/upload/v1773728339/bk5_eeb5gj.webp",
-      "https://res.cloudinary.com/avplantations/image/upload/v1773728338/bk6_usfr4w.webp",
-      "https://res.cloudinary.com/avplantations/image/upload/v1773728337/bk4_ryvfcm.webp",
-      "https://res.cloudinary.com/avplantations/image/upload/v1773728336/bk3_k216wq.webp",
-      "https://res.cloudinary.com/avplantations/image/upload/v1773728335/bk2_wgljec.webp",
-      "https://res.cloudinary.com/avplantations/image/upload/v1773728334/bk8_pd4ml0.webp",
-      "https://res.cloudinary.com/avplantations/image/upload/v1773728333/bk1_bvo1it.webp",
-      "https://res.cloudinary.com/avplantations/image/upload/v1773728333/bk7_ullawd.webp",
-      "https://res.cloudinary.com/avplantations/image/upload/v1773728332/bk13_r0r3f4.webp",
+      "https://res.cloudinary.com/dyvixdh7n/image/upload/v1778037396/bk4_ryvfcm_aq4mxb.webp",
+      "https://res.cloudinary.com/dyvixdh7n/image/upload/v1778037410/bk11_hr9rca_znyrm2.webp",
+      "https://res.cloudinary.com/dyvixdh7n/image/upload/v1778037400/bk10_u1fot0_r5qzd3.webp",
+      "https://res.cloudinary.com/dyvixdh7n/image/upload/v1778037398/bk9_f6dikd_hqlmwm.webp",
+      "https://res.cloudinary.com/dyvixdh7n/image/upload/v1778037397/bk5_eeb5gj_m3p643.webp",
+      "https://res.cloudinary.com/dyvixdh7n/image/upload/v1778037396/bk6_usfr4w_stvihy.webp",
+      "https://res.cloudinary.com/dyvixdh7n/image/upload/v1778037395/bk2_wgljec_m2qfcq.webp",
+      "https://res.cloudinary.com/dyvixdh7n/image/upload/v1778037394/bk3_k216wq_gj6twm.webp",
+      "https://res.cloudinary.com/dyvixdh7n/image/upload/v1778037393/bk12_opehmf_ltq3wy.webp",
+      "https://res.cloudinary.com/dyvixdh7n/image/upload/v1778037305/bk8_pd4ml0_mzfjzt.webp",
+      "https://res.cloudinary.com/dyvixdh7n/image/upload/v1778037304/bk7_ullawd_hab86y.webp",
+      "https://res.cloudinary.com/dyvixdh7n/image/upload/v1778037303/bk13_r0r3f4_nsg73t.webp"
     ],
-    facebookLink: "https://www.facebook.com/share/p/1c3E2TFY5w/"
+    facebookLink: "https://www.facebook.com/share/p/1c3E2TFY5w/",
   },
   {
     id: 9,
     title: "Annual Convention 2024",
     date: "February 25, 2024",
-    excerpt: "We are thrilled to announce the arrival of our revered Founder Chairman and the...",
+    excerpt:
+      "We are thrilled to announce the arrival of our revered Founder Chairman and the...",
     brief: `
       <h4>🌟 Honoring Tradition, Celebrating Excellence! 🌟</h4>
       <p>We are thrilled to announce the arrival of our revered Founder Chairman and the ceremonial lighting of the oil lamp, marking the grand opening of the <strong>Annual Awards 2024</strong>!</p>
@@ -298,26 +289,27 @@ export const eventsData = [
       <p style="text-align: center; font-size: 1.2em; margin-top: 30px;"><strong>Stay tuned for updates and highlights from this prestigious event!</strong></p>
     `,
     images: [
-      "https://res.cloudinary.com/avplantations/image/upload/v1773729019/acff1_uq31c9.webp",
-      "https://res.cloudinary.com/avplantations/image/upload/v1773729028/acff7_ez1yc3.webp",
-      "https://res.cloudinary.com/avplantations/image/upload/v1773729015/acff11_av9atv.webp",
-      "https://res.cloudinary.com/avplantations/image/upload/v1773729013/acff10_pd1rir.webp",
-      "https://res.cloudinary.com/avplantations/image/upload/v1773729012/acff9_dc2mge.webp",
-      "https://res.cloudinary.com/avplantations/image/upload/v1773729027/acff6_b5gxj0.webp",
-      "https://res.cloudinary.com/avplantations/image/upload/v1773729025/acff5_a3kecs.webp",
-      "https://res.cloudinary.com/avplantations/image/upload/v1773729024/acff4_lgvrds.webp",
-      "https://res.cloudinary.com/avplantations/image/upload/v1773729022/acff3_zh089o.webp",
-      "https://res.cloudinary.com/avplantations/image/upload/v1773729020/acff2_fwcdlt.webp",
-      "https://res.cloudinary.com/avplantations/image/upload/v1773729018/acff13_kmjnlf.webp",
-      "https://res.cloudinary.com/avplantations/image/upload/v1773729016/acff12_bprw3h.webp",
+      "https://res.cloudinary.com/dyvixdh7n/image/upload/v1778037367/acff8_ca5uxa_fngndf.webp",
+      "https://res.cloudinary.com/dyvixdh7n/image/upload/v1778037367/acff9_dc2mge_hml7mh.webp",
+      "https://res.cloudinary.com/dyvixdh7n/image/upload/v1778037366/acff7_ez1yc3_ykdtxo.webp",
+      "https://res.cloudinary.com/dyvixdh7n/image/upload/v1778037365/acff6_b5gxj0_j0ziib.webp",
+      "https://res.cloudinary.com/dyvixdh7n/image/upload/v1778037365/acff5_a3kecs_lz5gjh.webp",
+      "https://res.cloudinary.com/dyvixdh7n/image/upload/v1778037364/acff4_lgvrds_pm6p6b.webp",
+      "https://res.cloudinary.com/dyvixdh7n/image/upload/v1778037363/acff3_zh089o_ajcupz.webp",
+      "https://res.cloudinary.com/dyvixdh7n/image/upload/v1778037362/acff1_uq31c9_odamvj.webp",
+      "https://res.cloudinary.com/dyvixdh7n/image/upload/v1778037361/acff13_kmjnlf_qw0lnk.webp",
+      "https://res.cloudinary.com/dyvixdh7n/image/upload/v1778037361/acff12_bprw3h_qd29yf.webp",
+      "https://res.cloudinary.com/dyvixdh7n/image/upload/v1778037360/acff11_av9atv_ot9k8o.webp",
+      "https://res.cloudinary.com/dyvixdh7n/image/upload/v1778037359/acff10_pd1rir_lxhxxo.webp",
     ],
-    facebookLink: "https://www.facebook.com/share/p/18LtD1NjK6/"
+    facebookLink: "https://www.facebook.com/share/p/18LtD1NjK6/",
   },
   {
     id: 10,
     title: "Premier Branch Opening",
     date: "December 10, 2024",
-    excerpt: "We're thrilled to announce the grand opening of our Premier Branch at Union Place...",
+    excerpt:
+      "We're thrilled to announce the grand opening of our Premier Branch at Union Place...",
     brief: `
       <h4>🌟 The Wait Is Over – Agroventures Plantations Premier Branch Is Now Open! 🌟</h4>
       <p>We're thrilled to announce the grand opening of our <strong>Premier Branch at Union Place</strong>, a cutting-edge center redefining the future of sustainable agriculture.</p>
@@ -335,14 +327,14 @@ export const eventsData = [
       <p style="text-align: center; font-size: 1.3em; margin-top: 30px;"><strong>📍 Visit us today and be part of the green revolution. 🌍</strong></p>
     `,
     images: [
-      "https://res.cloudinary.com/avplantations/image/upload/v1773729181/pb3_fks1lu.webp",
-      "https://res.cloudinary.com/avplantations/image/upload/v1773729189/pb1_pxtapb.webp",
-      "https://res.cloudinary.com/avplantations/image/upload/v1773729185/pb5_tpneh3.webp",
-      "https://res.cloudinary.com/avplantations/image/upload/v1773729187/pb6_xrtuoy.webp",
-      "https://res.cloudinary.com/avplantations/image/upload/v1773729182/pb4_gkh20k.webp",
-      "https://res.cloudinary.com/avplantations/image/upload/v1773729179/pb2_x0icli.webp",
+      "https://res.cloudinary.com/dyvixdh7n/image/upload/v1778037299/pb1_pxtapb_xeskzp.webp",
+      "https://res.cloudinary.com/dyvixdh7n/image/upload/v1778037302/pb6_xrtuoy_qphabk.webp",
+      "https://res.cloudinary.com/dyvixdh7n/image/upload/v1778037301/pb5_tpneh3_ecdb3z.webp",
+      "https://res.cloudinary.com/dyvixdh7n/image/upload/v1778037301/pb4_gkh20k_n7jmir.webp",
+      "https://res.cloudinary.com/dyvixdh7n/image/upload/v1778037300/pb3_fks1lu_prklq3.webp",
+      "https://res.cloudinary.com/dyvixdh7n/image/upload/v1778037300/pb2_x0icli_dsdpz3.webp",
     ],
-    facebookLink: "https://www.facebook.com/share/p/1AnSP3uSP8/"
+    facebookLink: "https://www.facebook.com/share/p/1AnSP3uSP8/",
   },
   {
     id: 11,
@@ -360,21 +352,18 @@ export const eventsData = [
       <p style="text-align: center; font-size: 1.2em; margin-top: 30px;"><strong>Together, we celebrate our achievements and look forward to a brighter future! 💚</strong></p>
     `,
     images: [
-      "https://res.cloudinary.com/avplantations/image/upload/v1773728888/afc1_irdhna.webp",
-      "https://res.cloudinary.com/avplantations/image/upload/v1773728890/afc3_hyifh2.webp",
-      "https://res.cloudinary.com/avplantations/image/upload/v1773728905/afc13_qxoc8p.webp",
-      "https://res.cloudinary.com/avplantations/image/upload/v1773728904/afc12_g5boyc.webp",
-      "https://res.cloudinary.com/avplantations/image/upload/v1773728902/afc11_ctzdqm.webp",
-      "https://res.cloudinary.com/avplantations/image/upload/v1773728900/afc10_kdpont.webp",
-      "https://res.cloudinary.com/avplantations/image/upload/v1773728899/afc9_ju35wh.webp",
-      "https://res.cloudinary.com/avplantations/image/upload/v1773728897/afc8_ap5xs0.webp",
-      "https://res.cloudinary.com/avplantations/image/upload/v1773728895/afc7_rm6rpe.webp",
-      "https://res.cloudinary.com/avplantations/image/upload/v1773728894/afc6_d0uyub.webp",
-      "https://res.cloudinary.com/avplantations/image/upload/v1773728892/afc5_uz5i4u.webp",
-      "https://res.cloudinary.com/avplantations/image/upload/v1773728889/afc14_bd7msz.webp",
-      "https://res.cloudinary.com/avplantations/image/upload/v1773728888/afc2_ajh7l6.webp",
+      "https://res.cloudinary.com/dyvixdh7n/image/upload/v1778037354/afc2_sxeue5_q7qwlj.webp",
+      "https://res.cloudinary.com/dyvixdh7n/image/upload/v1778037359/afc9_ju35wh_nu89zp.webp",
+      "https://res.cloudinary.com/dyvixdh7n/image/upload/v1778037358/afc8_ap5xs0_gg8yhd.webp",
+      "https://res.cloudinary.com/dyvixdh7n/image/upload/v1778037357/afc7_rm6rpe_qk05mk.webp",
+      "https://res.cloudinary.com/dyvixdh7n/image/upload/v1778037357/afc6_d0uyub_z9xutl.webp",
+      "https://res.cloudinary.com/dyvixdh7n/image/upload/v1778037356/afc5_uz5i4u_a8rjdc.webp",
+      "https://res.cloudinary.com/dyvixdh7n/image/upload/v1778037355/afc3_hyifh2_zau59h.webp",
+      "https://res.cloudinary.com/dyvixdh7n/image/upload/v1778037353/afc14_bd7msz_qzge12.webp",
+      "https://res.cloudinary.com/dyvixdh7n/image/upload/v1778037351/afc11_ctzdqm_ayslbv.webp",
+      "https://res.cloudinary.com/dyvixdh7n/image/upload/v1778037351/afc12_g5boyc_etarv4.webp",
     ],
-    facebookLink: "https://www.facebook.com/share/p/1AoEYEAfRS/"
+    facebookLink: "https://www.facebook.com/share/p/1AoEYEAfRS/",
   },
   {
     id: 12,
@@ -392,18 +381,15 @@ export const eventsData = [
       <p style="text-align: center; font-size: 1.2em; margin-top: 30px;"><strong>Thank you for being part of our journey! 🌟</strong></p>
     `,
     images: [
-      "https://res.cloudinary.com/avplantations/image/upload/v1773740912/mb10_uz6axj.webp",
-      "https://res.cloudinary.com/avplantations/image/upload/v1773740916/mb1_co1wld.webp",
-      "https://res.cloudinary.com/avplantations/image/upload/v1773740909/mb11_enjsoq.webp",
-      "https://res.cloudinary.com/avplantations/image/upload/v1773740904/mb2_g5doih.webp",
-      "https://res.cloudinary.com/avplantations/image/upload/v1773740902/mb3_mwcv0x.webp",
-      "https://res.cloudinary.com/avplantations/image/upload/v1773740899/mb4_hfjegv.webp",
-      "https://res.cloudinary.com/avplantations/image/upload/v1773740896/mb5_c3csms.webp",
-      "https://res.cloudinary.com/avplantations/image/upload/v1773740893/mb6_apjvzj.webp",
-      "https://res.cloudinary.com/avplantations/image/upload/v1773740884/mb9_h2prc7.webp",
-      "https://res.cloudinary.com/avplantations/image/upload/v1773740882/mb0_qgoiw0.webp",
+      "https://res.cloudinary.com/dyvixdh7n/image/upload/v1778037269/mb10_uz6axj_xiy9jk.webp",
+      "https://res.cloudinary.com/dyvixdh7n/image/upload/v1778037272/mb5_c3csms_rr1ysb.webp",
+      "https://res.cloudinary.com/dyvixdh7n/image/upload/v1778037272/mb6_apjvzj_ifxzog.webp",
+      "https://res.cloudinary.com/dyvixdh7n/image/upload/v1778037271/mb1_co1wld_igvw4n.webp",
+      "https://res.cloudinary.com/dyvixdh7n/image/upload/v1778037269/mb11_enjsoq_mcbl1a.webp",
+      "https://res.cloudinary.com/dyvixdh7n/image/upload/v1778037268/mb0_qgoiw0_vgfgvp.webp",
+      "https://res.cloudinary.com/dyvixdh7n/image/upload/v1778037274/mb4_hfjegv_gatbq6.webp",
     ],
-    facebookLink : "https://www.facebook.com/share/1CZVMNGRZp/"
+    facebookLink: "https://www.facebook.com/share/1CZVMNGRZp/",
   },
   {
     id: 13,
@@ -419,19 +405,19 @@ export const eventsData = [
       <p style="text-align: center; font-size: 1.2em; margin-top: 30px;"><strong>A night to remember – celebrating excellence and success! 🌟</strong></p>
     `,
     images: [
-      "https://res.cloudinary.com/avplantations/image/upload/v1773740068/as0_kmfuhe.webp",
-      "https://res.cloudinary.com/avplantations/image/upload/v1773740087/as1_ql5b8d.webp",
-      "https://res.cloudinary.com/avplantations/image/upload/v1773740085/as10_knagsn.webp",
-      "https://res.cloudinary.com/avplantations/image/upload/v1773740083/as2_en9yaq.webp",
-      "https://res.cloudinary.com/avplantations/image/upload/v1773740081/as3_xfsosl.webp",
-      "https://res.cloudinary.com/avplantations/image/upload/v1773740079/as4_mgo49s.webp",
-      "https://res.cloudinary.com/avplantations/image/upload/v1773740077/as5_xzuxqw.webp",
-      "https://res.cloudinary.com/avplantations/image/upload/v1773740075/as6_cpjuww.webp",
-      "https://res.cloudinary.com/avplantations/image/upload/v1773740073/as7_crz83a.webp",
-      "https://res.cloudinary.com/avplantations/image/upload/v1773740072/as8_ewawet.webp",
-      "https://res.cloudinary.com/avplantations/image/upload/v1773740070/as9_ypeftx.webp",
+      "https://res.cloudinary.com/dyvixdh7n/image/upload/v1778037383/as8_ewawet_fzhpw5.webp",
+      "https://res.cloudinary.com/dyvixdh7n/image/upload/v1778037384/as9_ypeftx_rqpyfc.webp",
+      "https://res.cloudinary.com/dyvixdh7n/image/upload/v1778037383/as7_crz83a_ycextg.webp",
+      "https://res.cloudinary.com/dyvixdh7n/image/upload/v1778037382/as6_cpjuww_p4uu2y.webp",
+      "https://res.cloudinary.com/dyvixdh7n/image/upload/v1778037382/as5_xzuxqw_brvnnf.webp",
+      "https://res.cloudinary.com/dyvixdh7n/image/upload/v1778037381/as4_mgo49s_kt8j7p.webp",
+      "https://res.cloudinary.com/dyvixdh7n/image/upload/v1778037380/as3_xfsosl_xtjawj.webp",
+      "https://res.cloudinary.com/dyvixdh7n/image/upload/v1778037380/as2_en9yaq_bqwxfn.webp",
+      "https://res.cloudinary.com/dyvixdh7n/image/upload/v1778037379/as1_ql5b8d_wby9eh.webp",
+      "https://res.cloudinary.com/dyvixdh7n/image/upload/v1778037378/as10_knagsn_khmhwx.webp",
+      "https://res.cloudinary.com/dyvixdh7n/image/upload/v1778037377/as0_kmfuhe_aeuwqw.webp",
     ],
-    facebookLink: "https://www.facebook.com/share/p/1C6F5W8E7T/"
+    facebookLink: "https://www.facebook.com/share/p/1C6F5W8E7T/",
   },
   {
     id: 14,
@@ -447,28 +433,23 @@ export const eventsData = [
       <p style="text-align: center; font-size: 1.4em; margin-top: 40px; font-weight: bold;">Sharing sweetness from our plantations to the community! 💚🍦</p>
     `,
     images: [
-      "https://res.cloudinary.com/avplantations/image/upload/v1773741246/ic0_nzksqy.png",
-      "https://res.cloudinary.com/avplantations/image/upload/v1773741278/ic1_lsub5y.webp",
-      "https://res.cloudinary.com/avplantations/image/upload/v1773741275/ic10_l4gi6c.webp",
-      "https://res.cloudinary.com/avplantations/image/upload/v1773741273/ic11_npdbuw.webp",
-      "https://res.cloudinary.com/avplantations/image/upload/v1773741270/ic2_knjpkv.webp",
-      "https://res.cloudinary.com/avplantations/image/upload/v1773741267/ic3_z5og1t.webp",
-      "https://res.cloudinary.com/avplantations/image/upload/v1773741265/ic4_amqftw.webp",
-      "https://res.cloudinary.com/avplantations/image/upload/v1773741262/ic5_szsngd.webp",
-      "https://res.cloudinary.com/avplantations/image/upload/v1773741258/ic6_vv5lyo.webp",
-      "https://res.cloudinary.com/avplantations/image/upload/v1773741254/ic7_znupts.webp",
-      "https://res.cloudinary.com/avplantations/image/upload/v1773741251/ic8_ox1nou.webp",
-      "https://res.cloudinary.com/avplantations/image/upload/v1773741247/ic9_yz1byc.webp",
+      "https://res.cloudinary.com/dyvixdh7n/image/upload/v1778037343/ic0_nzksqy_vco0uv.png",
+      "https://res.cloudinary.com/dyvixdh7n/image/upload/v1778037349/ic8_ox1nou_hxkl1g.webp",
+      "https://res.cloudinary.com/dyvixdh7n/image/upload/v1778037348/ic7_znupts_tcldrw.webp",
+      "https://res.cloudinary.com/dyvixdh7n/image/upload/v1778037348/ic6_vv5lyo_osya5j.webp",
+      "https://res.cloudinary.com/dyvixdh7n/image/upload/v1778037346/ic3_z5og1t_vew5sn.webp",
+      "https://res.cloudinary.com/dyvixdh7n/image/upload/v1778037345/ic2_knjpkv_khr1bo.webp",
+      "https://res.cloudinary.com/dyvixdh7n/image/upload/v1778037344/ic11_npdbuw_nurdfd.webp",
+      "https://res.cloudinary.com/dyvixdh7n/image/upload/v1778037343/ic10_l4gi6c_ujpjbj.webp",
     ],
-    facebookLink: "https://www.facebook.com/share/p/1CW1R51BFn/"
+    facebookLink: "https://www.facebook.com/share/p/1CW1R51BFn/",
   },
   {
     id: 15,
     title:
       "Providing dry food and other essential items for the welfare of the families",
     date: "September 19, 2024",
-    excerpt:
-      "Our company's HR Development providing dry food and other...",
+    excerpt: "Our company's HR Development providing dry food and other...",
     brief: `
       <p>Our company's <strong>Human Resource Development Division</strong> providing dry food and other essential items for the welfare of the families of those working in our field for the beginning of the new year 2024.</p>
       
@@ -477,18 +458,15 @@ export const eventsData = [
       <p style="text-align: center; font-size: 1.2em; margin-top: 30px;"><strong>Caring for our team and their families! 💚</strong></p>
     `,
     images: [
-      "https://res.cloudinary.com/avplantations/image/upload/v1773740346/dry10_klyh2d.png",
-      "https://res.cloudinary.com/avplantations/image/upload/v1773740342/dry11_av81ji.webp",
-      "https://res.cloudinary.com/avplantations/image/upload/v1773740335/dry12_rnzp69.webp",
-      "https://res.cloudinary.com/avplantations/image/upload/v1773740332/dry13_iv0nkj.webp",
-      "https://res.cloudinary.com/avplantations/image/upload/v1773740330/dry2_mupj8a.webp",
-      "https://res.cloudinary.com/avplantations/image/upload/v1773740327/dry3_ydu2nm.webp",
-      "https://res.cloudinary.com/avplantations/image/upload/v1773740324/dry4_rzdqdz.webp",
-      "https://res.cloudinary.com/avplantations/image/upload/v1773740316/dry7_ojq4xq.webp",
-      "https://res.cloudinary.com/avplantations/image/upload/v1773740313/dry8_irjva1.webp",
-      "https://res.cloudinary.com/avplantations/image/upload/v1773740311/dry9_dslosx.webp",
+      "https://res.cloudinary.com/dyvixdh7n/image/upload/v1778037398/dry10_klyh2d_bhcrrk.png",
+      "https://res.cloudinary.com/dyvixdh7n/image/upload/v1778037317/dry7_ojq4xq_c9g7ci.webp",
+      "https://res.cloudinary.com/dyvixdh7n/image/upload/v1778037317/dry6_qctsfx_ahsrzf.webp",
+      "https://res.cloudinary.com/dyvixdh7n/image/upload/v1778037314/dry2_mupj8a_uunh8b.webp",
+      "https://res.cloudinary.com/dyvixdh7n/image/upload/v1778037313/dry12_rnzp69_sssdrq.webp",
+      "https://res.cloudinary.com/dyvixdh7n/image/upload/v1778037318/dry8_irjva1_bwoymd.webp",
+    
     ],
-    facebookLink: "https://www.facebook.com/share/p/1EMrYcVFUT/"
+    facebookLink: "https://www.facebook.com/share/p/1EMrYcVFUT/",
   },
   {
     id: 16,
@@ -506,19 +484,19 @@ export const eventsData = [
       <p style="text-align: center; font-weight: bold; font-size: 1.3em; margin-top: 40px;">Join us as we come together to celebrate the spirit of unity, generosity, and the power of education! 🌟</p>
     `,
     images: [
-      "https://res.cloudinary.com/avplantations/image/upload/v1773740388/gt6_puusib.webp",
-      "https://res.cloudinary.com/avplantations/image/upload/v1773740385/gt7_kcyiqm.webp",
-      "https://res.cloudinary.com/avplantations/image/upload/v1773740382/gt8_yexdpt.webp",
-      "https://res.cloudinary.com/avplantations/image/upload/v1773740378/gt9_yrjc2s.webp",
-      "https://res.cloudinary.com/avplantations/image/upload/v1773740375/gt0_jepamm.webp",
-      "https://res.cloudinary.com/avplantations/image/upload/v1773740373/gt10_jcvnd8.webp",
-      "https://res.cloudinary.com/avplantations/image/upload/v1773740370/gt1_xqnbzx.webp",
-      "https://res.cloudinary.com/avplantations/image/upload/v1773740366/gt11_f4edxd.webp",
-      "https://res.cloudinary.com/avplantations/image/upload/v1773740362/gt2_je8ds5.webp",
-      "https://res.cloudinary.com/avplantations/image/upload/v1773740361/gt3_edhcil.webp",
-      "https://res.cloudinary.com/avplantations/image/upload/v1773740357/gt4_hcbb8v.webp",
-      "https://res.cloudinary.com/avplantations/image/upload/v1773740353/gt5_clfv9n.webp",
+      "https://res.cloudinary.com/dyvixdh7n/image/upload/v1778037324/gt6_puusib_nkitsc.webp",
+      "https://res.cloudinary.com/dyvixdh7n/image/upload/v1778037325/gt8_yexdpt_t1g5lb.webp",
+      "https://res.cloudinary.com/dyvixdh7n/image/upload/v1778037326/gt9_yrjc2s_a9b658.webp",
+      "https://res.cloudinary.com/dyvixdh7n/image/upload/v1778037325/gt7_kcyiqm_olwxx2.webp",
+      "https://res.cloudinary.com/dyvixdh7n/image/upload/v1778037323/gt5_clfv9n_rcgnu4.webp",
+      "https://res.cloudinary.com/dyvixdh7n/image/upload/v1778037323/gt4_hcbb8v_e0r3c8.webp",
+      "https://res.cloudinary.com/dyvixdh7n/image/upload/v1778037322/gt3_edhcil_qhu27e.webp",
+      "https://res.cloudinary.com/dyvixdh7n/image/upload/v1778037322/gt2_je8ds5_opgyft.webp",
+      "https://res.cloudinary.com/dyvixdh7n/image/upload/v1778037321/gt1_xqnbzx_osmm4x.webp",
+      "https://res.cloudinary.com/dyvixdh7n/image/upload/v1778037321/gt10_jcvnd8_cy9wnp.webp",
+      "https://res.cloudinary.com/dyvixdh7n/image/upload/v1778037320/gt11_f4edxd_kwfouf.webp",
+      "https://res.cloudinary.com/dyvixdh7n/image/upload/v1778037319/gt0_jepamm_hgtqmt.webp",
     ],
-    facebookLink: "https://www.facebook.com/share/p/1EZAWUuVK2/"
+    facebookLink: "https://www.facebook.com/share/p/1EZAWUuVK2/",
   },
 ];

@@ -4,7 +4,7 @@ const HomeHeroSection = () => {
       <section className="hero-section">
         <video
           className="hero-video"
-          src="https://res.cloudinary.com/avplantations/video/upload/v1774338109/555_rspg4v.mp4"
+          src="https://res.cloudinary.com/dyvixdh7n/video/upload/v1778037424/home-hero_ceiy0k.mp4"
           autoPlay
           muted
           loop

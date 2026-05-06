@@ -15,8 +15,8 @@ const AboutUs = () => {
       <AboutAgroSection />
       <AboutMeSection />
       <AboutManagerSection />
-      <AboutMeCeoSection />
-      <AboutOurTeamSection />
+      {/* <AboutMeCeoSection /> */}
+      {/* <AboutOurTeamSection /> */}
       <AboutOurCoreValueSection />
       <TestimonialSection />
     </>

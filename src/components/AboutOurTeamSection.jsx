@@ -1,7 +1,7 @@
 const AboutOurTeamSection = () => {
   const gmMembers = [
     {
-      img: "/images/team/kushan.webp",
+      img: "/images/team/kushan.jpeg",
       name: "Kushan Jayasinghe",
       role: "Senior Deputy General Manager - Southern Business Unit",
       initials: "KJ",
