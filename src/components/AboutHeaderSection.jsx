@@ -10,7 +10,7 @@ const AboutHeaderSection = () => {
             playsInline
             className="bg-video"
           >
-            <source src="https://res.cloudinary.com/dyvixdh7n/video/upload/v1778037426/6-1_hzllfq_ymbqh7.mp4" type="video/mp4" />
+            <source src="https://pub-8476bede5a4146e8b7731cfe515f1c3b.r2.dev/av-plantations/Website/About%20Us/6-1_hzllfq.mp4" type="video/mp4" />
             {/* <source src="/videos/about-bg.webm" type="video/webm" /> */}
           </video>
           <div className="video-overlay" />
