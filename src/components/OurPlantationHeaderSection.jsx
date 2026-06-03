@@ -7,7 +7,7 @@ const OurPlantationHeaderSection = () => {
         <div className="parallax-img video-background-wrapper">
           <video autoPlay muted loop playsInline className="bg-video">
             <source
-              src="https://res.cloudinary.com/dyvixdh7n/video/upload/v1778037427/8-1_n2nifd_lbegsi.mp4"
+              src="https://pub-8476bede5a4146e8b7731cfe515f1c3b.r2.dev/av-plantations/Website/Our%20Plantations/8-1_n2nifd.mp4"
               type="video/mp4"
             />
           </video>
