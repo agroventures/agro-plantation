@@ -7,7 +7,7 @@ const BranchHeaderSection = () => {
         <div className="parallax-img video-background-wrapper">
           <video autoPlay muted loop playsInline className="bg-video">
             <source
-              src="https://res.cloudinary.com/dyvixdh7n/video/upload/v1778037428/9-1_tifudo_abcpju.mp4"
+              src="https://pub-8476bede5a4146e8b7731cfe515f1c3b.r2.dev/av-plantations/Website/Branch%20Network/9-1_tifudo.mp4"
               type="video/mp4"
             />
           </video>
