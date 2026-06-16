@@ -1,6 +1,31 @@
 export const eventsData = [
   {
-    id: 1,
+    id: 16,
+    title: "Agroventures Root and Rewards - 2026",
+    date: "June 14, 2026",
+    excerpt:
+      "From inspiring award presentations and special recognitions to celebrations shared among our valued...",
+    brief: `
+      <p>Relive the memorable moments from Agro Ventures Roots & Rewards 2026.</p>
+      <p>From inspiring award presentations and special recognitions to celebrations shared among our valued team members, partners, and investors, this gallery captures the spirit of excellence, achievement, and growth that defined the event.</p>
+    `,
+    images: [
+      "https://pub-8476bede5a4146e8b7731cfe515f1c3b.r2.dev/av-plantations/roots-and-rewards/LDR_1703.jpg",
+      "https://pub-8476bede5a4146e8b7731cfe515f1c3b.r2.dev/av-plantations/roots-and-rewards/LDR_1705.jpg",
+      "https://pub-8476bede5a4146e8b7731cfe515f1c3b.r2.dev/av-plantations/roots-and-rewards/LDR_1713.jpg",
+      "https://pub-8476bede5a4146e8b7731cfe515f1c3b.r2.dev/av-plantations/roots-and-rewards/LDR_1737.jpg",
+      "https://pub-8476bede5a4146e8b7731cfe515f1c3b.r2.dev/av-plantations/roots-and-rewards/LDR_1739.jpg",
+      "https://pub-8476bede5a4146e8b7731cfe515f1c3b.r2.dev/av-plantations/roots-and-rewards/LDR_1805.jpg",
+      "https://pub-8476bede5a4146e8b7731cfe515f1c3b.r2.dev/av-plantations/roots-and-rewards/LDR_1899.jpg",
+      "https://pub-8476bede5a4146e8b7731cfe515f1c3b.r2.dev/av-plantations/roots-and-rewards/LDR_2177.jpg",
+      "https://pub-8476bede5a4146e8b7731cfe515f1c3b.r2.dev/av-plantations/roots-and-rewards/LDR_2242.jpg",
+      "https://pub-8476bede5a4146e8b7731cfe515f1c3b.r2.dev/av-plantations/roots-and-rewards/LDR_2325.jpg",
+    ],
+    facebookLink:
+      "https://www.facebook.com/share/p/198uNjQLDX/",
+  },
+  {
+    id: 15,
     title: "International Women's Day 2026",
     date: "March 9, 2026",
     excerpt:
@@ -33,7 +58,7 @@ export const eventsData = [
       "https://www.facebook.com/share/p/1as5WFwq5F/?mibextid=wwXlfr",
   },
   {
-    id: 2,
+    id: 14,
     title: "Crown of Excellence - 2025",
     date: "February 22, 2026",
     excerpt: "Agroventures Crown of Excellence 2025 – Annual Sales Awards...",
@@ -66,7 +91,7 @@ export const eventsData = [
       "https://www.facebook.com/share/p/18VsuA4bk7/?mibextid=wwXIfr",
   },
   {
-    id: 3,
+    id: 13,
     title: "Vanilla Shop Officially Opening - 2025",
     date: "February 21, 2025",
     excerpt: "We Are Live! The Vanilla Shop is Officially Open! ...",
@@ -117,7 +142,7 @@ export const eventsData = [
     facebookLink: "https://www.facebook.com/share/p/18ghBzeCrM/",
   },
   {
-    id: 4,
+    id: 12,
     title: "Celebrating 1 Year of Growth and Success!",
     date: "February 12, 2025",
     excerpt:
@@ -170,7 +195,7 @@ export const eventsData = [
     facebookLink: "https://www.facebook.com/share/p/1GW5jBNNxJ",
   },
   {
-    id: 6,
+    id: 11,
     title: "Annual Field Convention 2025",
     date: "April 10, 2025",
     excerpt:
@@ -216,7 +241,7 @@ export const eventsData = [
     facebookLink: "https://www.facebook.com/share/p/1b3Decmcxx/",
   },
   {
-    id: 7,
+    id: 10,
     title: "Inauguration of our new Western Zonal Office - Kottawa",
     date: "April 1, 2025",
     excerpt:
@@ -244,7 +269,7 @@ export const eventsData = [
     facebookLink: "https://www.facebook.com/share/p/19zXnKAZv4/",
   },
   {
-    id: 8,
+    id: 9,
     title: "Annual Convention 2025- Bangkok",
     date: "March 07, 2025",
     excerpt: "Celebrating Success at the International Green Awards 2025...",
@@ -275,7 +300,7 @@ export const eventsData = [
     facebookLink: "https://www.facebook.com/share/p/1c3E2TFY5w/",
   },
   {
-    id: 9,
+    id: 8,
     title: "Annual Convention 2024",
     date: "February 25, 2024",
     excerpt:
@@ -305,7 +330,7 @@ export const eventsData = [
     facebookLink: "https://www.facebook.com/share/p/18LtD1NjK6/",
   },
   {
-    id: 10,
+    id: 7,
     title: "Premier Branch Opening",
     date: "December 10, 2024",
     excerpt:
@@ -337,7 +362,7 @@ export const eventsData = [
     facebookLink: "https://www.facebook.com/share/p/1AnSP3uSP8/",
   },
   {
-    id: 11,
+    id: 6,
     title: "Annual Convention - 2023",
     date: "March 10, 2023",
     excerpt:
@@ -366,7 +391,7 @@ export const eventsData = [
     facebookLink: "https://www.facebook.com/share/p/1AoEYEAfRS/",
   },
   {
-    id: 12,
+    id: 5,
     title: "Inauguration of the 3rd Matara Branch Office",
     date: "November 22, 2023",
     excerpt:
@@ -392,7 +417,7 @@ export const eventsData = [
     facebookLink: "https://www.facebook.com/share/1CZVMNGRZp/",
   },
   {
-    id: 13,
+    id: 4,
     title: "Annual Sales Award Ceremony 2024",
     date: "September 19, 2024",
     excerpt:
@@ -420,7 +445,7 @@ export const eventsData = [
     facebookLink: "https://www.facebook.com/share/p/1C6F5W8E7T/",
   },
   {
-    id: 14,
+    id: 3,
     title: "Ice Cream Dansala - held on 21st June",
     date: "May 23, 2024",
     excerpt:
@@ -445,7 +470,7 @@ export const eventsData = [
     facebookLink: "https://www.facebook.com/share/p/1CW1R51BFn/",
   },
   {
-    id: 15,
+    id: 2,
     title:
       "Providing dry food and other essential items for the welfare of the families",
     date: "September 19, 2024",
@@ -469,7 +494,7 @@ export const eventsData = [
     facebookLink: "https://www.facebook.com/share/p/1EMrYcVFUT/",
   },
   {
-    id: 16,
+    id: 1,
     title: "Agroventures Estate Annual Employee Get-Together!",
     date: "April 19, 2024",
     excerpt:
