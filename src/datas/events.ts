@@ -34,7 +34,7 @@ export const eventsData = [
       <p>The Natural Vanilla Ice Cream Festival, organized by Agro Ventures Plantations Limited in celebration of the Vesak Festival, was successfully held on 30th May 2025 in front of the Agro Ventures Head Office in Battaramulla.</p>
       <p>The event brought together members of the community to enjoy delicious ice cream crafted with natural vanilla sourced from our own organic vanilla plantations. The festival reflected our commitment to promoting sustainable agriculture while creating memorable experiences that connect people with the goodness of nature.</p>
       <p>Filled with joy, smiles, and the rich flavor of authentic vanilla, the celebration highlighted the spirit of Vesak and strengthened our bond with the local community.</p>
-      <p>**Sharing the sweetness of nature with our community. 💚🍦**</p>
+      <p>Sharing the sweetness of nature with our community. 💚🍦</p>
 </p>
       <p>From inspiring award presentations and special recognitions to celebrations shared among our valued team members, partners, and investors, this gallery captures the spirit of excellence, achievement, and growth that defined the event.</p>
     `,
