@@ -1,6 +1,6 @@
 export const eventsData = [
   {
-    id: 16,
+    id: 17,
     title: "Agroventures Root and Rewards - 2026",
     date: "June 14, 2026",
     excerpt:
@@ -23,6 +23,37 @@ export const eventsData = [
     ],
     facebookLink:
       "https://www.facebook.com/share/p/198uNjQLDX/",
+  },
+  {
+    id: 16,
+    title: "Ice Cream Dansala 2026",
+    date: "May 30, 2026",
+    excerpt:
+      "The Natural Vanilla Ice Cream Festival, organized by Agro Ventures Plantations...",
+    brief: `
+      <p>The Natural Vanilla Ice Cream Festival, organized by Agro Ventures Plantations Limited in celebration of the Vesak Festival, was successfully held on 30th May 2025 in front of the Agro Ventures Head Office in Battaramulla.</p>
+      <p>The event brought together members of the community to enjoy delicious ice cream crafted with natural vanilla sourced from our own organic vanilla plantations. The festival reflected our commitment to promoting sustainable agriculture while creating memorable experiences that connect people with the goodness of nature.</p>
+      <p>Filled with joy, smiles, and the rich flavor of authentic vanilla, the celebration highlighted the spirit of Vesak and strengthened our bond with the local community.</p>
+      <p>**Sharing the sweetness of nature with our community. 💚🍦**</p>
+</p>
+      <p>From inspiring award presentations and special recognitions to celebrations shared among our valued team members, partners, and investors, this gallery captures the spirit of excellence, achievement, and growth that defined the event.</p>
+    `,
+    images: [
+      "https://pub-8476bede5a4146e8b7731cfe515f1c3b.r2.dev/av-plantations/Ice%20Cream%20Dansala%202026/DSC09118.jpg",
+      "https://pub-8476bede5a4146e8b7731cfe515f1c3b.r2.dev/av-plantations/Ice%20Cream%20Dansala%202026/DSC09129.jpg",
+      "https://pub-8476bede5a4146e8b7731cfe515f1c3b.r2.dev/av-plantations/Ice%20Cream%20Dansala%202026/DSC09130.jpg",
+      "https://pub-8476bede5a4146e8b7731cfe515f1c3b.r2.dev/av-plantations/Ice%20Cream%20Dansala%202026/DSC09139.jpg",
+      "https://pub-8476bede5a4146e8b7731cfe515f1c3b.r2.dev/av-plantations/Ice%20Cream%20Dansala%202026/DSC09143.jpg",
+      "https://pub-8476bede5a4146e8b7731cfe515f1c3b.r2.dev/av-plantations/Ice%20Cream%20Dansala%202026/DSC09158.jpg",
+      "https://pub-8476bede5a4146e8b7731cfe515f1c3b.r2.dev/av-plantations/Ice%20Cream%20Dansala%202026/DSC09207.jpg",
+      "https://pub-8476bede5a4146e8b7731cfe515f1c3b.r2.dev/av-plantations/Ice%20Cream%20Dansala%202026/DSC09229.jpg",
+      "https://pub-8476bede5a4146e8b7731cfe515f1c3b.r2.dev/av-plantations/Ice%20Cream%20Dansala%202026/DSC09253.jpg",
+      "https://pub-8476bede5a4146e8b7731cfe515f1c3b.r2.dev/av-plantations/Ice%20Cream%20Dansala%202026/DSC09270.jpg",
+      "https://pub-8476bede5a4146e8b7731cfe515f1c3b.r2.dev/av-plantations/Ice%20Cream%20Dansala%202026/DSC09445.jpg",
+      "https://pub-8476bede5a4146e8b7731cfe515f1c3b.r2.dev/av-plantations/Ice%20Cream%20Dansala%202026/DSC09462.jpg",
+    ],
+    facebookLink:
+      "https://www.facebook.com/share/p/1BCd3MYqT3/",
   },
   {
     id: 15,
