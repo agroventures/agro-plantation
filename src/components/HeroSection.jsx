@@ -32,18 +32,7 @@ const slides = [
     btnSecondary: { label: "Our Plantation", to: "/our-plantations" },
     position: "center center",
   },
-  {
-    image:
-      "https://pub-8476bede5a4146e8b7731cfe515f1c3b.r2.dev/av-plantations/Women%27s%20Day/1_mlk1vw.webp",
-    eyebrow: "Sri Lanka Agriculture",
-    titleLight: "Working Towards",
-    titleBold: "A Brighter Future",
-    subtitle:
-      "The profound revolution shaping Sri Lanka's agricultural investment sector.",
-    btnPrimary: { label: "Read More", to: "/about-us" },
-    btnSecondary: { label: "Get Started", to: "/contact-us" },
-    position: "center center",
-  },
+  
   {
     image:
       "https://pub-8476bede5a4146e8b7731cfe515f1c3b.r2.dev/av-plantations/1%20Year%20of%20Growth/yg0_zrerqo.webp",
