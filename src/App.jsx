@@ -13,11 +13,25 @@ function App() {
       <AppRoutes />
       <Footer />
 
-      {/* <!-- Start of footer --> */}
+      {/* Best Web Badge */}
+      <a
+        href="https://ebadge.bestweb.lk/api/v1/clicked/agroventures.lk/TopWeb/2026-June/Qualified"
+        id="best-web-badge"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <img
+          src="https://ebadge.bestweb.lk/eBadgeSystem/domainNames/agroventures.lk/TopWeb/2026-June/Qualified/image.png"
+          alt="logo"
+          width="120"
+          height="120"
+        />
+      </a>
+
+      {/* Back to top */}
       <a href="#" id="back-to-top" title="Back to top">
         &uarr;
       </a>
-      {/* <!-- End of footer --> */}
     </Router>
   );
 }

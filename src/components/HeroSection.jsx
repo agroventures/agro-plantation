@@ -22,7 +22,7 @@ const slides = [
   },
   {
     image:
-      "https://pub-8476bede5a4146e8b7731cfe515f1c3b.r2.dev/av-plantations/Women's%20Day/1_mlk1vw.webp",
+      "https://pub-8476bede5a4146e8b7731cfe515f1c3b.r2.dev/av-plantations/Women%27s%20Day/1_mlk1vw.webp",
     eyebrow: "Sri Lanka Agriculture",
     titleLight: "Working Towards",
     titleBold: "A Brighter Future",

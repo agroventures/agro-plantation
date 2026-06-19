@@ -118,10 +118,23 @@ body {
   position: absolute;
   inset: 0;
   z-index: 2;
-  background: 
-    radial-gradient(ellipse at center top, rgba(233, 97, 47, 0.15) 0%, transparent 50%),
-    radial-gradient(ellipse at center bottom, rgba(0, 77, 77, 0.3) 0%, transparent 60%),
-    linear-gradient(180deg, rgba(0, 30, 30, 0.4) 0%, transparent 30%, rgba(0, 20, 20, 0.75) 100%);
+  background:
+    radial-gradient(
+      ellipse at center top,
+      rgba(233, 97, 47, 0.15) 0%,
+      transparent 50%
+    ),
+    radial-gradient(
+      ellipse at center bottom,
+      rgba(0, 77, 77, 0.3) 0%,
+      transparent 60%
+    ),
+    linear-gradient(
+      180deg,
+      rgba(0, 30, 30, 0.4) 0%,
+      transparent 30%,
+      rgba(0, 20, 20, 0.75) 100%
+    );
 }
 
 .awards-hero-grain {
@@ -174,11 +187,12 @@ body {
 }
 
 @keyframes awardsFloatIcon {
-  0%, 100% { 
-    transform: translateY(-50%) rotate(-5deg) scale(1); 
+  0%,
+  100% {
+    transform: translateY(-50%) rotate(-5deg) scale(1);
   }
-  50% { 
-    transform: translateY(-55%) rotate(5deg) scale(1.05); 
+  50% {
+    transform: translateY(-55%) rotate(5deg) scale(1.05);
   }
 }
 
@@ -204,7 +218,7 @@ body {
 }
 
 .awards-breadcrumb-link {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 12px;
   font-weight: 500;
   color: rgba(255, 255, 255, 0.6);
@@ -225,7 +239,7 @@ body {
 }
 
 .awards-breadcrumb-current {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 12px;
   font-weight: 500;
   color: rgba(255, 255, 255, 0.5);
@@ -243,7 +257,7 @@ body {
   /* border: 1px solid rgba(233, 97, 47, 0.35); */
   border-radius: 30px;
   margin-bottom: 28px;
-  margin-top:48px;
+  margin-top: 48px;
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
   opacity: 0;
@@ -256,7 +270,7 @@ body {
 }
 
 .awards-hero-tag-text {
-  font-family: 'Oswald', sans-serif;
+  font-family: "Oswald", sans-serif;
   font-size: 12px;
   font-weight: 500;
   color: #fff;
@@ -273,7 +287,7 @@ body {
 
 .awards-title-small {
   display: block;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 18px;
   font-weight: 300;
   color: rgba(255, 255, 255, 0.7);
@@ -284,7 +298,7 @@ body {
 
 .awards-title-main {
   display: block;
-  font-family: 'Oswald', sans-serif;
+  font-family: "Oswald", sans-serif;
   font-size: 72px;
   font-weight: 700;
   color: #fff;
@@ -296,7 +310,7 @@ body {
 
 .awards-title-accent {
   display: block;
-  font-family: 'Oswald', sans-serif;
+  font-family: "Oswald", sans-serif;
   font-size: 48px;
   font-weight: 300;
   color: #027a7a;
@@ -319,7 +333,12 @@ body {
 .awards-divider-line {
   width: 60px;
   height: 1px;
-  background: linear-gradient(90deg, transparent, rgba(255, 122, 71, 0.5), transparent);
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(255, 122, 71, 0.5),
+    transparent
+  );
 }
 
 .awards-divider-icon {
@@ -329,7 +348,7 @@ body {
 
 /* ─── Subtitle ─── */
 .awards-hero-subtitle {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 17px;
   font-weight: 300;
   color: rgba(255, 255, 255, 0.8);
@@ -400,7 +419,7 @@ body {
   border: 2px solid #027a7a;
   border-radius: 50px;
   color: #fff;
-  font-family: 'Oswald', sans-serif;
+  font-family: "Oswald", sans-serif;
   font-size: 13px;
   font-weight: 500;
   text-transform: uppercase;
@@ -412,7 +431,7 @@ body {
 }
 
 .awards-btn-primary::before {
-  content: '';
+  content: "";
   position: absolute;
   inset: 0;
   background: #ff7a47;
@@ -457,7 +476,7 @@ body {
   border: 2px solid rgba(255, 255, 255, 0.3);
   border-radius: 50px;
   color: #fff;
-  font-family: 'Oswald', sans-serif;
+  font-family: "Oswald", sans-serif;
   font-size: 13px;
   font-weight: 500;
   text-transform: uppercase;
@@ -469,7 +488,7 @@ body {
 }
 
 .awards-btn-outline::before {
-  content: '';
+  content: "";
   position: absolute;
   inset: 0;
   background: #004d4d;
@@ -516,7 +535,7 @@ body {
 }
 
 .awards-hero-vertical-text span {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 11px;
   font-weight: 400;
   color: rgba(255, 255, 255, 0.4);
@@ -561,12 +580,19 @@ body {
 }
 
 @keyframes awardsScrollWheel {
-  0%, 100% { opacity: 1; top: 8px; }
-  50% { opacity: 0.3; top: 18px; }
+  0%,
+  100% {
+    opacity: 1;
+    top: 8px;
+  }
+  50% {
+    opacity: 0.3;
+    top: 18px;
+  }
 }
 
 .awards-scroll-text {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 10px;
   font-weight: 500;
   color: rgba(255, 255, 255, 0.5);
@@ -587,8 +613,12 @@ body {
 }
 
 @keyframes awardsFadeIn {
-  from { opacity: 0; }
-  to { opacity: 1; }
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 /* ═══════════════════════════════════════════════════════════
@@ -760,8 +790,12 @@ body {
 }
 
 @keyframes certOverlayIn {
-  from { opacity: 0; }
-  to { opacity: 1; }
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 .cert-popup {
@@ -829,7 +863,7 @@ body {
 
 /* Decorative inner border */
 .cert-popup-image-area::before {
-  content: '';
+  content: "";
   position: absolute;
   inset: 8px;
   border: 1px solid rgba(0, 0, 0, 0.06);
@@ -950,7 +984,7 @@ body {
   border-radius: 30px;
   background: transparent;
   color: #4a5a5a;
-  font-family: 'Oswald', sans-serif;
+  font-family: "Oswald", sans-serif;
   font-size: 13px;
   font-weight: 500;
   text-transform: uppercase;
@@ -993,7 +1027,7 @@ body {
   background: rgba(0, 77, 77, 0.08);
   border: 1px solid rgba(0, 77, 77, 0.15);
   border-radius: 20px;
-  font-family: 'Oswald', sans-serif;
+  font-family: "Oswald", sans-serif;
   font-size: 12px;
   font-weight: 500;
   color: #004d4d;
@@ -1007,7 +1041,7 @@ body {
 }
 
 .awards-gallery-title {
-  font-family: 'Oswald', sans-serif;
+  font-family: "Oswald", sans-serif;
   font-size: 36px;
   font-weight: 700;
   color: #1a2a2a;
@@ -1022,7 +1056,7 @@ body {
 }
 
 .awards-gallery-subtitle {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 15px;
   font-weight: 400;
   color: #5a6a6a;
@@ -1092,7 +1126,7 @@ body {
   background: #fff;
   border: none;
   border-radius: 30px;
-  font-family: 'Oswald', sans-serif;
+  font-family: "Oswald", sans-serif;
   font-size: 13px;
   font-weight: 500;
   color: #1a2a2a;
@@ -1124,7 +1158,7 @@ body {
   z-index: 3;
   padding: 6px 16px;
   border-radius: 20px;
-  font-family: 'Oswald', sans-serif;
+  font-family: "Oswald", sans-serif;
   font-size: 12px;
   font-weight: 600;
   color: #fff;
@@ -1137,7 +1171,7 @@ body {
 }
 
 .gallery-award-name {
-  font-family: 'Oswald', sans-serif;
+  font-family: "Oswald", sans-serif;
   font-size: 20px;
   font-weight: 600;
   color: #1a2a2a;
@@ -1148,7 +1182,7 @@ body {
 }
 
 .gallery-award-desc {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 13px;
   font-weight: 400;
   color: #6a7a7a;
@@ -1167,7 +1201,7 @@ body {
   background: none;
   border: none;
   padding: 0;
-  font-family: 'Oswald', sans-serif;
+  font-family: "Oswald", sans-serif;
   font-size: 13px;
   font-weight: 500;
   text-transform: uppercase;
@@ -1178,7 +1212,7 @@ body {
 }
 
 .gallery-cert-link::after {
-  content: '';
+  content: "";
   position: absolute;
   bottom: -2px;
   left: 0;
@@ -1303,13 +1337,17 @@ body {
 }
 
 .awards-showcase::before {
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
   left: 0;
   right: 0;
   height: 200px;
-  background: linear-gradient(180deg, rgba(0, 77, 77, 0.03) 0%, transparent 100%);
+  background: linear-gradient(
+    180deg,
+    rgba(0, 77, 77, 0.03) 0%,
+    transparent 100%
+  );
   pointer-events: none;
 }
 
@@ -1326,7 +1364,7 @@ body {
   background: rgba(0, 77, 77, 0.08);
   border: 1px solid rgba(0, 77, 77, 0.15);
   border-radius: 20px;
-  font-family: 'Oswald', sans-serif;
+  font-family: "Oswald", sans-serif;
   font-size: 12px;
   font-weight: 500;
   color: #004d4d;
@@ -1336,7 +1374,7 @@ body {
 }
 
 .awards-section-title {
-  font-family: 'Oswald', sans-serif;
+  font-family: "Oswald", sans-serif;
   font-size: 48px;
   font-weight: 700;
   color: #004d4d;
@@ -1351,7 +1389,7 @@ body {
 }
 
 .awards-section-subtitle {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 16px;
   font-weight: 400;
   color: #5a6a6a;
@@ -1426,7 +1464,7 @@ body {
   z-index: 3;
   padding: 10px 20px;
   border-radius: 25px;
-  font-family: 'Oswald', sans-serif;
+  font-family: "Oswald", sans-serif;
   font-size: 14px;
   font-weight: 600;
   color: #fff;
@@ -1461,8 +1499,12 @@ body {
 }
 
 @keyframes rotateSlow {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
 
 /* ─── Award Content ─── */
@@ -1474,7 +1516,7 @@ body {
   display: inline-flex;
   align-items: center;
   gap: 8px;
-  font-family: 'Oswald', sans-serif;
+  font-family: "Oswald", sans-serif;
   font-size: 13px;
   font-weight: 500;
   text-transform: uppercase;
@@ -1487,10 +1529,10 @@ body {
 }
 
 .award-title {
-  font-family: 'Oswald', sans-serif;
+  font-family: "Oswald", sans-serif;
   font-size: 36px;
   font-weight: 700;
-  color:#004d4d ;
+  color: #004d4d;
   text-transform: uppercase;
   letter-spacing: 1px;
   line-height: 1.2;
@@ -1501,7 +1543,7 @@ body {
   display: flex;
   align-items: center;
   gap: 10px;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 14px;
   color: #5a6a6a;
   margin-bottom: 20px;
@@ -1514,7 +1556,7 @@ body {
 }
 
 .award-description {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 15px;
   color: #4a5a5a;
   line-height: 1.9;
@@ -1533,7 +1575,7 @@ body {
   display: flex;
   align-items: center;
   gap: 10px;
-  font-family: 'Oswald', sans-serif;
+  font-family: "Oswald", sans-serif;
   font-size: 16px;
   font-weight: 600;
   color: #1a2a2a;
@@ -1555,7 +1597,7 @@ body {
   display: flex;
   align-items: center;
   gap: 10px;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 14px;
   color: #4a5a5a;
 }
@@ -1590,7 +1632,7 @@ body {
   padding: 14px 28px;
   border-radius: 30px;
   color: #fff;
-  font-family: 'Oswald', sans-serif;
+  font-family: "Oswald", sans-serif;
   font-size: 13px;
   font-weight: 500;
   text-transform: uppercase;
@@ -1624,7 +1666,7 @@ body {
   border: 2px solid rgba(0, 0, 0, 0.1);
   border-radius: 30px;
   color: #4a5a5a;
-  font-family: 'Oswald', sans-serif;
+  font-family: "Oswald", sans-serif;
   font-size: 13px;
   font-weight: 500;
   text-transform: uppercase;
@@ -1658,7 +1700,7 @@ body {
 }
 
 .awards-stats::before {
-  content: '';
+  content: "";
   position: absolute;
   inset: 0;
   background: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='0.03'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
@@ -1705,7 +1747,7 @@ body {
 }
 
 .award-stat-number {
-  font-family: 'Oswald', sans-serif;
+  font-family: "Oswald", sans-serif;
   font-size: 36px;
   font-weight: 700;
   color: #fff;
@@ -1714,7 +1756,7 @@ body {
 }
 
 .award-stat-label {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 13px;
   font-weight: 400;
   color: rgba(255, 255, 255, 0.7);
@@ -1738,7 +1780,7 @@ body {
 }
 
 .awards-timeline-title {
-  font-family: 'Oswald', sans-serif;
+  font-family: "Oswald", sans-serif;
   font-size: 28px;
   font-weight: 600;
   color: #1a2a2a;
@@ -1757,13 +1799,19 @@ body {
 }
 
 .awards-timeline-track::before {
-  content: '';
+  content: "";
   position: absolute;
   top: 45px;
   left: 10%;
   right: 10%;
   height: 2px;
-  background: linear-gradient(90deg, transparent, #e0e5e3, #e0e5e3, transparent);
+  background: linear-gradient(
+    90deg,
+    transparent,
+    #e0e5e3,
+    #e0e5e3,
+    transparent
+  );
 }
 
 .timeline-item {
@@ -1777,7 +1825,7 @@ body {
 }
 
 .timeline-year {
-  font-family: 'Oswald', sans-serif;
+  font-family: "Oswald", sans-serif;
   font-size: 18px;
   font-weight: 600;
   color: #004d4d;
@@ -1800,7 +1848,7 @@ body {
 }
 
 .timeline-content {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 13px;
   font-weight: 500;
   color: #5a6a6a;
@@ -1940,7 +1988,6 @@ body {
   .timeline-year {
     font-size: 14px;
   }
-  
 }
 
 /* Toast message */
@@ -4845,7 +4892,7 @@ body {
   color: #666;
   font-weight: 300;
   margin-bottom: 14px;
-  margin-top:28px;
+  margin-top: 28px;
 }
 
 .about-agro-body p strong {
@@ -6473,7 +6520,7 @@ body {
   padding: 18px 20px;
   border-radius: 2px;
   margin-bottom: 24px;
-  margin-top:24px
+  margin-top: 24px;
 }
 
 .oversea-callout-icon {
@@ -8442,7 +8489,7 @@ body {
   padding-left: 22px;
   border-left: 3px solid #e0f2f2;
   margin-bottom: 8px;
-  margin-top:28px;
+  margin-top: 28px;
 }
 
 .director-open-quote {
@@ -9032,7 +9079,7 @@ body {
   flex-wrap: wrap;
   gap: 8px;
   margin-bottom: 28px;
-  margin-top:28px;
+  margin-top: 28px;
 }
 
 .hr-tag {
@@ -14816,10 +14863,19 @@ ul.footer-gallery li img {
                 Go Top
 =============================================*/
 
+#best-web-badge {
+  position: fixed;
+  bottom: 70px;
+  right: 15px;
+  z-index: 9999;
+  display: block;
+  line-height: 0;
+}
+
 #back-to-top {
   position: fixed;
-  bottom: 75px;
-  right: 40px;
+  bottom: 25px;
+  right: 50px;
   z-index: 999;
   width: 35px;
   height: 35px;
@@ -14929,7 +14985,6 @@ ul.footer-gallery li img {
   height: 90vh;
   background-color: #222225;
   min-height: 80vh;
-  
 }
 
 .hero-text-wrap {
@@ -16918,7 +16973,6 @@ form.register {
   }
 }
 
-
 /* =============================================
    Video Background Wrapper - Fit to Container
 ============================================= */
@@ -16960,4 +17014,3 @@ form.register {
   object-fit: cover;
   object-position: center;
 }
-
