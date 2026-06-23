@@ -1,42 +1,47 @@
+import React from "react";
 import { Link } from "react-router-dom";
 
 const BranchHeaderSection = () => {
   return (
-    <section className="pt-0 pb-0">
-      <div className="full-screen-bg">
-        <div className="parallax-img video-background-wrapper">
-          <video autoPlay muted loop playsInline className="bg-video">
-            <source
-              src="https://pub-8476bede5a4146e8b7731cfe515f1c3b.r2.dev/av-plantations/Website/Branch%20Network/9-1_tifudo.mp4"
-              type="video/mp4"
-            />
-          </video>
-          <div className="video-overlay" />
-        </div>
+    <section className="avp-hero">
+      <video className="avp-hero__video" autoPlay muted loop playsInline aria-hidden="true">
+        <source
+          src="https://pub-8476bede5a4146e8b7731cfe515f1c3b.r2.dev/av-plantations/Website/Branch%20Network/9-1_tifudo.mp4"
+          type="video/mp4"
+        />
+      </video>
+      <div className="avp-hero__scrim" aria-hidden="true" />
 
-        <div className="hero-text-wrap video-alpha">
-          <div className="hero-text white-color">
-            <div className="container text-center">
-              <h3 className="white-color oswald-font font-30px text-uppercase">
-                Our Extensive
-              </h3>
-              <h1 className="white-color oswald-font text-uppercase">
-                Branch Network
-              </h1>
-              <p className="text-center mt-30">
-                <Link to="/about-us" className="btn btn-color btn-circle">
-                  About Us
-                </Link>
-                <Link
-                  to="/our-plantations"
-                  className="btn btn-white btn-circle"
-                >
-                  Our Plantations
-                </Link>
-              </p>
-            </div>
-          </div>
-        </div>
+     
+      <div className="avp-hero__body">
+        <p className="avp-hero__kicker">
+          <span className="avp-hero__kicker-rule" aria-hidden="true" />
+          Our extensive
+        </p>
+
+        <h1 className="avp-hero__headline">
+          <span className="avp-hero__hl-solid">Branch</span>
+          <span className="avp-hero__hl-outline" aria-hidden="true">Network</span>
+          <span className="sr-only">Network</span>
+        </h1>
+
+       
+
+          <div className="hero-cta-wrap">
+                <a href="/about-us" className="hero-btn-primary">
+                  <span>About Us</span>
+                  <i className="fa fa-arrow-right hero-btn-icon" />
+                </a>
+                <a href="/contact-us" className="hero-btn-secondary">
+                  <span> Our Plantations</span>
+                </a>
+              </div>
+      </div>
+
+      <div className="avp-hero__sidetag" aria-label="Established 2005, Sri Lanka">
+        <p>Est. 2005</p>
+        <p>Sri Lanka</p>
+        <span className="avp-hero__side-rule" aria-hidden="true" />
       </div>
     </section>
   );

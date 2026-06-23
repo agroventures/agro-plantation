@@ -74,7 +74,9 @@ const HomeHeroSection = () => {
                 </a>
               </div>
             </div>
-          </div>
+          </div> 
+
+          
         </div>
 
         <div className="hero-scroll-indicator">

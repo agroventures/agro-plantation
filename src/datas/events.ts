@@ -4,7 +4,7 @@ export const eventsData = [
     title: "Agroventures Root and Rewards - 2026",
     date: "June 14, 2026",
     excerpt:
-      "From inspiring award presentations and special recognitions to celebrations shared among our valued...",
+      "From inspiring award presentations and special recognitions to ...",
     brief: `
       <p>Relive the memorable moments from Agro Ventures Roots & Rewards 2026.</p>
       <p>From inspiring award presentations and special recognitions to celebrations shared among our valued team members, partners, and investors, this gallery captures the spirit of excellence, achievement, and growth that defined the event.</p>

@@ -9,9 +9,9 @@ import "swiper/css/navigation";
 import "swiper/css/effect-fade";
 
 const slides = [
-    {
+  {
     image:
-      "https://pub-8476bede5a4146e8b7731cfe515f1c3b.r2.dev/av-plantations/Women%27s%20Day/1_mlk1vw.webp",
+      "https://pub-8476bede5a4146e8b7731cfe515f1c3b.r2.dev/av-plantations/Women%27s%20Day/women_rs6v5p.webp",
     eyebrow: "Sri Lanka Agriculture",
     titleLight: "Working Towards",
     titleBold: "A Brighter Future",
@@ -32,7 +32,7 @@ const slides = [
     btnSecondary: { label: "Our Plantation", to: "/our-plantations" },
     position: "center center",
   },
-  
+
   {
     image:
       "https://pub-8476bede5a4146e8b7731cfe515f1c3b.r2.dev/av-plantations/1%20Year%20of%20Growth/yg0_zrerqo.webp",
