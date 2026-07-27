@@ -77,27 +77,29 @@ const ContactUsSection = () => {
       </div>
 
       {/* Page Title Section */}
-      <section className="pt-0 pb-0">
-        <div className="full-screen-bg">
-          <div
-            className="parallax-img"
-            style={{
-              background:
-                "url(/images/paralax/paralax6.webp) center center / cover scroll no-repeat",
-            }}
-          />
-          <div className="hero-text-wrap video-alpha">
-            <div className="hero-text white-color">
-              <div className="container text-center">
-                <h1 className="white-color oswald-font text-uppercase">
-                  Contact Us
-                </h1>
-                <h3 className="white-color oswald-font font-30px text-uppercase">
-                  Connecting to The Agro ventures World
-                </h3>
-              </div>
-            </div>
+      <section className="ct-hero pt-0 pb-0">
+        <div
+          className="ct-hero__bg"
+          style={{ backgroundImage: "url(/images/paralax/paralax6.webp)" }}
+        />
+        <div className="ct-hero__overlay" />
+        <div className="ct-hero__body">
+          <div className="ct-hero__eyebrow">
+            <span className="ct-hero__eyebrow-line" />
+            <span className="ct-hero__eyebrow-text">Agroventures Plantations</span>
+            <span className="ct-hero__eyebrow-line" />
           </div>
+          <h1 className="ct-hero__title">Contact Us</h1>
+          <p className="ct-hero__sub">Connecting to The Agroventures World</p>
+          <div className="ct-hero__breadcrumb">
+            <a href="/" className="ct-hero__bc-link">Home</a>
+            <span className="ct-hero__bc-sep">&#8212;</span>
+            <span className="ct-hero__bc-cur">Contact</span>
+          </div>
+        </div>
+        <div className="ct-hero__side">
+          <span>Sri Lanka</span>
+          <span className="ct-hero__side-rule" />
         </div>
       </section>
 

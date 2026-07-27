@@ -84,13 +84,14 @@ body {
   position: relative;
   width: 100%;
   overflow: hidden;
+  
 }
 
 .awards-hero {
   position: relative;
   width: 100%;
-  height: 100vh;
-  min-height: 750px;
+  height: 75vh;
+  min-height: 560px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -641,8 +642,8 @@ body {
 
 @media (max-width: 991px) {
   .awards-hero {
-    height: 90vh;
-    min-height: 650px;
+    height: 68vh;
+    min-height: 480px;
   }
   .awards-title-main {
     font-size: 50px;
@@ -683,7 +684,7 @@ body {
 @media (max-width: 767px) {
   .awards-hero {
     height: 100svh;
-    min-height: 620px;
+    min-height: 480px;
   }
   .awards-hero-content {
     padding: 0 16px;
@@ -3159,6 +3160,240 @@ body {
    Branch Network Section
 ============================================= */
 
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+/* ── Shell ── */
+.avp-hero {
+  position: relative;
+  width: 100%;
+  min-height: 85vh;
+  overflow: hidden;
+  background: #0d1510;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  font-family: "Barlow Condensed", sans-serif;
+}
+
+/* ── Video ── */
+.avp-hero__video {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.35;
+}
+
+/* ── Scrim ── */
+.avp-hero__scrim {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    to top,
+    #0d1510 0%,
+    rgba(13, 21, 16, 0.72) 45%,
+    rgba(13, 21, 16, 0.15) 100%
+  );
+}
+
+/* ── Nav bar ── */
+.avp-hero__nav {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 28px 40px;
+  z-index: 2;
+}
+
+.avp-hero__logo {
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: 13px;
+  font-weight: 300;
+  letter-spacing: 0.22em;
+  color: rgba(255, 255, 255, 0.4);
+  text-transform: uppercase;
+}
+
+.avp-hero__crumb {
+  font-family: "Barlow", sans-serif;
+  font-size: 11px;
+  letter-spacing: 0.16em;
+  color: rgba(255, 255, 255, 0.28);
+  text-transform: uppercase;
+  display: flex;
+  gap: 10px;
+}
+
+.avp-hero__crumb span {
+  color: #5a8a3c;
+}
+
+/* ── Body content ── */
+.avp-hero__body {
+  position: relative;
+  padding: 0 40px 52px;
+  z-index: 2;
+}
+
+/* Kicker */
+.avp-hero__kicker {
+  font-family: "Barlow", sans-serif;
+  font-size: 11px;
+  font-weight: 300;
+  letter-spacing: 0.28em;
+  color: rgba(255, 255, 255, 0.38);
+  text-transform: uppercase;
+  margin-bottom: 18px;
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.avp-hero__kicker-rule {
+  display: inline-block;
+  width: 28px;
+  height: 1px;
+  background: rgba(255, 255, 255, 0.18);
+  flex-shrink: 0;
+}
+
+/* Headline */
+.avp-hero__headline {
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: clamp(50px, 9vw, 86px);
+  line-height: 1.5;
+  text-transform: uppercase;
+  margin-bottom: 36px;
+  
+}
+
+.avp-hero__hl-solid {
+  display: block;
+  font-weight: 700;
+  color: #fff;
+  letter-spacing: 0.02em;
+  margin-bottom: 12px;
+}
+
+.avp-hero__hl-outline {
+  display: block;
+  font-weight: 700;
+  color: transparent;
+  letter-spacing: 0.03em;
+  -webkit-text-stroke: 1.5px #5a8a3c;
+}
+
+/* ── CTA buttons ── */
+.avp-hero__actions {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.avp-hero__btn-primary {
+  display: inline-flex;
+  align-items: center;
+  font-family: "Barlow", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: #fff;
+  text-decoration: none;
+  padding: 13px 26px;
+  background: #2e5e1e;
+  border: 1px solid #2e5e1e;
+  border-radius: 2px;
+  transition: background 0.18s;
+}
+
+.avp-hero__btn-primary:hover {
+  background: #3a7426;
+  border-color: #3a7426;
+  color: #fff;
+}
+
+.avp-hero__btn-ghost {
+  display: inline-flex;
+  align-items: center;
+  font-family: "Barlow", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.65);
+  text-decoration: none;
+  padding: 13px 26px;
+  background: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: 2px;
+  transition: border-color 0.18s, color 0.18s;
+}
+
+.avp-hero__btn-ghost:hover {
+  border-color: rgba(90, 138, 60, 0.5);
+  color: rgba(255, 255, 255, 0.9);
+}
+
+/* ── Side tag ── */
+.avp-hero__sidetag {
+  position: absolute;
+  right: 40px;
+  bottom: 52px;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 5px;
+}
+
+.avp-hero__sidetag p {
+  font-family: "Barlow", sans-serif;
+  font-size: 10px;
+  font-weight: 300;
+  letter-spacing: 0.22em;
+  color: rgba(255, 255, 255, 0.24);
+  text-transform: uppercase;
+}
+
+.avp-hero__side-rule {
+  display: block;
+  width: 1px;
+  height: 36px;
+  background: rgba(255, 255, 255, 0.1);
+  margin-top: 4px;
+  align-self: flex-end;
+}
+
+/* ── Responsive ── */
+@media (max-width: 576px) {
+  .avp-hero__nav,
+  .avp-hero__body {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+  .avp-hero__sidetag {
+    display: none;
+  }
+}
+
 /* ─── Section wrapper ─── */
 .branch-section {
   background: #f1f1f1;
@@ -3896,6 +4131,228 @@ body {
 /* =============================================
    Our Plantations — Who We Section
 ============================================= */
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+.avp-hero {
+  position: relative;
+  width: 100%;
+  min-height: 85vh;
+  overflow: hidden;
+  background: #0d1510;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  font-family: "Barlow Condensed", sans-serif;
+}
+
+.avp-hero__video {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.35;
+}
+
+.avp-hero__scrim {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    to top,
+    #0d1510 0%,
+    rgba(13, 21, 16, 0.72) 45%,
+    rgba(13, 21, 16, 0.15) 100%
+  );
+}
+
+.avp-hero__nav {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 28px 40px;
+  z-index: 2;
+}
+
+.avp-hero__logo {
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: 13px;
+  font-weight: 300;
+  letter-spacing: 0.22em;
+  color: rgba(255, 255, 255, 0.4);
+  text-transform: uppercase;
+}
+
+.avp-hero__crumb {
+  font-family: "Barlow", sans-serif;
+  font-size: 11px;
+  letter-spacing: 0.16em;
+  color: rgba(255, 255, 255, 0.28);
+  text-transform: uppercase;
+  display: flex;
+  gap: 10px;
+}
+
+.avp-hero__crumb span {
+  color: #5a8a3c;
+}
+
+.avp-hero__body {
+  position: relative;
+  padding: 0 40px 52px;
+  z-index: 2;
+}
+
+.avp-hero__kicker {
+  font-family: "Barlow", sans-serif;
+  font-size: 11px;
+  font-weight: 300;
+  letter-spacing: 0.28em;
+  color: rgba(255, 255, 255, 0.38);
+  text-transform: uppercase;
+  margin-bottom: 18px;
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.avp-hero__kicker-rule {
+  display: inline-block;
+  width: 28px;
+  height: 1px;
+  background: rgba(255, 255, 255, 0.18);
+  flex-shrink: 0;
+}
+
+.avp-hero__headline {
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: clamp(50px, 9vw, 86px);
+  line-height: 0.95;
+  text-transform: uppercase;
+  margin-bottom: 36px;
+}
+
+.avp-hero__hl-solid {
+  display: block;
+  font-weight: 700;
+  color: #fff;
+  letter-spacing: 0.02em;
+  margin-bottom: 12px;
+}
+
+.avp-hero__hl-outline {
+  display: block;
+  font-weight: 700;
+  color: transparent;
+  letter-spacing: 0.03em;
+  -webkit-text-stroke: 1.5px #5a8a3c;
+}
+
+.avp-hero__actions {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.avp-hero__btn-ghost {
+  display: inline-flex;
+  align-items: center;
+  font-family: "Barlow", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.65);
+  text-decoration: none;
+  padding: 13px 26px;
+  background: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: 2px;
+  transition: border-color 0.18s, color 0.18s;
+}
+
+.avp-hero__btn-ghost:hover {
+  border-color: rgba(90, 138, 60, 0.5);
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.avp-hero__btn-primary {
+  display: inline-flex;
+  align-items: center;
+  font-family: "Barlow", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: #fff;
+  text-decoration: none;
+  padding: 13px 26px;
+  background: #2e5e1e;
+  border: 1px solid #2e5e1e;
+  border-radius: 2px;
+  transition: background 0.18s, border-color 0.18s;
+}
+
+.avp-hero__btn-primary:hover {
+  background: #3a7426;
+  border-color: #3a7426;
+  color: #fff;
+}
+
+.avp-hero__sidetag {
+  position: absolute;
+  right: 40px;
+  bottom: 52px;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 5px;
+}
+
+.avp-hero__sidetag p {
+  font-family: "Barlow", sans-serif;
+  font-size: 10px;
+  font-weight: 300;
+  letter-spacing: 0.22em;
+  color: rgba(255, 255, 255, 0.24);
+  text-transform: uppercase;
+}
+
+.avp-hero__side-rule {
+  display: block;
+  width: 1px;
+  height: 36px;
+  background: rgba(255, 255, 255, 0.1);
+  margin-top: 4px;
+  align-self: flex-end;
+}
+
+@media (max-width: 576px) {
+  .avp-hero__nav,
+  .avp-hero__body {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+  .avp-hero__sidetag {
+    display: none;
+  }
+}
 
 /* ─── Section wrapper ─── */
 .plantation-who-section {
@@ -4808,6 +5265,240 @@ body {
 /* =============================================
    About Agro Section — Who We Are
 ============================================= */
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+.avp-hero {
+  position: relative;
+  width: 100%;
+  min-height: 85vh;
+  overflow: hidden;
+  background: #0d1510;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.avp-hero__video {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.5;
+}
+
+.avp-hero__scrim {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    to right,
+    #0d1510 0%,
+    rgba(13, 21, 16, 0.72) 40%,
+    rgba(13, 21, 16, 0.18) 100%
+  );
+}
+
+.avp-hero__nav {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 28px 40px;
+  z-index: 2;
+}
+
+.avp-hero__logo {
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: 13px;
+  font-weight: 300;
+  letter-spacing: 0.22em;
+  color: rgba(255, 255, 255, 0.45);
+  text-transform: uppercase;
+}
+
+.avp-hero__crumb {
+  font-family: "Barlow", sans-serif;
+  font-size: 11px;
+  letter-spacing: 0.16em;
+  color: rgba(255, 255, 255, 0.28);
+  text-transform: uppercase;
+  display: flex;
+  gap: 10px;
+}
+
+.avp-hero__crumb span {
+  color: #027a7a;
+}
+
+.avp-hero__body {
+  position: relative;
+  padding: 0 40px 52px;
+  z-index: 2;
+}
+
+.avp-hero__kicker {
+  font-family: "Barlow", sans-serif;
+  font-size: 11px;
+  font-weight: 300;
+  letter-spacing: 0.28em;
+  color: rgba(255, 255, 255, 0.38);
+  text-transform: uppercase;
+  margin-bottom: 22px;
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.avp-hero__kicker-rule {
+  display: inline-block;
+  width: 28px;
+  height: 1px;
+  background: rgba(255, 255, 255, 0.18);
+  flex-shrink: 0;
+}
+
+.avp-hero__headline {
+  font-family: "Oswald", sans-serif;
+  font-size: clamp(52px, 9vw, 88px);
+  line-height: 0.95;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin-bottom: 36px;
+  max-width: 100%;
+}
+
+.avp-hero__hl-solid {
+  display: block;
+  font-weight: 700;
+  color: #fff;
+  letter-spacing: 0.02em;
+}
+
+.avp-hero__hl-outline {
+  display: block;
+  font-weight: 700;
+  color: transparent;
+  letter-spacing: 0.03em;
+  -webkit-text-stroke: 2px #027a7a;
+}
+
+.avp-hero__actions {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  flex-wrap: wrap;
+}
+
+.avp-hero__btn-watch {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  font-family: "Barlow", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: #fff;
+  text-decoration: none;
+  padding: 14px 26px 14px 18px;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: 2px;
+  transition: border-color 0.18s;
+}
+
+.avp-hero__btn-watch:hover {
+  border-color: #004d4d;
+  color: #fff;
+}
+
+.avp-hero__dot-ring {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  border: 1px solid rgba(2, 122, 122, 0.55);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.avp-hero__dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #027a7a;
+  margin-left: 2px;
+}
+
+.avp-hero__btn-link {
+  font-family: "Barlow", sans-serif;
+  font-size: 12px;
+  font-weight: 300;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.38);
+  text-decoration: none;
+  padding-bottom: 2px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+  transition: color 0.18s, border-color 0.18s;
+}
+
+.avp-hero__btn-link:hover {
+  color: rgba(255, 255, 255, 0.7);
+  border-color: rgba(255, 255, 255, 0.3);
+}
+
+.avp-hero__sidetag {
+  position: absolute;
+  right: 40px;
+  bottom: 52px;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 5px;
+}
+
+.avp-hero__sidetag p {
+  font-family: "Barlow", sans-serif;
+  font-size: 10px;
+  font-weight: 300;
+  letter-spacing: 0.22em;
+  color: rgba(255, 255, 255, 0.25);
+  text-transform: uppercase;
+}
+
+.avp-hero__side-rule {
+  display: block;
+  width: 1px;
+  height: 36px;
+  background: rgba(255, 255, 255, 0.1);
+  margin-top: 4px;
+  align-self: flex-end;
+}
+
+@media (max-width: 576px) {
+  .avp-hero__nav,
+  .avp-hero__body { padding-left: 20px; padding-right: 20px; }
+  .avp-hero__sidetag { display: none; }
+  .avp-hero__headline { font-size: clamp(28px, 10vw, 44px); }
+  .hero-title-line1,
+  .avp-hero__hl-outline { display: block; max-width: 100%; }
+}
 
 /* ─── Section wrapper ─── */
 .about-agro-section {
@@ -17013,4 +17704,214 @@ form.register {
   height: 100%;
   object-fit: cover;
   object-position: center;
+}
+
+/* ═══════════════════════════════════════════════════════════
+   CONTACT HERO — Page Title Section
+═══════════════════════════════════════════════════════════ */
+.ct-hero {
+  position: relative;
+  width: 100%;
+  height: 62vh;
+  min-height: 420px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  background: #0d1510;
+}
+
+.ct-hero__bg {
+  position: absolute;
+  inset: 0;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: 0.45;
+  transform: scale(1.04);
+  transition: transform 8s ease;
+}
+
+.ct-hero:hover .ct-hero__bg {
+  transform: scale(1);
+}
+
+.ct-hero__overlay {
+  position: absolute;
+  inset: 0;
+  background:
+    linear-gradient(to bottom, rgba(0,20,15,0.55) 0%, rgba(0,40,30,0.72) 100%),
+    linear-gradient(to right, rgba(0,77,77,0.45) 0%, transparent 60%);
+}
+
+/* ── Body ── */
+.ct-hero__body {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 0 24px;
+}
+
+/* ── Eyebrow ── */
+.ct-hero__eyebrow {
+  display: inline-flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 20px;
+}
+
+.ct-hero__eyebrow-line {
+  display: block;
+  width: 40px;
+  height: 1px;
+  background: rgba(148, 223, 166, 0.5);
+  flex-shrink: 0;
+}
+
+.ct-hero__eyebrow-text {
+  font-family: "Oswald", sans-serif;
+  font-size: 11px;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  color: #027a7a;
+  white-space: nowrap;
+}
+
+/* ── Title ── */
+.ct-hero__title {
+  font-family: "Oswald", sans-serif;
+  font-size: clamp(48px, 8vw, 88px);
+  font-weight: 700;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  line-height: 1;
+  margin: 0 0 16px;
+  /* outline style on second word via gradient text is not needed — solid white */
+}
+
+/* ── Sub ── */
+.ct-hero__sub {
+  font-family: "Inter", sans-serif;
+  font-size: 15px;
+  font-weight: 300;
+  color: rgba(255,255,255,0.6);
+  letter-spacing: 0.5px;
+  margin: 0 0 28px;
+}
+
+/* ── Breadcrumb ── */
+.ct-hero__breadcrumb {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  padding: 8px 22px;
+  background: rgba(255,255,255,0.06);
+  border: 1px solid rgba(255,255,255,0.12);
+  border-radius: 30px;
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+}
+
+.ct-hero__bc-link {
+  font-family: "Oswald", sans-serif;
+  font-size: 11px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: rgba(255,255,255,0.5);
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.ct-hero__bc-link:hover {
+  color: #027a7a;
+  text-decoration: none;
+}
+
+.ct-hero__bc-sep {
+  color: rgba(255,255,255,0.2);
+  font-size: 12px;
+}
+
+.ct-hero__bc-cur {
+  font-family: "Oswald", sans-serif;
+  font-size: 11px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #027a7a;
+}
+
+/* ── Side tag ── */
+.ct-hero__side {
+  position: absolute;
+  right: 40px;
+  bottom: 40px;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 6px;
+}
+
+.ct-hero__side span {
+  font-family: "Oswald", sans-serif;
+  font-size: 10px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: rgba(255,255,255,0.25);
+}
+
+.ct-hero__side-rule {
+  display: block !important;
+  width: 1px !important;
+  height: 36px !important;
+  background: rgba(255,255,255,0.12) !important;
+  align-self: flex-end;
+}
+
+/* ── Bottom accent line ── */
+.ct-hero::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: linear-gradient(to right, transparent, #004d4d, #06a8a8, transparent);
+  z-index: 3;
+}
+
+/* ── Responsive ── */
+@media (max-width: 767px) {
+  .ct-hero {
+    height: 52vh;
+    min-height: 340px;
+  }
+  .ct-hero__title {
+    font-size: clamp(36px, 10vw, 52px);
+  }
+  .ct-hero__sub {
+    font-size: 13px;
+  }
+  .ct-hero__side {
+    display: none;
+  }
+  .ct-hero__eyebrow-line {
+    width: 24px;
+  }
+}
+
+@media (max-width: 480px) {
+  .ct-hero {
+    min-height: 300px;
+  }
+  .ct-hero__title {
+    font-size: clamp(30px, 11vw, 44px);
+  }
+  .ct-hero__breadcrumb {
+    padding: 6px 16px;
+  }
 }

@@ -12,7 +12,6 @@ function App() {
       <Header />
       <AppRoutes />
       <Footer />
-    
       {/* Back to top */}
       <a href="#" id="back-to-top" title="Back to top">
         &uarr;
