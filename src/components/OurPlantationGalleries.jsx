@@ -2,45 +2,150 @@ import { useState } from "react";
 import PlantationGalleryItem from "./PlantationGalleryItem";
 
 const galleryImages = [
-  { src: "/images/plantation/p1.webp",  alt: "Udasgiriya Estate",       title: "Udasgiriya Estate",       contacts: [{ name: "Kumarasinghe",    phone: "076 855 4859" }],                                                  groups: ["all", "udasgiriya"] },
-  { src: "/images/plantation/p2.webp",  alt: "Kawatayamuna Estate",      title: "Kawatayamuna Estate",      contacts: [{ name: "Thisara Rovindra", phone: "076 306 6624" }, { name: "Anupama",     phone: "071 094 8653" }], groups: ["all", "kawatayamuna"] },
-  { src: "/images/plantation/p3.webp",  alt: "Dombawela Estate",         title: "Dombawela Estate",         contacts: [{ name: "Pasindu",          phone: "077 136 7831" }],                                                  groups: ["all", "dombawela"] },
-  { src: "/images/plantation/p4.webp",  alt: "Pathingaskotuwa Estate",   title: "Pathingaskotuwa Estate",   contacts: [{ name: "Thilakasiri",      phone: "076 389 1783" }],                                                  groups: ["all", "pathingaskotuwa"] },
-  { src: "/images/plantation/p5.webp",  alt: "Selagama Estate",          title: "Selagama Estate",          contacts: [{ name: "Sanjeewa",         phone: "070 424 4224" }],                                                  groups: ["all", "selagama"] },
-  { src: "/images/plantation/p6.webp",  alt: "Rusigama Estate",          title: "Rusigama Estate",          contacts: [{ name: "Chaminda",         phone: "074 117 4383" }, { name: "Avishka",     phone: "077 451 4074" }], groups: ["all", "rusigama"] },
-  { src: "/images/plantation/p7.webp",  alt: "Medalanda Estate",         title: "Medalanda Estate",         contacts: [{ name: "Chathura",         phone: "076 153 8453" }],                                                  groups: ["all", "medalanda"] },
-  { src: "/images/plantation/p8.webp",  alt: "Kanupelella Estate",       title: "Kanupelella Estate",       contacts: [{ name: "Tharindu",         phone: "076 033 3028" }, { name: "Shehan",      phone: "075 793 1284" }], groups: ["all", "kanupelella"] },
-  { src: "/images/plantation/p9.webp",  alt: "Nawaland Estate",          title: "Nawaland Estate",          contacts: [{ name: "Shahuka",          phone: "076 847 5668" }, { name: "Layanal",     phone: "076 636 4565" }], groups: ["all", "nawaland"] },
-  { src: "/images/plantation/p10.webp", alt: "Udugama Estate",           title: "Udugama Estate",           contacts: [{ name: "Laksha",           phone: "078 827 0735" }, { name: "Chamara",     phone: "075 944 4725" }], groups: ["all", "udugama"] },
-  { src: "/images/plantation/p11.webp", alt: "Kosgolla Estate",          title: "Kosgolla Estate",          contacts: [{ name: "Aroshanan",        phone: "071 766 0847" }, { name: "Sunil",       phone: "077 979 8834" }], groups: ["all", "kosgolla"] },
-  { src: "/images/plantation/p12.webp", alt: "Grasmere Estate",          title: "Grasmere Estate",          contacts: [{ name: "Nalin",            phone: "071 915 8622" }, { name: "Matheesha",   phone: "074 207 0625" }], groups: ["all", "grasmere"] },
-  { src: "/images/plantation/p13.webp", alt: "Welangahawatta Estate",    title: "Welangahawatta Estate",    contacts: [{ name: "Kelum",            phone: "075 368 8800" }],                                                  groups: ["all", "welangahawatta"] },
-  { src: "/images/plantation/p14.webp", alt: "Kothmale Estate",          title: "Kothmale Estate",          contacts: [{ name: "Wikramarachchi",   phone: "077 843 0012" }],                                                  groups: ["all", "kothmale"] },
-  { src: "/images/plantation/p15.webp", alt: "Udasgiriya Estate",        title: "Udasgiriya Estate",        contacts: [{ name: "Kumarasinghe",     phone: "076 855 4859" }],                                                  groups: ["all", "udasgiriya"] },
-  { src: "/images/plantation/p16.webp", alt: "Kawatayamuna Estate",      title: "Kawatayamuna Estate",      contacts: [{ name: "Thisara Rovindra", phone: "076 306 6624" }, { name: "Anupama",     phone: "071 094 8653" }], groups: ["all", "kawatayamuna"] },
-  { src: "/images/plantation/p17.webp", alt: "Dombawela Estate",         title: "Dombawela Estate",         contacts: [{ name: "Pasindu",          phone: "077 136 7831" }],                                                  groups: ["all", "dombawela"] },
-  { src: "/images/plantation/p18.webp", alt: "Pathingaskotuwa Estate",   title: "Pathingaskotuwa Estate",   contacts: [{ name: "Thilakasiri",      phone: "076 389 1783" }],                                                  groups: ["all", "pathingaskotuwa"] },
-  { src: "/images/plantation/p19.webp", alt: "Selagama Estate",          title: "Selagama Estate",          contacts: [{ name: "Sanjeewa",         phone: "070 424 4224" }],                                                  groups: ["all", "selagama"] },
-  { src: "/images/plantation/p20.webp", alt: "Rusigama Estate",          title: "Rusigama Estate",          contacts: [{ name: "Chaminda",         phone: "074 117 4383" }, { name: "Avishka",     phone: "077 451 4074" }], groups: ["all", "rusigama"] },
-  { src: "/images/plantation/p21.webp", alt: "Medalanda Estate",         title: "Medalanda Estate",         contacts: [{ name: "Chathura",         phone: "076 153 8453" }],                                                  groups: ["all", "medalanda"] },
+  {
+    src: "/images/plantation/BHA01910.webp",
+    alt: "Udasgiriya Estate",
+    title: "Udasgiriya Estate",
+    contacts: [{ name: "Kumarasinghe", phone: "076 855 4859" }],
+    groups: ["all", "udasgiriya"],
+  },
+  {
+    src: "/images/plantation/BHA01993.webp",
+    alt: "Kawatayamuna Estate",
+    title: "Kawatayamuna Estate",
+    contacts: [
+      { name: "Thisara Rovindra", phone: "076 306 6624" },
+      { name: "Anupama", phone: "071 094 8653" },
+    ],
+    groups: ["all", "kawatayamuna"],
+  },
+  {
+    src: "/images/plantation/BHA02055.webp",
+    alt: "Dombawela Estate",
+    title: "Dombawela Estate",
+    contacts: [{ name: "Pasindu", phone: "077 136 7831" }],
+    groups: ["all", "dombawela"],
+  },
+  {
+    src: "/images/plantation/BHA02118.webp",
+    alt: "Pathingaskotuwa Estate",
+    title: "Pathingaskotuwa Estate",
+    contacts: [{ name: "Thilakasiri", phone: "076 389 1783" }],
+    groups: ["all", "pathingaskotuwa"],
+  },
+  {
+    src: "/images/plantation/BHA02193.webp",
+    alt: "Selagama Estate",
+    title: "Selagama Estate",
+    contacts: [{ name: "Sanjeewa", phone: "070 424 4224" }],
+    groups: ["all", "selagama"],
+  },
+  {
+    src: "/images/plantation/BHA02236.webp",
+    alt: "Rusigama Estate",
+    title: "Rusigama Estate",
+    contacts: [
+      { name: "Chaminda", phone: "074 117 4383" },
+      { name: "Avishka", phone: "077 451 4074" },
+    ],
+    groups: ["all", "rusigama"],
+  },
+  {
+    src: "/images/plantation/BHA02352.webp",
+    alt: "Medalanda Estate",
+    title: "Medalanda Estate",
+    contacts: [{ name: "Chathura", phone: "076 153 8453" }],
+    groups: ["all", "medalanda"],
+  },
+  {
+    src: "/images/plantation/BHA02486.webp",
+    alt: "Kanupelella Estate",
+    title: "Kanupelella Estate",
+    contacts: [
+      { name: "Tharindu", phone: "076 033 3028" },
+      { name: "Shehan", phone: "075 793 1284" },
+    ],
+    groups: ["all", "kanupelella"],
+  },
+  {
+    src: "/images/plantation/BHA02515.webp",
+    alt: "Nawaland Estate",
+    title: "Nawaland Estate",
+    contacts: [
+      { name: "Shahuka", phone: "076 847 5668" },
+      { name: "Layanal", phone: "076 636 4565" },
+    ],
+    groups: ["all", "nawaland"],
+  },
+  {
+    src: "/images/plantation/BHA02587.webp",
+    alt: "Udugama Estate",
+    title: "Udugama Estate",
+    contacts: [
+      { name: "Laksha", phone: "078 827 0735" },
+      { name: "Chamara", phone: "075 944 4725" },
+    ],
+    groups: ["all", "udugama"],
+  },
+  {
+    src: "/images/plantation/BHA02676.webp",
+    alt: "Kosgolla Estate",
+    title: "Kosgolla Estate",
+    contacts: [
+      { name: "Aroshanan", phone: "071 766 0847" },
+      { name: "Sunil", phone: "077 979 8834" },
+    ],
+    groups: ["all", "kosgolla"],
+  },
+  {
+    src: "/images/plantation/BHA02719.webp",
+    alt: "Grasmere Estate",
+    title: "Grasmere Estate",
+    contacts: [
+      { name: "Nalin", phone: "071 915 8622" },
+      { name: "Matheesha", phone: "074 207 0625" },
+    ],
+    groups: ["all", "grasmere"],
+  },
+  {
+    src: "/images/plantation/BHA02811.webp",
+    alt: "Welangahawatta Estate",
+    title: "Welangahawatta Estate",
+    contacts: [{ name: "Kelum", phone: "075 368 8800" }],
+    groups: ["all", "welangahawatta"],
+  },
+  {
+    src: "/images/plantation/BHA02957.webp",
+    alt: "Kothmale Estate",
+    title: "Kothmale Estate",
+    contacts: [{ name: "Wikramarachchi", phone: "077 843 0012" }],
+    groups: ["all", "kothmale"],
+  },
+  {
+    src: "/images/plantation/BHA03371.webp",
+    alt: "Udasgiriya Estate",
+    title: "Udasgiriya Estate",
+    contacts: [{ name: "Kumarasinghe", phone: "076 855 4859" }],
+    groups: ["all", "udasgiriya"],
+  },
 ];
 
 const filterTabs = [
-  { group: "all",             label: "All Estates" },
-  { group: "udasgiriya",      label: "Udasgiriya" },
-  { group: "kawatayamuna",    label: "Kawatayamuna" },
-  { group: "dombawela",       label: "Dombawela" },
+  { group: "all", label: "All Estates" },
+  { group: "udasgiriya", label: "Udasgiriya" },
+  { group: "kawatayamuna", label: "Kawatayamuna" },
+  { group: "dombawela", label: "Dombawela" },
   { group: "pathingaskotuwa", label: "Pathingaskotuwa" },
-  { group: "selagama",        label: "Selagama" },
-  { group: "rusigama",        label: "Rusigama" },
-  { group: "medalanda",       label: "Medalanda" },
-  { group: "kanupelella",     label: "Kanupelella" },
-  { group: "nawaland",        label: "Nawaland" },
-  { group: "udugama",         label: "Udugama" },
-  { group: "kosgolla",        label: "Kosgolla" },
-  { group: "grasmere",        label: "Grasmere" },
-  { group: "welangahawatta",  label: "Welangahawatta" },
-  { group: "kothmale",        label: "Kothmale" },
+  { group: "selagama", label: "Selagama" },
+  { group: "rusigama", label: "Rusigama" },
+  { group: "medalanda", label: "Medalanda" },
+  { group: "kanupelella", label: "Kanupelella" },
+  { group: "nawaland", label: "Nawaland" },
+  { group: "udugama", label: "Udugama" },
+  { group: "kosgolla", label: "Kosgolla" },
+  { group: "grasmere", label: "Grasmere" },
+  { group: "welangahawatta", label: "Welangahawatta" },
+  { group: "kothmale", label: "Kothmale" },
 ];
 
 const getContactsForGroup = (group) => {
@@ -64,7 +169,8 @@ const OurPlantationGalleries = () => {
   const [activeGroup, setActiveGroup] = useState("all");
 
   const activeContacts = getContactsForGroup(activeGroup);
-  const activeLabel = filterTabs.find((t) => t.group === activeGroup)?.label || "";
+  const activeLabel =
+    filterTabs.find((t) => t.group === activeGroup)?.label || "";
   const filteredImages =
     activeGroup === "all"
       ? galleryImages
@@ -72,22 +178,23 @@ const OurPlantationGalleries = () => {
 
   return (
     <section className="gallery-section">
-
       <div className="container">
-
         {/* ── Heading ── */}
         <div className="gallery-heading">
           <div className="gallery-eyebrow">
             <span className="gallery-eyebrow-dot" />
-            <span className="gallery-eyebrow-text">Agroventures Plantations</span>
+            <span className="gallery-eyebrow-text">
+              Agroventures Plantations
+            </span>
           </div>
           <h2 className="gallery-title">
             Our Plantation
             <span className="gallery-title-accent"> Galleries</span>
           </h2>
-            <img src="/images/divider.png" alt="divider" /> {""}
+          <img src="/images/divider.png" alt="divider" /> {""}
           <p className="gallery-subtitle">
-            Explore our estates across Sri Lanka - {galleryImages.length} images across {filterTabs.length - 1} estates.
+            Explore our estates across Sri Lanka - {galleryImages.length} images
+            across {filterTabs.length - 1} estates.
           </p>
         </div>
 
@@ -115,7 +222,6 @@ const OurPlantationGalleries = () => {
         {/* ── Contact banner ── */}
         {activeGroup !== "all" && activeContacts.length > 0 && (
           <div className="gallery-contact-banner">
-
             {/* Estate name */}
             <div className="gallery-contact-estate">
               <div className="gallery-contact-estate-icon">
@@ -147,13 +253,15 @@ const OurPlantationGalleries = () => {
                 </div>
               ))}
             </div>
-
           </div>
         )}
 
         {/* ── Gallery grid ── */}
         <div className="gallery-grid-wrap">
-          <ul id="portfolio-grid" className="gallery-grid three-column hover-two">
+          <ul
+            id="portfolio-grid"
+            className="gallery-grid three-column hover-two"
+          >
             {filteredImages.map((image, index) => (
               <PlantationGalleryItem
                 key={`${image.src}-${index}`}
@@ -173,7 +281,6 @@ const OurPlantationGalleries = () => {
             <p>No images found for this estate.</p>
           </div>
         )}
-
       </div>
     </section>
   );
