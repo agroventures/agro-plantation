@@ -2,7 +2,7 @@ export const eventsData = [
   {
     id: 18,
     title: "The National Marketing Congress 2026",
-    date: "June 14, 2026",
+    date: "July 10, 2026",
     excerpt:
       "A historic milestone for Agroventures plantations as we ...",
     brief: `
