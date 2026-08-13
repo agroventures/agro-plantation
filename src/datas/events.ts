@@ -1,5 +1,31 @@
 export const eventsData = [
   {
+    id: 18,
+    title: "The National Marketing Congress 2026",
+    date: "June 14, 2026",
+    excerpt:
+      "A historic milestone for Agroventures plantations as we ...",
+    brief: `
+      <p>A historic milestone for Agroventures plantations as we concluded our first sales conference at The Grand Monarch Hotel. The entire session was masterfully steered by our Chairman, Mr. Nilanga Karunaratne.</p>
+      <p>His profound industry expertise and invaluable sales training served as a powerful source of motivation, leaving the team inspired and deeply driven. Armed with strategic insights and a unified vision, our sales force is now stronger, sharper, and fully equipped to lead the industry and conquer future challenges.</p>
+    `,
+    images: [
+      "https://pub-8476bede5a4146e8b7731cfe515f1c3b.r2.dev/av-plantations/Marketing%20Congress/1.webp",
+      "https://pub-8476bede5a4146e8b7731cfe515f1c3b.r2.dev/av-plantations/Marketing%20Congress/2.webp",
+      "https://pub-8476bede5a4146e8b7731cfe515f1c3b.r2.dev/av-plantations/Marketing%20Congress/3.webp",
+      "https://pub-8476bede5a4146e8b7731cfe515f1c3b.r2.dev/av-plantations/Marketing%20Congress/4.webp",
+      "https://pub-8476bede5a4146e8b7731cfe515f1c3b.r2.dev/av-plantations/Marketing%20Congress/5.webp",
+      "https://pub-8476bede5a4146e8b7731cfe515f1c3b.r2.dev/av-plantations/Marketing%20Congress/6.webp",
+      "https://pub-8476bede5a4146e8b7731cfe515f1c3b.r2.dev/av-plantations/Marketing%20Congress/7.webp",
+      "https://pub-8476bede5a4146e8b7731cfe515f1c3b.r2.dev/av-plantations/Marketing%20Congress/8.webp",
+      "https://pub-8476bede5a4146e8b7731cfe515f1c3b.r2.dev/av-plantations/Marketing%20Congress/9.webp",
+      "https://pub-8476bede5a4146e8b7731cfe515f1c3b.r2.dev/av-plantations/Marketing%20Congress/10.webp",
+      "https://pub-8476bede5a4146e8b7731cfe515f1c3b.r2.dev/av-plantations/Marketing%20Congress/11.webp"
+    ],
+    facebookLink:
+      "https://www.facebook.com/share/p/1BUmfh9ovr/",
+  },
+  {
     id: 17,
     title: "Agroventures Root and Rewards - 2026",
     date: "June 14, 2026",
