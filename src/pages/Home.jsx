@@ -29,7 +29,7 @@ const Home = () => {
       <OurMainSection />
       <OverseaSection />
       <WhyChooseSection />
-      <OurTrustedPartnerSection />
+      {/* <OurTrustedPartnerSection /> */}
       <OurBrandsSection />
       {showPopup && <WelcomePopup onClose={() => setShowPopup(false)} />}
     </>
