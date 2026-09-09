@@ -1712,7 +1712,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 30px;
+  gap: 90px;
   flex-wrap: wrap;
   position: relative;
   z-index: 1;
@@ -1947,7 +1947,7 @@ body {
   }
   .awards-stats {
     margin-top: 60px;
-    padding: 40px 20px;
+    padding: 100px 20px;
     border-radius: 16px;
   }
   .award-stat-item {

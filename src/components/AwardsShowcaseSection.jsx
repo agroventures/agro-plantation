@@ -63,28 +63,7 @@ const AwardsShowcaseSection = () => {
     },
   ];
 
-  // const awardsGallery = [
-  //   {
-  //     id: 1,
-  //     image: "/images/no-image.jpg",
-  //     certificateImage: "/images/no-image.jpg",
-  //     title: "Asian Heroes Platinum Award",
-  //     year: "2023",
-  //     description:
-  //       "A prestigious recognition honoring outstanding leadership, innovation, and impactful contributions across Asia.",
-  //     color: "#004d4d",
-  //   },
-  //   {
-  //     id: 2,
-  //     image: "/images/no-image.jpg",
-  //     certificateImage: "/images/no-image.jpg",
-  //     title: "CEO Sri Lanka Award - Innovative Entrepreneur of the year",
-  //     year: "2022",
-  //     description:
-  //       "Awarded for exceptional entrepreneurial vision, creativity, and the ability to drive business growth through innovative strategies in Sri Lanka.",
-  //     color: "#004d4d",
-  //   },
-  // ];
+ 
 
   const openCertificate = (certificateImg) => {
     setSelectedImage(certificateImg);
@@ -293,16 +272,8 @@ const AwardsShowcaseSection = () => {
                 <span className="award-stat-label">Team Members</span>
               </div>
             </div>
-            <div className="award-stat-divider" />
-            <div className="award-stat-item">
-              <div className="award-stat-icon">
-                <i className="fa fa-users" />
-              </div>
-              <div className="award-stat-content">
-                <span className="award-stat-number">10+</span>
-                <span className="award-stat-label">Employee Satisfaction</span>
-              </div>
-            </div>
+          
+           
             <div className="award-stat-divider" />
             <div className="award-stat-item">
               <div className="award-stat-icon">
