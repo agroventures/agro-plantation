@@ -30,7 +30,7 @@ const AboutGreatPlaceSection = () => {
         <div className="row mt-0">
           <div className="col-md-12 text-center">
             <img
-              src="/images/great-place.jpg"
+              src="/images/great-place.jpeg"
               alt="img-1"
               className="box-shadow-hover"
               style={{ height: "400px", objectFit: "cover" }}

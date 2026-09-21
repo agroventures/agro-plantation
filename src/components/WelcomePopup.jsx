@@ -18,7 +18,7 @@ export default function WelcomePopup({ onClose }) {
 
         <div className="image-wrapper">
           <img
-            src="/images/great-place.jpg"
+            src="/images/great-place.jpeg"
             alt="Welcome illustration"
             className="welcome-image"
           />
