@@ -3,7 +3,7 @@ import OurPlantationGalleries from "../components/OurPlantationGalleries";
 import OurPlantationHeaderSection from "../components/OurPlantationHeaderSection";
 import OurPlantationWhoWeSection from "../components/OurPlantationWhoWeSection";
 
-const OurPlantations = () => {
+const AvailableProperties = () => {
     return (
         <>
         <OurPlantationHeaderSection />
@@ -13,4 +13,4 @@ const OurPlantations = () => {
       </>
   )
 };
-export default OurPlantations;
+export default AvailableProperties;

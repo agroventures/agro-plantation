@@ -6,8 +6,8 @@ const AboutAgroSection = () => {
   const stats = [
     { num: "$1B", label: "Revenue Goal by 2030" },
     { num: "100%", label: "Sustainable Farming" },
-    { num: "4M+", label: "Vines by 2030" },
-    { num: "30+", label: "Export Markets" },
+    { num: "Millions", label: "Of vines planned by 2030" },
+    { num: "Global reach", label: "Across export markets" },
   ];
 
   return (
@@ -57,16 +57,19 @@ const AboutAgroSection = () => {
                   </p>
                   <p>
                     As industry leaders, we pride ourselves on our ethical
-                    approach to agriculture - creating value for customers,
-                    communities and the entire ecosystem through fair labor
-                    practices and investment in local economies.
+                    approach to agriculture - creating value for customers and
+                    communities by providing opportunities for agricultural land
+                    ownership, promoting responsible land management, and
+                    supporting sustainable farming practices.
                   </p>
                   <p>
-                    Agroventures Plantations offers unparalleled investment
-                    opportunities for those passionate about ethical and
-                    environmentally conscious agriculture, providing significant
-                    returns while promoting sustainability and ecological
-                    balance.
+                    Agroventures Plantations provides opportunities for
+                    individuals seeking to acquire agricultural land while
+                    supporting responsible and sustainable agricultural
+                    development. Through land ownership and professional
+                    agricultural management, we aim to create long-term value
+                    for our customers while promoting environmental
+                    sustainability and ecological balance.
                   </p>
                 </div>
 

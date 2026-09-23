@@ -33,7 +33,7 @@ export const eventsData = [
       "From inspiring award presentations and special recognitions to ...",
     brief: `
       <p>Relive the memorable moments from Agro Ventures Roots & Rewards 2026.</p>
-      <p>From inspiring award presentations and special recognitions to celebrations shared among our valued team members, partners, and investors, this gallery captures the spirit of excellence, achievement, and growth that defined the event.</p>
+      <p>From inspiring award presentations and special recognitions to celebrations shared among our valued team members, partners, and customers, this gallery captures the spirit of excellence, achievement, and growth that defined the event.</p>
     `,
     images: [
       "https://pub-8476bede5a4146e8b7731cfe515f1c3b.r2.dev/av-plantations/roots-and-rewards/LDR_1703.jpg",
@@ -62,7 +62,7 @@ export const eventsData = [
       <p>Filled with joy, smiles, and the rich flavor of authentic vanilla, the celebration highlighted the spirit of Vesak and strengthened our bond with the local community.</p>
       <p>Sharing the sweetness of nature with our community. 💚🍦</p>
 </p>
-      <p>From inspiring award presentations and special recognitions to celebrations shared among our valued team members, partners, and investors, this gallery captures the spirit of excellence, achievement, and growth that defined the event.</p>
+      <p>From inspiring award presentations and special recognitions to celebrations shared among our valued team members, partners, and customers, this gallery captures the spirit of excellence, achievement, and growth that defined the event.</p>
     `,
     images: [
       "https://pub-8476bede5a4146e8b7731cfe515f1c3b.r2.dev/av-plantations/Ice%20Cream%20Dansala%202026/DSC09118.jpg",
@@ -130,7 +130,7 @@ export const eventsData = [
       </ul>
       <p>Their leadership and vision continued to inspire excellence across the organization.</p>
       <p>This remarkable event celebrated outstanding achievements, recognizing top-performing sales professionals, and reaffirmed Agroventures Holdings' unwavering commitment to excellence and growth.</p>
-      <p style="text-align: center; font-size: 1.2em; margin-top: 30px;"><strong>A truly memorable evening of recognition, inspiration, and success — marking yet another milestone in the Agroventures journey.</strong></p>
+      <p style="text-align: center; font-size: 1.2em; margin-top: 30px;"><strong>A truly memorable evening of recognition, inspiration, and success - marking yet another milestone in the Agroventures journey.</strong></p>
     `,
     images: [
       "https://pub-8476bede5a4146e8b7731cfe515f1c3b.r2.dev/av-plantations/Crown%20of%20Excellent/850_3067_hbdvxy.webp",
@@ -264,7 +264,7 @@ export const eventsData = [
       
       <p>In line with our commitment to education and community upliftment, we distributed a year's worth of school supplies to the children of all our staff. A special highlight of the event was the awarding of <strong>cash scholarships of Rs. 20,000 each</strong> to two children of our employees to support their academic journeys. 🎒📚</p>
       
-      <p>This initiative showcases our ongoing efforts toward poverty alleviation, rural development, sustainability, and women empowerment—values that lie at the core of Agro Ventures.</p>
+      <p>This initiative showcases our ongoing efforts toward poverty alleviation, rural development, sustainability, and women empowerment-values that lie at the core of Agro Ventures.</p>
       
       <h5>We extend our heartfelt thanks to the teams from the following estates:</h5>
       <ul>

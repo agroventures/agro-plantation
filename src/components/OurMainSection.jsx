@@ -23,13 +23,8 @@ const OurMainSection = () => {
                   Vanilla
                   <span className="produce-title-accent"> Planifolia</span>
                 </h2>
-              
-                  <img
-                    src="/images/divider.png"
-                    alt="divider"
-                   
-                  />
-               
+
+                <img src="/images/divider.png" alt="divider" />
               </div>
             </div>
           </div>
@@ -83,8 +78,9 @@ const OurMainSection = () => {
                   At Agroventures Plantations we have established Vanilla
                   Plantations in the most optimal regions across Sri Lanka,
                   ensuring the finest quality beans for export. Our goal is to
-                  make Sri Lanka the number one Vanilla Exporter while
-                  delivering the best returns for our customers.
+                  contribute to Sri Lanka's development as a leading
+                  vanilla-exporting nation through professionally managed
+                  cultivation, processing and international market development.
                 </p>
               </div>
 

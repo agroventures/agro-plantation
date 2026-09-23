@@ -1,74 +1,164 @@
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef } from "react";
 import { Link, useLocation } from "react-router-dom";
 
 const navLinks = [
-  { to: "/",               label: "Home" },
-  { to: "/about-us",       label: "About Us" },
-  { to: "/events",         label: "Events" },
-  { to: "/branch-network", label: "Branch Network" },
-  { to: "/our-plantations",label: "Our Plantations" },
-  {to: "/awards", label:"Awards & Recognitions"},
-  // { to: "/contact-us",     label: "Contact Us" },
+  { to: "/", label: "Home" },
+  {
+    label: "About Us",
+    children: [
+      { to: "/about-us", label: "About Agroventures" },
+      { to: "/legal-document", label: "Legal / Documents" },
+    ],
+  },
+  {
+    label: "Land",
+    children: [
+      { to: "/available-properties", label: "Available Properties" },
+      { to: "/land-ownership", label: "Land Ownership" },
+      { to: "/available-properties", label: "Lease Model" },
+    ],
+  },
+  {
+    label: "Crops",
+    children: [
+      { to: "/crops/vanilla", label: "Vanilla" },
+      { to: "/crops/cinnamon", label: "Cinnamon" },
+      { to: "/crops/pepper", label: "Pepper" },
+      { to: "/crops/nutmeg", label: "Nutmeg" },
+      { to: "/crops/cloves", label: "Cloves" },
+      { to: "/crops/cardamom", label: "Cardamom" },
+      { to: "/crops/vegetables", label: "Vegetables" },
+    ],
+  },
+  { to: "/agricultural-operations", label: "Agricultural Operations" },
+  { to: "https://agroventuresexports.com/", label: "Processing & Exports" },
 ];
 
 const Header = () => {
-  const [scrolled, setScrolled]   = useState(false);
-  const [menuOpen, setMenuOpen]   = useState(false);
-  const location                  = useLocation();
+  const [scrolled, setScrolled] = useState(false);
+  const [menuOpen, setMenuOpen] = useState(false);
+  const [openDropdown, setOpenDropdown] = useState(null);
+  const [openMobile, setOpenMobile] = useState(null);
+  const location = useLocation();
   const isEventDetail = location.pathname === "/event-detail";
+  const dropdownRef = useRef(null);
 
-  /* ── Scroll handler ── */
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 50);
     window.addEventListener("scroll", onScroll, { passive: true });
     return () => window.removeEventListener("scroll", onScroll);
   }, []);
 
-  /* ── Lock body scroll when mobile menu is open ── */
   useEffect(() => {
     document.body.style.overflow = menuOpen ? "hidden" : "";
-    return () => { document.body.style.overflow = ""; };
+    return () => {
+      document.body.style.overflow = "";
+    };
   }, [menuOpen]);
 
-  const isActive = (to) =>
-    to === "/" ? location.pathname === "/" : location.pathname.startsWith(to);
+  /* Close dropdown on outside click */
+  useEffect(() => {
+    const handler = (e) => {
+      if (dropdownRef.current && !dropdownRef.current.contains(e.target)) {
+        setOpenDropdown(null);
+      }
+    };
+    document.addEventListener("mousedown", handler);
+    return () => document.removeEventListener("mousedown", handler);
+  }, []);
+
+  /* Close dropdown on route change */
+  useEffect(() => {
+    setOpenDropdown(null);
+    setMenuOpen(false);
+  }, [location.pathname]);
+
+  const isActive = (to) => {
+    const path = to.split("#")[0];
+    return path === "/"
+      ? location.pathname === "/"
+      : location.pathname === path;
+  };
+
+  const isParentActive = (children) => children.some((c) => isActive(c.to));
+
+  const isDark = scrolled || isEventDetail;
 
   return (
     <>
-      <header className={`site-header ${scrolled || isEventDetail ? "site-header-scrolled" : "site-header-top"}`}>
+      <header
+        className={`site-header ${isDark ? "site-header-scrolled" : "site-header-top"}`}
+      >
         <div className="container">
           <div className="site-header-inner">
-
             {/* ── Logo ── */}
             <Link to="/" className="site-logo" aria-label="Agroventures Home">
               <img
-                src={scrolled || isEventDetail ? "/images/logo-black.png" : "/images/logo-white.png"}
+                src={
+                  isDark ? "/images/logo-black.png" : "/images/logo-white.png"
+                }
                 alt="Agroventures Plantations"
                 className="site-logo-img"
               />
             </Link>
 
             {/* ── Desktop nav ── */}
-            <nav className="site-nav" aria-label="Main navigation">
+            <nav
+              className="site-nav"
+              aria-label="Main navigation"
+              ref={dropdownRef}
+            >
               <ul className="site-nav-list">
-                {navLinks.map((link) => (
-                  <li key={link.to} className="site-nav-item">
-                    <Link
-                      to={link.to}
-                      className={`site-nav-link ${isActive(link.to) ? "site-nav-link-active" : ""}`}
+                {navLinks.map((link, i) =>
+                  link.children ? (
+                    <li
+                      key={i}
+                      className={`site-nav-item site-nav-has-dropdown${openDropdown === i ? " site-nav-dropdown-open" : ""}`}
                     >
-                      {link.label}
-                      <span className="site-nav-underline" />
-                    </Link>
-                  </li>
-                ))}
+                      <button
+                        className={`site-nav-link site-nav-dropdown-trigger${isParentActive(link.children) ? " site-nav-link-active" : ""}`}
+                        onClick={() =>
+                          setOpenDropdown(openDropdown === i ? null : i)
+                        }
+                        aria-expanded={openDropdown === i}
+                      >
+                        {link.label}
+                        <i className="fa fa-chevron-down site-nav-caret" />
+                        <span className="site-nav-underline" />
+                      </button>
+                      <ul className="site-dropdown">
+                        {link.children.map((child, j) => (
+                          <li key={j} className="site-dropdown-item">
+                            <Link
+                              to={child.to}
+                              className={`site-dropdown-link${isActive(child.to) ? " site-dropdown-link-active" : ""}`}
+                              onClick={() => setOpenDropdown(null)}
+                            >
+                              <span className="site-dropdown-dot" />
+                              {child.label}
+                            </Link>
+                          </li>
+                        ))}
+                      </ul>
+                    </li>
+                  ) : (
+                    <li key={i} className="site-nav-item">
+                      <Link
+                        to={link.to}
+                        className={`site-nav-link${isActive(link.to) ? " site-nav-link-active" : ""}`}
+                      >
+                        {link.label}
+                        <span className="site-nav-underline" />
+                      </Link>
+                    </li>
+                  ),
+                )}
               </ul>
             </nav>
 
             {/* ── CTA button (desktop) ── */}
             <div className="site-header-cta">
               <Link to="/contact-us" className="site-header-btn">
-                {/* <i className="fa fa-leaf site-header-btn-icon" /> */}
                 Contact Us
               </Link>
             </div>
@@ -84,29 +174,35 @@ const Header = () => {
               <span className="site-hamburger-bar" />
               <span className="site-hamburger-bar" />
             </button>
-
           </div>
         </div>
       </header>
 
-      {/* ── Mobile menu backdrop ── */}
+      {/* ── Mobile backdrop ── */}
       <div
         className={`site-mobile-backdrop ${menuOpen ? "site-mobile-backdrop-visible" : ""}`}
         onClick={() => setMenuOpen(false)}
         aria-hidden="true"
       />
 
-      {/* ── Mobile menu drawer ── */}
+      {/* ── Mobile drawer ── */}
       <div
         className={`site-mobile-menu ${menuOpen ? "site-mobile-menu-open" : ""}`}
         role="dialog"
         aria-modal="true"
         aria-label="Mobile navigation"
       >
-        {/* Drawer header */}
         <div className="site-mobile-header">
-          <Link to="/" className="site-mobile-logo" onClick={() => setMenuOpen(false)}>
-            <img src="/images/logo-white.png" alt="Agroventures" className="site-mobile-logo-img" />
+          <Link
+            to="/"
+            className="site-mobile-logo"
+            onClick={() => setMenuOpen(false)}
+          >
+            <img
+              src="/images/logo-white.png"
+              alt="Agroventures"
+              className="site-mobile-logo-img"
+            />
           </Link>
           <button
             className="site-mobile-close"
@@ -117,34 +213,69 @@ const Header = () => {
           </button>
         </div>
 
-        {/* Nav links */}
         <nav className="site-mobile-nav" aria-label="Mobile navigation">
           <ul className="site-mobile-nav-list">
-            {navLinks.map((link, i) => (
-              <li
-                key={link.to}
-                className="site-mobile-nav-item"
-                style={{ animationDelay: `${i * 0.06}s` }}
-              >
-                <Link
-                  to={link.to}
-                  className={`site-mobile-nav-link ${isActive(link.to) ? "site-mobile-nav-active" : ""}`}
-                  onClick={() => setMenuOpen(false)}
+            {navLinks.map((link, i) =>
+              link.children ? (
+                <li key={i} className="site-mobile-nav-item">
+                  <button
+                    className={`site-mobile-nav-link site-mobile-nav-parent${isParentActive(link.children) ? " site-mobile-nav-active" : ""}`}
+                    onClick={() => setOpenMobile(openMobile === i ? null : i)}
+                    aria-expanded={openMobile === i}
+                    style={{ animationDelay: `${i * 0.06}s` }}
+                  >
+                    <span className="site-mobile-nav-dot" />
+                    {link.label}
+                    <i
+                      className={`fa fa-chevron-${openMobile === i ? "up" : "down"} site-mobile-nav-arrow`}
+                    />
+                  </button>
+                  <ul
+                    className={`site-mobile-submenu${openMobile === i ? " site-mobile-submenu-open" : ""}`}
+                  >
+                    {link.children.map((child, j) => (
+                      <li key={j} className="site-mobile-submenu-item">
+                        <Link
+                          to={child.to}
+                          className="site-mobile-submenu-link"
+                          onClick={() => setMenuOpen(false)}
+                        >
+                          <span className="site-mobile-submenu-dot" />
+                          {child.label}
+                        </Link>
+                      </li>
+                    ))}
+                  </ul>
+                </li>
+              ) : (
+                <li
+                  key={i}
+                  className="site-mobile-nav-item"
+                  style={{ animationDelay: `${i * 0.06}s` }}
                 >
-                  <span className="site-mobile-nav-dot" />
-                  {link.label}
-                  <i className="fa fa-chevron-right site-mobile-nav-arrow" />
-                </Link>
-              </li>
-            ))}
+                  <Link
+                    to={link.to}
+                    className={`site-mobile-nav-link${isActive(link.to) ? " site-mobile-nav-active" : ""}`}
+                    onClick={() => setMenuOpen(false)}
+                  >
+                    <span className="site-mobile-nav-dot" />
+                    {link.label}
+                    <i className="fa fa-chevron-right site-mobile-nav-arrow" />
+                  </Link>
+                </li>
+              ),
+            )}
           </ul>
         </nav>
 
-        {/* Drawer footer CTA */}
         <div className="site-mobile-footer">
-          <Link to="/contact-us" className="site-mobile-cta" onClick={() => setMenuOpen(false)}>
+          <Link
+            to="/contact-us"
+            className="site-mobile-cta"
+            onClick={() => setMenuOpen(false)}
+          >
             <i className="fa fa-leaf" />
-            Start Contact Us
+            Contact Us
           </Link>
         </div>
       </div>

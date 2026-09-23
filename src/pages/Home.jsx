@@ -9,6 +9,7 @@ import WelcomePopup from "../components/WelcomePopup";
 import WhyChooseSection from "../components/WhyChooseSection";
 import HomeHeroSection from "../components/HomeHeroSection";
 import OurTrustedPartnerSection from "../components/OurTrustedPartnerSection";
+import LandModelSection from "../components/LandModelSection";
 
 const Home = () => {
   const [showPopup, setShowPopup] = useState(false);
@@ -28,6 +29,7 @@ const Home = () => {
       {/* <CounterSection /> */}
       <OurMainSection />
       <OverseaSection />
+      <LandModelSection />
       <WhyChooseSection />
       {/* <OurTrustedPartnerSection /> */}
       <OurBrandsSection />

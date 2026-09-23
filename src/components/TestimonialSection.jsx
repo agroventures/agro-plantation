@@ -8,32 +8,37 @@ import "swiper/css/pagination";
 import "swiper/css/navigation";
 
 const TestimonialSection = () => {
-  const testimonials = [
-    {
-      image: "/images/clients/manjula.png",
-      alt: "Manjula Wimalasena",
-      text: "I live in South Korea, and I was looking for a good place to invest my earnings and came across Agroventures Plantations. I was impressed by their commitment to sustainability and the quality of their produce. I decided to invest in their plantation, and it has been a rewarding experience. The team at Agroventures Plantations has great customer service and provides the returns on time and I am very happy with Agroventures Plantations. I would recommend them to anyone.",
-      name: "Mr. Manjula Wimalasena",
-    },
-    {
-      image: "/images/clients/udhaya.png",
-      alt: "Mr.G N Udaya Kumara",
-      text: "I am very happy to say that I am an investor in Agroventures Plantations. I have to praise them for the high value they give for our investments as well as their great and timely service. I can say that Agroventures is a company you can trust for your investments.",
-      name: "Mr.G N Udaya Kumara",
-    },
-    {
-      image: "/images/clients/withthamperuma.png",
-      alt: "Mr.Withthamperuma Arachchige Yasendra",
-      text: "I got my first profit payment right on time from Agroventures Plantations.Looking forward to the future to come. Thank you Agroventures!",
-      name: "Mr.Withthamperuma Arachchige Yasendra",
-    },
-    {
-      image: "/images/clients/illayarajah.png",
-      alt: "Mr.Malyoganam Illayarajah",
-      text: "I am receiving the monthly payments on time, and I'm happy to say that this is a great investment choice for anyone. All the best to Agro Ventures.",
-      name: "Mr. Malyoganam Illayarajah",
-    },
-  ];
+
+const testimonials = [
+  {
+    image: "/images/clients/manjula.png",
+    alt: "Manjula Wimalasena",
+    text: "I live in South Korea, and I was looking for a reliable opportunity to own agricultural land in Sri Lanka. I came across Agroventures Plantations and was impressed by their commitment to sustainable agriculture and professional land management. The team has been supportive throughout the process, and I am happy with the service they provide.",
+    name: "Mr. Manjula Wimalasena",
+  },
+
+  {
+    image: "/images/clients/udhaya.png",
+    alt: "Mr. G N Udaya Kumara",
+    text: "I am very happy with my experience with Agroventures Plantations. I appreciate the professional service and the care they give to agricultural land and cultivation. Their team has been helpful and responsive throughout the process.",
+    name: "Mr. G N Udaya Kumara",
+  },
+
+  {
+    image: "/images/clients/withthamperuma.png",
+    alt: "Mr. Withthamperuma Arachchige Yasendra",
+    text: "My experience with Agroventures Plantations has been very positive. I appreciate their approach to sustainable agriculture and responsible land management. I look forward to seeing the continued development of the plantation.",
+    name: "Mr. Withthamperuma Arachchige Yasendra",
+  },
+
+  {
+    image: "/images/clients/illayarajah.png",
+    alt: "Mr. Malyoganam Illayarajah",
+    text: "I am happy with my experience with Agroventures Plantations. The team provides good customer service and keeps me informed about the progress of the agricultural activities. I wish Agroventures continued success in the future.",
+    name: "Mr. Malyoganam Illayarajah",
+  },
+];
+
 
   return (
     <section

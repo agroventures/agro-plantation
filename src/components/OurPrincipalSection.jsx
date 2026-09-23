@@ -3,14 +3,14 @@ const OurPrincipalSection = () => {
     {
       icon: "fas fa-seedling",
       title: "Scale",
-      desc: "Each acre of land is planted with 2,000 vanilla vines, maximising density for premium yield.",
-      number: "01",
+      desc: "Each acre of land supports high-density vanilla planting, maximising space for premium yield.",
+      number: "Density",
     },
     {
       icon: "fas fa-lightbulb",
       title: "Yield",
-      desc: "By 2030, we plan to cultivate 4,000,000 vines, expecting a minimum yield of 4 kg per vine - resulting in 16,000,000 kg of raw vanilla beans.",
-      number: "02",
+      desc: "Our long-term plan is to cultivate millions of vines, with each vine contributing to a substantial supply of premium raw vanilla beans.",
+      number: "Yield",
     },
   ];
 
@@ -18,14 +18,14 @@ const OurPrincipalSection = () => {
     {
       icon: "fas fa-hourglass-half",
       title: "Timeline",
-      desc: "Vanilla vines begin yielding harvests after 2.5 years, delivering consistent long-term returns.",
-      number: "03",
+      desc: "Vanilla vines typically begin producing harvests after a few growing seasons, subject to cultivation conditions, weather, agronomic performance and other relevant factors.",
+      number: "Timing",
     },
     {
       icon: "fas fa-cogs",
       title: "Processing",
-      desc: "These beans are processed to produce approximately 4,000,000 kg of premium finished vanilla product.",
-      number: "04",
+      desc: "These beans are processed to produce several million kilograms of premium finished vanilla product.",
+      number: "Quality",
     },
   ];
 
@@ -33,13 +33,11 @@ const OurPrincipalSection = () => {
     <>
       {/* Our Principal Virtues Start */}
       <section className="virtues-section" id="feature">
-
         {/* ── Background decoration ── */}
         <div className="virtues-bg-glow" />
         <div className="virtues-bg-dots" />
 
         <div className="container">
-
           {/* ── Section heading ── */}
           <div className="row">
             <div className="col-sm-12">
@@ -54,14 +52,13 @@ const OurPrincipalSection = () => {
                   <span className="virtues-title-accent"> Precision </span>
                   &amp; Purpose
                 </h2>
-              <img src="/images/divider.png" alt="divider" />{" "}
+                <img src="/images/divider.png" alt="divider" />{" "}
               </div>
             </div>
           </div>
 
           {/* ── Three column layout ── */}
           <div className="row virtues-content-row">
-
             {/* ── Left virtues ── */}
             <div className="col-md-4 col-sm-12 virtues-col-left">
               {leftVirtues.map((v, i) => (
@@ -88,7 +85,6 @@ const OurPrincipalSection = () => {
             {/* ── Center image ── */}
             <div className="col-md-4 col-sm-12 virtues-col-center">
               <div className="virtues-center-wrap">
-
                 {/* Decorative ring */}
                 <div className="virtues-ring virtues-ring-outer" />
                 <div className="virtues-ring virtues-ring-inner" />
@@ -110,16 +106,15 @@ const OurPrincipalSection = () => {
 
                 {/* Stat pill top */}
                 <div className="virtues-stat-pill virtues-stat-top">
-                  <span className="virtues-stat-num">4M+</span>
-                  <span className="virtues-stat-lbl">Vines by 2030</span>
+                  <span className="virtues-stat-num">Millions</span>
+                  <span className="virtues-stat-lbl">Of vines planned for the years ahead</span>
                 </div>
 
                 {/* Stat pill bottom */}
                 <div className="virtues-stat-pill virtues-stat-bottom">
-                  <span className="virtues-stat-num">16M kg</span>
-                  <span className="virtues-stat-lbl">Raw beans target</span>
+                  <span className="virtues-stat-num">Ambitious</span>
+                  <span className="virtues-stat-lbl">Raw bean production target</span>
                 </div>
-
               </div>
             </div>
 
@@ -145,7 +140,6 @@ const OurPrincipalSection = () => {
                 </div>
               ))}
             </div>
-
           </div>
         </div>
       </section>

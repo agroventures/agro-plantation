@@ -16,7 +16,7 @@ const slides = [
     titleLight: "Working Towards",
     titleBold: "A Brighter Future",
     subtitle:
-      "The profound revolution shaping Sri Lanka's agricultural investment sector.",
+      "Transforming Agricultural Land Ownership in Sri Lanka",
     btnPrimary: { label: "Read More", to: "/about-us" },
     btnSecondary: { label: "Get Started", to: "/contact-us" },
     position: "center center",
@@ -27,20 +27,20 @@ const slides = [
     eyebrow: "Premium Vanilla",
     titleLight: "Premium Quality",
     titleBold: "Vanilla Cultivation",
-    subtitle: "From seed to export — excellence in every bean we grow.",
+    subtitle: "From seed to export - excellence in every bean we grow.",
     btnPrimary: { label: "Contact Us", to: "/contact-us" },
-    btnSecondary: { label: "Our Plantation", to: "/our-plantations" },
+    btnSecondary: { label: "Our Properties", to: "/available-properties" },
     position: "center center",
   },
 
   {
     image:
       "https://pub-8476bede5a4146e8b7731cfe515f1c3b.r2.dev/av-plantations/1%20Year%20of%20Growth/yg0_zrerqo.webp",
-    eyebrow: "Investment Opportunity",
-    titleLight: "Invest in",
+    eyebrow: "Purchase Lands",
+    titleLight: "Purchase Agricultural Lands",
     titleBold: "Sri Lanka's Future",
     subtitle:
-      "Sustainable agriculture with guaranteed returns and full legal security.",
+      "Sustainable agriculture with responsible land ownership and professional management.",
     btnPrimary: { label: "Join Us Today", to: "/contact-us" },
     btnSecondary: { label: "Learn More", to: "/about-us" },
     position: "center center",

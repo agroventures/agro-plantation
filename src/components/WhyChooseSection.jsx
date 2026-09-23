@@ -16,15 +16,15 @@ const WhyChooseSection = () => {
     },
     {
       icon: "fas fa-chart-line",
-      title: "Significant Returns",
-      desc: "Both plans offer attractive returns, with guaranteed buy-back options after 5 years of cultivation.",
+      title: "Agricultural Value Creation",
+      desc: "Our model combines agricultural land ownership with professional cultivation, farm management and access to an integrated agricultural value chain.",
       number: "03",
-      highlight: "Guaranteed buy-back at 5 years",
+      highlight: "Future land sale option",
     },
     {
       icon: "fas fa-shield-alt",
       title: "Legal Security",
-      desc: "Land ownership is legally secured through the Land Registry Office of Matale, providing you with full legal security and bond.",
+      desc: "Ownership documentation is completed through the applicable land registration and conveyancing process, with title documentation provided to the purchaser in accordance with applicable legal requirements.",
       number: "04",
       highlight: "Matale Land Registry secured",
     },
@@ -34,13 +34,11 @@ const WhyChooseSection = () => {
     <>
       {/* Why Choose Us Start */}
       <section className="whychoose-section">
-
         {/* ── Background elements ── */}
         <div className="whychoose-bg-overlay" />
         <div className="whychoose-bg-grid" />
 
         <div className="container">
-
           {/* ── Section heading ── */}
           <div className="row">
             <div className="col-sm-12">
@@ -55,7 +53,8 @@ const WhyChooseSection = () => {
                   <span className="whychoose-title-accent"> Advantage</span>
                 </h2>
                 <p className="whychoose-subtitle">
-                  Four pillars that set us apart — and keep our investors coming back.
+                  Four pillars that set us apart - and build long-term
+                  relationships with landowners and agricultural partners.
                 </p>
               </div>
             </div>
@@ -64,9 +63,11 @@ const WhyChooseSection = () => {
           {/* ── Cards ── */}
           <div className="row whychoose-cards-row">
             {reasons.map((r, i) => (
-              <div className="col-md-3 col-sm-6 col-xs-12 whychoose-card-wrap" key={i}>
+              <div
+                className="col-md-3 col-sm-6 col-xs-12 whychoose-card-wrap"
+                key={i}
+              >
                 <div className="whychoose-card">
-
                   {/* Card top accent line */}
                   <div className="whychoose-card-top-bar" />
 
@@ -96,7 +97,6 @@ const WhyChooseSection = () => {
 
                   {/* Hover bottom border */}
                   <div className="whychoose-card-bottom-bar" />
-
                 </div>
               </div>
             ))}
@@ -113,7 +113,7 @@ const WhyChooseSection = () => {
                 <div className="whychoose-trust-sep" />
                 <div className="whychoose-trust-item">
                   <i className="fas fa-users whychoose-trust-icon" />
-                  <span>500+ Investor Partners</span>
+                  <span>Growing Community of Agricultural Landowners</span>
                 </div>
                 <div className="whychoose-trust-sep" />
                 <div className="whychoose-trust-item">
@@ -123,12 +123,11 @@ const WhyChooseSection = () => {
                 <div className="whychoose-trust-sep" />
                 <div className="whychoose-trust-item">
                   <i className="fas fa-globe whychoose-trust-icon" />
-                  <span>30+ Export Markets</span>
+                  <span>Global export reach</span>
                 </div>
               </div>
             </div>
           </div>
-
         </div>
       </section>
       {/* Why Choose Us End */}

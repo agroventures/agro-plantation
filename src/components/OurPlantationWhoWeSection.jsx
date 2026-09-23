@@ -25,13 +25,13 @@ const OurPlantationWhoWeSection = () => {
             {/* Eyebrow */}
             <div className="plantation-who-eyebrow">
               <span className="plantation-who-eyebrow-dot" />
-              <span className="plantation-who-eyebrow-text">Agroventures Plantations</span>
+              <span className="plantation-who-eyebrow-text">Agroventures Properties</span>
             </div>
 
             {/* Heading */}
             <h2 className="plantation-who-title">
               Our
-              <span className="plantation-who-title-accent"> Plantations</span>
+              <span className="plantation-who-title-accent"> Properties</span>
             </h2>
 
               <img src="/images/divider.png" alt="divider" /> {""}
@@ -118,8 +118,8 @@ const OurPlantationWhoWeSection = () => {
               <div className="plantation-who-float-badge">
                 {/* <span className="plantation-who-badge-icon">🌿</span> */}
                 <div>
-                  <span className="plantation-who-badge-num">4M+</span>
-                  <span className="plantation-who-badge-label">Vines Planned by 2030</span>
+                  <span className="plantation-who-badge-num">Millions</span>
+                  <span className="plantation-who-badge-label">Of vines planned by 2030</span>
                 </div>
               </div>
 

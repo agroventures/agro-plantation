@@ -90,7 +90,7 @@ const AwardsHeaderSection = () => {
 
         {/* Vertical Text */}
         <div className="awards-hero-vertical-text">
-          <span>Certified Excellence — Since 2014</span>
+          <span>Certified Excellence - Since 2014</span>
         </div>
 
       </section>

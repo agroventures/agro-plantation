@@ -25,10 +25,10 @@ const OurCultivationPlansSection = () => {
               <p>
                 We are excited to present two unique plans designed to
                 contribute to Sri Lanka’s agricultural growth and provide
-                significant returns for our land buyers. By purchasing land in
-                the fertile Matale district, you can be part of our ambitious
-                project to boost Sri Lanka's export income through sustainable
-                vanilla cultivation..
+                agricultureal value creation for our land buyers. By purchasing
+                land in the fertile Matale district, you can be part of our
+                ambitious project to boost Sri Lanka's export income through
+                sustainable vanilla cultivation..
               </p>
             </div>
           </div>
@@ -89,7 +89,7 @@ const OurCultivationPlansSection = () => {
                             aria-hidden="true"
                             style={{ color: "#D4AF37", marginRight: 8 }}
                           />
-                          <strong>Legal Security and Bond:</strong>
+                          <strong>Land Ownership Documentation:</strong>
                           <br />
                           Ownership of the land is secured through the Land
                           Registry Office of Matale.
@@ -102,8 +102,9 @@ const OurCultivationPlansSection = () => {
                           />
                           <strong>Lease Agreement:</strong>
                           <br />
-                          The purchased land is leased to Agroventures Plantations
-                          Private Ltd, with registration at the Land Registry.
+                          The purchased land is leased to Agroventures
+                          Plantations Private Ltd, with registration at the Land
+                          Registry.
                         </li>
                       </ul>
                     </div>
@@ -125,8 +126,8 @@ const OurCultivationPlansSection = () => {
                             <div>
                               <strong>Development:</strong>
                               <br />
-                              We fence and develop the land, improve soil quality, and
-                              plant vanilla vines.
+                              We fence and develop the land, improve soil
+                              quality, and plant vanilla vines.
                             </div>
                           </li>
                           <li className="media mb-15">
@@ -138,8 +139,8 @@ const OurCultivationPlansSection = () => {
                             <div>
                               <strong>Cultivation:</strong>
                               <br />
-                              We manage fertilization (organic), watering, sheltering,
-                              hand pollination, and harvesting.
+                              We manage fertilization (organic), watering,
+                              sheltering, hand pollination, and harvesting.
                             </div>
                           </li>
                         </ul>
@@ -277,10 +278,13 @@ const OurCultivationPlansSection = () => {
                             style={{ color: "#8b9554", marginRight: 8 }}
                           />
                           <strong>
-                            Project Development Cost (Land Purchase / Land Development / Cultivation):*
+                            Project Development Cost (Land Purchase / Land
+                            Development / Cultivation):*
                           </strong>
                           <br />
-                          Buy 10 perches of land for Rs. 105,468 per perch. The minimum purchase is 10 perches, totaling Rs. 1,054,680.
+                          Buy 10 perches of land for Rs. 105,468 per perch. The
+                          minimum purchase is 10 perches, totaling Rs.
+                          1,054,680.
                         </li>
                         <li className="list-group-item">
                           <i
@@ -290,7 +294,8 @@ const OurCultivationPlansSection = () => {
                           />
                           <strong>Legal Security and Bond:*</strong>
                           <br />
-                          Ownership of the land is secured through the Land Registry Office of Matale.
+                          Ownership of the land is secured through the Land
+                          Registry Office of Matale.
                         </li>
                         <li className="list-group-item">
                           <i
@@ -300,7 +305,9 @@ const OurCultivationPlansSection = () => {
                           />
                           <strong>Lease Agreement:*</strong>
                           <br />
-                          Lease the purchased land to Agroventures Plantations Private Ltd, with the agreement registered at the Land Registry.
+                          Lease the purchased land to Agroventures Plantations
+                          Private Ltd, with the agreement registered at the Land
+                          Registry.
                         </li>
                       </ul>
                     </div>
@@ -322,7 +329,8 @@ const OurCultivationPlansSection = () => {
                             <div>
                               <strong>Development:*</strong>
                               <br />
-                              We provide the same land and cultivation services as in the Green Gold Plan.
+                              We provide the same land and cultivation services
+                              as in the Green Gold Plan.
                             </div>
                           </li>
                           <li className="media mb-15">
@@ -332,9 +340,12 @@ const OurCultivationPlansSection = () => {
                               style={{ color: "#2d3e1f", marginRight: 8 }}
                             />
                             <div>
-                              <strong>Harvest Payment and Leased Rental:*</strong>
+                              <strong>
+                                Harvest Payment and Leased Rental:*
+                              </strong>
                               <br />
-                              Receive a monthly payment of <strong>Rs. 21,973.</strong>
+                              Receive a monthly payment of{" "}
+                              <strong>Rs. 21,973.</strong>
                             </div>
                           </li>
                         </ul>
@@ -348,9 +359,11 @@ const OurCultivationPlansSection = () => {
                               style={{ color: "#2d3e1f", marginRight: 8 }}
                             />
                             <div>
-                              <strong>Profit Sharing:*</strong>
+                              <strong>Additional Crop Cultivation:</strong>
                               <br />
-                              Earn a percentage of profits from intercrops like bananas, ginger, turmeric, cinnamon, and coffee.
+                              Cultivate valuable intercrops such as bananas,
+                              ginger, turmeric, cinnamon, and coffee alongside
+                              the primary crops.
                             </div>
                           </li>
                           <li className="media mb-15">
@@ -360,9 +373,13 @@ const OurCultivationPlansSection = () => {
                               style={{ color: "#2d3e1f", marginRight: 8 }}
                             />
                             <div>
-                              <strong className="font-weight-bold">Final Land Repurchase Value:*</strong>
+                              <strong className="font-weight-bold">
+                                Final Land Repurchase Value:*
+                              </strong>
                               <br />
-                              After 5 years, we will buy back the developed vanilla-cultivated land for <strong>Rs. 2,636,700.</strong>
+                              After 5 years, we will buy back the developed
+                              vanilla-cultivated land for{" "}
+                              <strong>Rs. 2,636,700.</strong>
                             </div>
                           </li>
                         </ul>

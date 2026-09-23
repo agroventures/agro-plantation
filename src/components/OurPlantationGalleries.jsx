@@ -184,7 +184,7 @@ const OurPlantationGalleries = () => {
           <div className="gallery-eyebrow">
             <span className="gallery-eyebrow-dot" />
             <span className="gallery-eyebrow-text">
-              Agroventures Plantations
+              Agroventures Properties
             </span>
           </div>
           <h2 className="gallery-title">

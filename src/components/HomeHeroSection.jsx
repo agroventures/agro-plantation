@@ -12,9 +12,7 @@ const HomeHeroSection = () => {
           poster="/images/hero-poster.jpg"
         />
 
-        <div className="hero-overlay" />
-        <div className="hero-stripe" />
-        <div className="hero-grain" />
+        <div className="avp-hero__scrim" />
 
         <div className="container hero-container">
           <div className="row" style={{ position: "relative", zIndex: 2 }}>
@@ -27,56 +25,55 @@ const HomeHeroSection = () => {
                 <span className="hero-eyebrow-line" />
               </div>
               {/* <div class="container"> */}
-                <h1 className="hero-title">
-                  <span className="hero-title-line1">Growing</span>
-                  <span className="hero-title-line2">Nature's</span>
-                  <span className="hero-title-line3">Finest</span>
-                </h1>
-                <p className="hero-subtitle">
-                  Sustainable agriculture rooted in tradition, driven by
-                  innovation. From our plantations to the world.
-                </p>
+              <h1 className="hero-title">
+                <span className="hero-title-line1">GROWING AGRICULTURE. </span>
+                <span className="hero-title-line2">CREATING</span>
+                <span className="hero-title-line3">  LANDOWNERSHIP VALUE.</span>
+              </h1>
+              <p className="hero-subtitle">
+                Acquire agricultural land, retain legal ownership and, where applicable, lease your property to Agroventures for professional cultivation and agricultural management.
+              </p>
 
-                {/* ── Award Badges — above info bar ── */}
-                <div className="hero-awards-row">
-                  <div className="hero-award-item">
-                   
-                      <img
-                        src="/images/gwp.png"
-                        alt="Best Agro Export 2023"
-                        className="hero-award-img"
-                      />
-                      {/* <span className="hero-award-label">Great Place To Work - 2025</span> */}
-                  
-                    <div className="hero-award-connector" />
-                  </div>
-                  <div className="hero-award-item">
-                    {/* <div className="hero-award-badge"> */}
-                      <img
-                        src="/images/certificate2.png"
-                        alt="Excellence in Sustainability"
-                        className="hero-award-img"
-                      />
-                      {/* <span className="hero-award-label">Best Workplaces in Manufacturing & Production - 2026</span> */}
-                    {/* </div> */}
-                    <div className="hero-award-connector" />
-                  </div>
+              {/* ── Award Badges - above info bar ── */}
+              <div className="hero-awards-row">
+                <div className="hero-award-item">
+                  <img
+                    src="/images/gwp.png"
+                    alt="Best Agro Export 2023"
+                    className="hero-award-img"
+                  />
+                  {/* <span className="hero-award-label">Great Place To Work - 2025</span> */}
+
+                  <div className="hero-award-connector" />
                 </div>
+                <div className="hero-award-item">
+                  {/* <div className="hero-award-badge"> */}
+                  <img
+                    src="/images/certificate2.png"
+                    alt="Excellence in Sustainability"
+                    className="hero-award-img"
+                  />
+                  {/* <span className="hero-award-label">Best Workplaces in Manufacturing & Production - 2026</span> */}
+                  {/* </div> */}
+                  <div className="hero-award-connector" />
+                </div>
+              </div>
               {/* </div> */}
 
               <div className="hero-cta-wrap">
                 <a href="/about-us" className="hero-btn-primary">
-                  <span>Discover Our Story</span>
+                  <span>Explore Agricultural Land</span>
                   <i className="fa fa-arrow-right hero-btn-icon" />
                 </a>
                 <a href="/contact-us" className="hero-btn-secondary">
-                  <span>Get In Touch</span>
+                  <span>How the Model Works</span>
+                </a>
+                 <a href="/contact-us" className="hero-btn-secondary">
+                  <span>Contact Agroventures</span>
                 </a>
               </div>
             </div>
-          </div> 
-
-          
+          </div>
         </div>
 
         <div className="hero-scroll-indicator">
@@ -84,31 +81,37 @@ const HomeHeroSection = () => {
           <span className="hero-scroll-label">Scroll</span>
         </div>
 
-        <div className="hero-info-bar">
-          <div className="container">
-            <div className="hero-info-inner">
-              <div className="hero-info-item">
-                <span className="hero-info-number">10+</span>
-                <span className="hero-info-label">Years of Excellence</span>
-              </div>
-              <div className="hero-info-divider" />
-              <div className="hero-info-item">
-                <span className="hero-info-number">645+</span>
-                <span className="hero-info-label">Team Members</span>
-              </div>
-              <div className="hero-info-divider" />
-              <div className="hero-info-item">
-                <span className="hero-info-number">10+</span>
-                <span className="hero-info-label">Awards</span>
-              </div>
-              <div className="hero-info-divider" />
-              <div className="hero-info-item">
-                <span className="hero-info-number">12,440+</span>
-                <span className="hero-info-label">Clients' Satisfaction</span>
-              </div>
-            </div>
-          </div>
-        </div>
+       <div className="hero-info-bar">
+  <div className="container">
+    <div className="hero-info-inner">
+      <div className="hero-info-item">
+        <span className="hero-info-number">Trusted</span>
+        <span className="hero-info-label">Agricultural Partner</span>
+      </div>
+
+      <div className="hero-info-divider" />
+
+      <div className="hero-info-item">
+        <span className="hero-info-number">Sustainable</span>
+        <span className="hero-info-label">Farming Practices</span>
+      </div>
+
+      <div className="hero-info-divider" />
+
+      <div className="hero-info-item">
+        <span className="hero-info-number">Professional</span>
+        <span className="hero-info-label">Land Management</span>
+      </div>
+
+      <div className="hero-info-divider" />
+
+      <div className="hero-info-item">
+        <span className="hero-info-number">Dedicated</span>
+        <span className="hero-info-label">Customer Service</span>
+      </div>
+    </div>
+  </div>
+</div>
       </section>
     </div>
   );

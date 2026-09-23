@@ -54,16 +54,16 @@ const AboutmeCEOMessage = () => {
  
               <div className="ceo-stats-row">
                 <div className="ceo-stat">
-                  <div className="ceo-stat-number">645+</div>
-                  <div className="ceo-stat-label">Team Members</div>
+                  <div className="ceo-stat-number">Dedicated people</div>
+                  <div className="ceo-stat-label">Growing agriculture together</div>
                 </div>
                 <div className="ceo-stat">
-                  <div className="ceo-stat-number">10+</div>
-                  <div className="ceo-stat-label">Years Experience</div>
+                  <div className="ceo-stat-number">A decade</div>
+                  <div className="ceo-stat-label">Of experience</div>
                 </div>
                 <div className="ceo-stat">
-                  <div className="ceo-stat-number">12,440+</div>
-                  <div className="ceo-stat-label">Clients' Satisfactions</div>
+                  <div className="ceo-stat-number">Trusted</div>
+                  <div className="ceo-stat-label">By our clients</div>
                 </div>
               </div>
             </div>

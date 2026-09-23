@@ -37,7 +37,7 @@ const AboutManagerSection = () => {
                     a community, and a pathway to grow.
                   </p>
                   <p>
-                    We invest deeply in the development of our workforce, from our
+                    We place great emphasis on the development of our workforce, from our
                     plantation teams in the field to our management staff in the
                     office. Through continuous training, fair opportunities, and a
                     culture of respect, we are building an organization where people

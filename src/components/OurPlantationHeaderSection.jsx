@@ -21,7 +21,7 @@ const OurPlantationHeaderSection = () => {
 
         <h1 className="avp-hero__headline">
           <span className="avp-hero__hl-solid">Discover Our</span>
-          <span className="avp-hero__hl-outline" aria-hidden="true">Plantations</span>
+          <span className="avp-hero__hl-outline" aria-hidden="true">Properties</span>
           <span className="sr-only">Plantations</span>
         </h1>
 

@@ -49,7 +49,7 @@ const OurBrandsSection = () => {
         </div>
       </div>
 
-      {/* ── Slider — full width, outside container ── */}
+      {/* ── Slider - full width, outside container ── */}
       <div className="brands-slider-outer">
         {/* Left fade edge */}
         <div className="brands-fade-left" />

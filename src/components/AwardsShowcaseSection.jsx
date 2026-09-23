@@ -258,8 +258,8 @@ const AwardsShowcaseSection = () => {
                 <i className="fa fa-trophy" />
               </div>
               <div className="award-stat-content">
-                <span className="award-stat-number">10+</span>
-                <span className="award-stat-label">Awards Won</span>
+                <span className="award-stat-number">Award-Winning</span>
+                <span className="award-stat-label">Excellence Recognized</span>
               </div>
             </div>
             <div className="award-stat-divider" />
@@ -268,8 +268,8 @@ const AwardsShowcaseSection = () => {
                 <i className="fa fa-certificate" />
               </div>
               <div className="award-stat-content">
-                <span className="award-stat-number">645+</span>
-                <span className="award-stat-label">Team Members</span>
+                <span className="award-stat-number">Expert Team</span>
+                <span className="award-stat-label">Dedicated Professionals</span>
               </div>
             </div>
           
@@ -280,8 +280,8 @@ const AwardsShowcaseSection = () => {
                 <i className="fa fa-globe" />
               </div>
               <div className="award-stat-content">
-                <span className="award-stat-number">12,440+</span>
-                <span className="award-stat-label">Clients' Satisfactions</span>
+                <span className="award-stat-number">Global Reached</span>
+                <span className="award-stat-label">Satisfied Clients</span>
               </div>
             </div>
           </div>
