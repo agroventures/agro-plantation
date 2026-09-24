@@ -4998,14 +4998,6 @@ body {
 }
 
 .avp-hero__btn-link {
-  font-family: "Barlow", sans-serif;
-  font-size: 12px;
-  font-weight: 300;
-  letter-spacing: 0.18em;
-  text-transform: uppercase;
-  color: rgba(255, 255, 255, 0.38);
-  text-decoration: none;
-  padding-bottom: 2px;
   border-bottom: 1px solid rgba(255, 255, 255, 0.12);
   transition: color 0.18s, border-color 0.18s;
 }
@@ -5045,6 +5037,12 @@ body {
 }
 
 @media (max-width: 576px) {
+  .about-hero {
+    min-height: 75vh;
+    padding-top: 36px;
+    padding-bottom:36px;
+  }
+
   .avp-hero__nav,
   .avp-hero__body {
   padding-left: 20px;
@@ -5054,9 +5052,15 @@ body {
   display: none;
 }
   .avp-hero__headline { font-size: clamp(28px, 10vw, 44px); }
+  .about-hero .avp-hero__hl-solid,
+  .about-hero .avp-hero__hl-outline {
+    font-size: clamp(46px, 12vw, 66px);
+  }
   .hero-title-line1,
   .avp-hero__hl-outline { display: block; max-width: 100%; }
 }
+
+
 
 /* ─── Section wrapper ─── */
 .about-agro-section {
@@ -5440,7 +5444,7 @@ body {
 .about-agro-parallax-eyebrow {
   display: inline-block;
   font-family: "Oswald", sans-serif;
-  font-size: 11px;
+  font-size: 14px;
   letter-spacing: 4px;
   text-transform: uppercase;
   color: rgba(255, 255, 255, 0.5);
@@ -5450,13 +5454,13 @@ body {
 /* Title */
 .about-agro-parallax-title {
   font-family: "Oswald", sans-serif;
-  font-size: 40px;
+  font-size: 50px;
   font-weight: 600;
   color: #fff;
   text-transform: uppercase;
   line-height: 1.3;
   letter-spacing: 1px;
-  margin: 0 0 24px 0;
+  margin: 0 0 14px 0;
 }
 
 .about-agro-parallax-accent {
@@ -5562,7 +5566,7 @@ body {
     padding: 72px 0;
   }
   .about-agro-parallax-title {
-    font-size: 22px;
+    font-size: 42px;
     letter-spacing: 0.5px;
   }
   .about-agro-stat {
@@ -18646,17 +18650,10 @@ form.register {
   background: #fff;
 }
 
-/* ── Header (reuses .avp-hero, shorter variant) ── */
-.ld-header.avp-hero {
-  min-height: 46vh;
-  background:
-    linear-gradient(90deg, rgba(5, 25, 18, 0.86), rgba(5, 25, 18, 0.45)),
-    url("/images/slides/home-bg-2.webp") center center / cover no-repeat;
-}
 
 .ld-header-sub {
   font-family: "Inter", sans-serif;
-  font-size: 15px;
+  font-size: 20px;
   font-weight: 300;
   color: rgba(255, 255, 255, 0.75);
   line-height: 1.8;
@@ -18738,7 +18735,7 @@ form.register {
 
 .ld-subtitle {
   font-family: "Inter", sans-serif;
-  font-size: 14.5px;
+  font-size: 16.5px;
   font-weight: 300;
   color: #666;
   line-height: 1.8;
@@ -18845,7 +18842,7 @@ form.register {
 
 .ld-doc-text {
   font-family: "Inter", sans-serif;
-  font-size: 13px;
+  font-size: 16px;
   line-height: 1.75;
   color: #666;
   font-weight: 300;
@@ -18857,7 +18854,7 @@ form.register {
   align-items: center;
   gap: 8px;
   font-family: "Oswald", sans-serif;
-  font-size: 11.5px;
+  font-size: 13.5px;
   letter-spacing: 1.5px;
   text-transform: uppercase;
   color: #027a7a;
@@ -18921,7 +18918,7 @@ form.register {
 .ld-term-name {
   flex: 0 0 190px;
   font-family: "Oswald", sans-serif;
-  font-size: 12.5px;
+  font-size: 16px;
   font-weight: 600;
   letter-spacing: 1px;
   text-transform: uppercase;
@@ -18930,7 +18927,7 @@ form.register {
 
 .ld-term-def {
   font-family: "Inter", sans-serif;
-  font-size: 13.5px;
+  font-size: 16px;
   line-height: 1.7;
   color: #666;
   font-weight: 300;
@@ -18963,7 +18960,7 @@ form.register {
   align-items: center;
   gap: 14px;
   font-family: "Inter", sans-serif;
-  font-size: 13.5px;
+  font-size: 16px;
   color: rgba(255, 255, 255, 0.8);
   font-weight: 400;
   padding: 10px 0;
@@ -19026,7 +19023,7 @@ form.register {
 
 .ld-notice-box p {
   font-family: "Inter", sans-serif;
-  font-size: 13px;
+  font-size: 16px;
   line-height: 1.85;
   color: #556;
   font-weight: 300;
@@ -19038,7 +19035,7 @@ form.register {
   align-items: center;
   gap: 8px;
   font-family: "Oswald", sans-serif;
-  font-size: 11px;
+  font-size: 16px;
   letter-spacing: 1.5px;
   text-transform: uppercase;
   color: #027a7a;
@@ -19078,7 +19075,7 @@ form.register {
 
 .ld-cta-text p {
   font-family: "Inter", sans-serif;
-  font-size: 14px;
+  font-size: 16px;
   color: rgba(255, 255, 255, 0.65);
   font-weight: 300;
   margin: 0;

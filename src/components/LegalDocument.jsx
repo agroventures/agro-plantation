@@ -96,7 +96,13 @@ export default function LegalDocuments() {
   return (
     <main className="ld-page">
       {/* ============ PAGE HEADER ============ */}
-      <section className="ld-header avp-hero">
+      <section className="about-hero avp-hero">
+        <img
+          className="avp-hero__video"
+          src="/images/slides/home-bg-2.webp"
+          alt=""
+          aria-hidden="true"
+        />
         <div className="avp-hero__scrim" />
         <div className="avp-hero__body">
           <div className="avp-hero__kicker">
@@ -105,7 +111,7 @@ export default function LegalDocuments() {
           </div>
           <h1 className="avp-hero__headline">
             <span className="avp-hero__hl-solid">Legal</span>
-            <span className="avp-hero__hl-outline">Documents</span>
+            <span className="avp-hero__hl-outline ">Documents</span>
           </h1>
           <p className="ld-header-sub">
             The agreements and documentation that govern land ownership,

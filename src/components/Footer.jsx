@@ -111,14 +111,14 @@ const Footer = () => {
           <div className="row">
             <div className="col-md-8 col-xs-12">
               <div className="copy-right">
-                © 2026.
+                © 2026 {" "}
                 <Link
-                  to="https://www.ventrax.lk/"
+                  to="#"
                   target="_blank"
                   rel="noopener noreferrer"
                   style={{ color: "#027a7a" }}
                 >
-                  Ventrax.lk
+                  Agro Ventures Digital
                 </Link>{" "}
                 - All Right Reserved
               </div>

@@ -124,7 +124,7 @@ const AboutAgroSection = () => {
                 <span className="about-agro-parallax-accent">Carefully</span>{" "}
                 Tendered By Our Experts"
               </h2>
-              <img src="/images/divider.png" alt="divider" />{" "}
+              <img src="/images/divider-white.png" alt="divider" style={{scale: 0.5}} />{" "}
               <p className="about-agro-parallax-sub">
                 From soil to export - every step guided by expertise and
                 passion.
