@@ -1,5 +1,5 @@
 import { useState, useEffect, useRef } from "react";
-import { Link, useLocation } from "react-router-dom";
+import { Link, useLocation, useNavigate } from "react-router-dom";
 
 const navLinks = [
   { to: "/", label: "Home" },
@@ -15,7 +15,7 @@ const navLinks = [
     children: [
       { to: "/available-properties", label: "Available Properties" },
       { to: "/land-ownership", label: "Land Ownership" },
-      { to: "/available-properties", label: "Lease Model" },
+      { to: "/#landmodel-section", label: "Lease Model", scrollId: "landmodel-section" },
     ],
   },
   {
@@ -82,6 +82,21 @@ const Header = () => {
 
   const isParentActive = (children) => children.some((c) => isActive(c.to));
 
+  const navigate = useNavigate();
+
+  const handleScrollLink = (scrollId) => {
+    setOpenDropdown(null);
+    setMenuOpen(false);
+    if (location.pathname === "/") {
+      document.getElementById(scrollId)?.scrollIntoView({ behavior: "smooth" });
+    } else {
+      navigate("/");
+      setTimeout(() => {
+        document.getElementById(scrollId)?.scrollIntoView({ behavior: "smooth" });
+      }, 400);
+    }
+  };
+
   const isDark = scrolled || isEventDetail;
 
   return (
@@ -129,14 +144,24 @@ const Header = () => {
                       <ul className="site-dropdown">
                         {link.children.map((child, j) => (
                           <li key={j} className="site-dropdown-item">
-                            <Link
-                              to={child.to}
-                              className={`site-dropdown-link${isActive(child.to) ? " site-dropdown-link-active" : ""}`}
-                              onClick={() => setOpenDropdown(null)}
-                            >
-                              <span className="site-dropdown-dot" />
-                              {child.label}
-                            </Link>
+                            {child.scrollId ? (
+                              <button
+                                className="site-dropdown-link"
+                                onClick={() => handleScrollLink(child.scrollId)}
+                              >
+                                <span className="site-dropdown-dot" />
+                                {child.label}
+                              </button>
+                            ) : (
+                              <Link
+                                to={child.to}
+                                className={`site-dropdown-link${isActive(child.to) ? " site-dropdown-link-active" : ""}`}
+                                onClick={() => setOpenDropdown(null)}
+                              >
+                                <span className="site-dropdown-dot" />
+                                {child.label}
+                              </Link>
+                            )}
                           </li>
                         ))}
                       </ul>
@@ -235,14 +260,24 @@ const Header = () => {
                   >
                     {link.children.map((child, j) => (
                       <li key={j} className="site-mobile-submenu-item">
-                        <Link
-                          to={child.to}
-                          className="site-mobile-submenu-link"
-                          onClick={() => setMenuOpen(false)}
-                        >
-                          <span className="site-mobile-submenu-dot" />
-                          {child.label}
-                        </Link>
+                        {child.scrollId ? (
+                          <button
+                            className="site-mobile-submenu-link"
+                            onClick={() => handleScrollLink(child.scrollId)}
+                          >
+                            <span className="site-mobile-submenu-dot" />
+                            {child.label}
+                          </button>
+                        ) : (
+                          <Link
+                            to={child.to}
+                            className="site-mobile-submenu-link"
+                            onClick={() => setMenuOpen(false)}
+                          >
+                            <span className="site-mobile-submenu-dot" />
+                            {child.label}
+                          </Link>
+                        )}
                       </li>
                     ))}
                   </ul>

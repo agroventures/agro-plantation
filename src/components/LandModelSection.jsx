@@ -39,7 +39,7 @@ const steps = [
 
 const LandModelSection = () => {
   return (
-    <section className="landmodel-section">
+    <section id="landmodel-section" className="landmodel-section">
       <div className="landmodel-bg-overlay" />
       <div className="landmodel-bg-grid" />
 

@@ -11,9 +11,7 @@ const HomeHeroSection = () => {
           playsInline
           poster="/images/hero-poster.jpg"
         />
-
         <div className="avp-hero__scrim" />
-
         <div className="container hero-container">
           <div className="row" style={{ position: "relative", zIndex: 2 }}>
             <div className="col-md-10 col-sm-12">
@@ -28,10 +26,12 @@ const HomeHeroSection = () => {
               <h1 className="hero-title">
                 <span className="hero-title-line1">GROWING AGRICULTURE. </span>
                 <span className="hero-title-line2">CREATING</span>
-                <span className="hero-title-line3">  LANDOWNERSHIP VALUE.</span>
+                <span className="hero-title-line3"> LANDOWNERSHIP VALUE.</span>
               </h1>
               <p className="hero-subtitle">
-                Acquire agricultural land, retain legal ownership and, where applicable, lease your property to Agroventures for professional cultivation and agricultural management.
+                Acquire agricultural land, retain legal ownership and, where
+                applicable, lease your property to Agroventures for professional
+                cultivation and agricultural management.
               </p>
 
               {/* ── Award Badges - above info bar ── */}
@@ -65,10 +65,10 @@ const HomeHeroSection = () => {
                   <span>Explore Agricultural Land</span>
                   <i className="fa fa-arrow-right hero-btn-icon" />
                 </a>
-                <a href="/contact-us" className="hero-btn-secondary">
+                <a href="#landmodel-section" className="hero-btn-secondary">
                   <span>How the Model Works</span>
                 </a>
-                 <a href="/contact-us" className="hero-btn-secondary">
+                <a href="/contact-us" className="hero-btn-secondary">
                   <span>Contact Agroventures</span>
                 </a>
               </div>
@@ -81,37 +81,37 @@ const HomeHeroSection = () => {
           <span className="hero-scroll-label">Scroll</span>
         </div>
 
-       <div className="hero-info-bar">
-  <div className="container">
-    <div className="hero-info-inner">
-      <div className="hero-info-item">
-        <span className="hero-info-number">Trusted</span>
-        <span className="hero-info-label">Agricultural Partner</span>
-      </div>
+        <div className="hero-info-bar">
+          <div className="container">
+            <div className="hero-info-inner">
+              <div className="hero-info-item">
+                <span className="hero-info-number">Trusted</span>
+                <span className="hero-info-label">Agricultural Partner</span>
+              </div>
 
-      <div className="hero-info-divider" />
+              <div className="hero-info-divider" />
 
-      <div className="hero-info-item">
-        <span className="hero-info-number">Sustainable</span>
-        <span className="hero-info-label">Farming Practices</span>
-      </div>
+              <div className="hero-info-item">
+                <span className="hero-info-number">Sustainable</span>
+                <span className="hero-info-label">Farming Practices</span>
+              </div>
 
-      <div className="hero-info-divider" />
+              <div className="hero-info-divider" />
 
-      <div className="hero-info-item">
-        <span className="hero-info-number">Professional</span>
-        <span className="hero-info-label">Land Management</span>
-      </div>
+              <div className="hero-info-item">
+                <span className="hero-info-number">Professional</span>
+                <span className="hero-info-label">Land Management</span>
+              </div>
 
-      <div className="hero-info-divider" />
+              <div className="hero-info-divider" />
 
-      <div className="hero-info-item">
-        <span className="hero-info-number">Dedicated</span>
-        <span className="hero-info-label">Customer Service</span>
-      </div>
-    </div>
-  </div>
-</div>
+              <div className="hero-info-item">
+                <span className="hero-info-number">Dedicated</span>
+                <span className="hero-info-label">Customer Service</span>
+              </div>
+            </div>
+          </div>
+        </div>
       </section>
     </div>
   );
