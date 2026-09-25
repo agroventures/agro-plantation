@@ -105,7 +105,7 @@ const HeroSection = () => {
                       {/* <span className="hero-slide-divider-line" />
                       <span className="hero-slide-divider-leaf">🌿</span>
                       <span className="hero-slide-divider-line" /> */}
-                      <img src="/images/divider.png" alt="divider" />{" "}
+                      <img src="/images/divider-white.png" alt="divider" style={{scale: '0.5'}} />
                     </div>
 
                     {/* Subtitle */}

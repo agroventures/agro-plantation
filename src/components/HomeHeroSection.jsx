@@ -1,6 +1,5 @@
 const HomeHeroSection = () => {
   return (
-    <div className="hero-breakout">
       <section className="hero-section">
         <video
           className="hero-video"
@@ -26,7 +25,7 @@ const HomeHeroSection = () => {
               <h1 className="hero-title">
                 <span className="hero-title-line1">GROWING AGRICULTURE. </span>
                 <span className="hero-title-line2">CREATING</span>
-                <span className="hero-title-line3"> LANDOWNERSHIP VALUE.</span>
+                <span className="hero-title-line3"> LAND OWNERSHIP VALUE.</span>
               </h1>
               <p className="hero-subtitle">
                 Acquire agricultural land, retain legal ownership and, where
@@ -113,7 +112,6 @@ const HomeHeroSection = () => {
           </div>
         </div>
       </section>
-    </div>
   );
 };
 

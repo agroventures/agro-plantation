@@ -136,8 +136,8 @@ const CropDetail = () => {
             <Link to="/contact-us" className="crop-cta-btn-white">
               Contact Us
             </Link>
-            <Link to="/our-cultivation-plan" className="crop-cta-btn-outline">
-              View Plans
+            <Link to="/available-properties" className="crop-cta-btn-outline">
+            Available Properties
             </Link>
           </div>
         </div>

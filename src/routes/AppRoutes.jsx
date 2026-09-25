@@ -5,7 +5,6 @@ import ContactUs from "../pages/ContactUs";
 import AboutUs from "../pages/AboutUs";
 import Events from "../pages/Events";
 import EventDetail from "../pages/EventDetail";
-import OurCultivationPlan from "../pages/OurCultivationPlan";
 import BranchNetwork from "../pages/BranchNetwork";
 import AwardsRecognitions from "../pages/AwardsPage";
 import LandOwnership from "../pages/LandOwnership";
@@ -38,7 +37,6 @@ const AppRoutes = () => {
         <Route path="/events" element={<Events />} />
         <Route path="/available-properties" element={<AvailableProperties />} />
         <Route path="/event-detail" element={<EventDetail />} />
-        <Route path="/our-cultivation-plan" element={<OurCultivationPlan />} />
         <Route path="/branch-network" element={<BranchNetwork />} />
         <Route path="/awards" element={<AwardsRecognitions />} />
         <Route path="/land-ownership" element={<LandOwnership />} />

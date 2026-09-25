@@ -127,7 +127,7 @@ export default function LandownerPartnership() {
   return (
     <main className="lp-page">
       {/* ============ HERO ============ */}
-      <section className="lp-hero avp-hero">
+      <section className="about-hero avp-hero">
         <video
           className="avp-hero__video"
           src="https://pub-8476bede5a4146e8b7731cfe515f1c3b.r2.dev/av-plantations/Website/Branch%20Network/9-1_tifudo.mp4"
@@ -140,14 +140,17 @@ export default function LandownerPartnership() {
 
         <div className="avp-hero__body">
           <div className="avp-hero__kicker">
-            <span className="avp-hero__kicker-rule" />
+            <span className="avp-hero__kicker-rule" aria-hidden="true"/>
             Agricultural Land Ownership &amp; Cultivation Model
           </div>
 
-          <h1 className="avp-hero__headline">
-            <span className="avp-hero__hl-solid">Own Agricultural Land.</span>
-            <span className="avp-hero__hl-outline">
-              Partner With Agroventures.
+          <h1 className="hero-title">
+            <span className="hero-title-line1">Own Land.</span>
+            <span className="hero-title-line2">
+              Partner With
+            </span>
+            <span className="hero-title-line3">
+              Agroventures
             </span>
           </h1>
 
@@ -278,7 +281,7 @@ export default function LandownerPartnership() {
           <div className="lp-cta-box">
             <div className="lp-cta-text">
               <h3>Ready to explore agricultural land ownership?</h3>
-              <p>
+              <p className="lp-cta-sub">
                 Speak with our team about available properties and the landowner
                 partnership model.
               </p>

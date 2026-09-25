@@ -79,7 +79,7 @@ export default function AgriculturalOperations() {
   return (
     <main className="ao-page">
       {/* ============ HERO ============ */}
-      <section className="ao-hero avp-hero">
+      <section className="about-hero avp-hero">
         <div className="avp-hero__scrim" />
         <div className="avp-hero__body">
           <div className="avp-hero__kicker">
@@ -94,14 +94,15 @@ export default function AgriculturalOperations() {
             From planted land to processed export - how Agroventures
             manages cultivation and farm operations on land under lease.
           </p>
-          <div className="avp-hero__actions">
-            <a href="/landowner-partnership" className="avp-hero__btn-primary">
-              <span>Landowner Partnership</span>
-            </a>
-            <a href="#ao-value-chain" className="avp-hero__btn-ghost">
-              <span>See The Process</span>
-            </a>
-          </div>
+          <div className="hero-cta-wrap">
+          <a href="/land-ownership" className="hero-btn-secondary">
+            <span>Land Ownership</span>
+            <i className="fa fa-arrow-right hero-btn-icon" />
+          </a>
+          <a href="/events" className="hero-btn-primary">
+            <span>Our Events</span>
+          </a>
+        </div>
         </div>
       </section>
 

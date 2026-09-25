@@ -7,6 +7,7 @@ const navLinks = [
     label: "About Us",
     children: [
       { to: "/about-us", label: "About Agroventures" },
+      {to:"/awards", label: "Awards & Recognition"},
       { to: "/legal-document", label: "Legal / Documents" },
     ],
   },
