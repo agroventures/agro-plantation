@@ -7,7 +7,7 @@ const AwardsShowcaseSection = () => {
     {
       id: 1,
       image: "/images/gwp.png",
-      certificateImage: "/images/gwp-certificate.webp",
+      certificateImage: "/images/gwp-certificate.jpg",
       badge: "/images/gwp-badge.png",
       title: "Great Place to Work",
       year: "2025",
