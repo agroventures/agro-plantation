@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const HomeHeroSection = () => {
   return (
       <section className="hero-section">
@@ -60,16 +62,16 @@ const HomeHeroSection = () => {
               {/* </div> */}
 
               <div className="hero-cta-wrap">
-                <a href="/about-us" className="hero-btn-primary">
+                <Link to="/about-us" className="hero-btn-primary">
                   <span>Explore Agricultural Land</span>
                   <i className="fa fa-arrow-right hero-btn-icon" />
-                </a>
+                </Link>
                 <a href="#landmodel-section" className="hero-btn-secondary">
                   <span>How the Model Works</span>
                 </a>
-                <a href="/contact-us" className="hero-btn-secondary">
+                <Link to="/contact-us" className="hero-btn-secondary">
                   <span>Contact Agroventures</span>
-                </a>
+                </Link>
               </div>
             </div>
           </div>

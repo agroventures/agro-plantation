@@ -32,7 +32,7 @@ const navLinks = [
     ],
   },
   { to: "/agricultural-operations", label: "Agricultural Operations" },
-  { to: "https://agroventuresexports.com/", label: "Processing & Exports" },
+  { to: "https://agroventuresexports.com/ ", label: "Processing & Exports", redirect: true },
 ];
 
 const Header = () => {
@@ -169,13 +169,23 @@ const Header = () => {
                     </li>
                   ) : (
                     <li key={i} className="site-nav-item">
-                      <Link
-                        to={link.to}
-                        className={`site-nav-link${isActive(link.to) ? " site-nav-link-active" : ""}`}
-                      >
-                        {link.label}
-                        <span className="site-nav-underline" />
-                      </Link>
+                      {link.redirect ? (
+                        <a
+                          href={link.to}
+                          className={`site-nav-link${isActive(link.to) ? " site-nav-link-active" : ""}`}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          {link.label}
+                        </a>
+                      ) : (
+                        <Link
+                          to={link.to}
+                          className={`site-nav-link${isActive(link.to) ? " site-nav-link-active" : ""}`}
+                        >
+                          {link.label}
+                        </Link>
+                      )}
                     </li>
                   ),
                 )}
