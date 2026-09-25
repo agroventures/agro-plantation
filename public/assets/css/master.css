@@ -89,7 +89,7 @@ body {
 .awards-hero {
   position: relative;
   width: 100%;
-  height: 75vh;
+  height: 100%;
   min-height: 560px;
   display: flex;
   align-items: center;
@@ -299,7 +299,7 @@ body {
 .awards-title-main {
   display: block;
   font-family: "Oswald", sans-serif;
-  font-size: 72px;
+  font-size: 82px;
   font-weight: 700;
   color: #fff;
   text-transform: uppercase;
@@ -311,7 +311,7 @@ body {
 .awards-title-accent {
   display: block;
   font-family: "Oswald", sans-serif;
-  font-size: 48px;
+  font-size: 58px;
   font-weight: 300;
   color: #027a7a;
   text-transform: uppercase;
@@ -682,18 +682,18 @@ body {
 
 @media (max-width: 767px) {
   .awards-hero {
-    height: 100svh;
+    height: 120svh;
     min-height: 480px;
   }
   .awards-hero-content {
     padding: 0 16px;
   }
   .awards-title-main {
-    font-size: 38px;
+    font-size: 58px;
     letter-spacing: 1px;
   }
   .awards-title-accent {
-    font-size: 26px;
+    font-size: 32px;
     letter-spacing: 5px;
   }
   .awards-title-small {
@@ -741,10 +741,10 @@ body {
 
 @media (max-width: 480px) {
   .awards-title-main {
-    font-size: 32px;
+    font-size: 68px;
   }
   .awards-title-accent {
-    font-size: 22px;
+    font-size: 48px;
     letter-spacing: 4px;
   }
   .awards-hero-breadcrumb {
@@ -762,6 +762,11 @@ body {
   .awards-hero-badge {
     width: 110px;
     height: 110px;
+  }
+
+    .awards-hero-subtitle {
+    font-size: 20px;
+    max-width: 320px;
   }
 }
 
@@ -7713,7 +7718,7 @@ body {
 
 .weagro-body {
   font-family: "Inter", sans-serif;
-  font-size: 14px;
+  font-size: 15px;
   line-height: 1.85;
   color: #666;
   font-weight: 300;

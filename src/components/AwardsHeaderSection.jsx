@@ -30,16 +30,7 @@ const AwardsHeaderSection = () => {
         </div>
 
         {/* Main Content */}
-        <div className="container">
           <div className="awards-hero-content">
-            {/* Eyebrow Tag */}
-            <div className="awards-hero-tag">
-              <span className="awards-hero-tag-icon">
-                <i className="fa fa-trophy" />
-              </span>
-              <span className="awards-hero-tag-text">Excellence Recognized</span>
-            </div>
-
             {/* Title */}
             <h1 className="awards-hero-title">
               <span className="awards-title-small">Our Achievements</span>
@@ -86,7 +77,7 @@ const AwardsHeaderSection = () => {
             </div>
 
           </div>
-        </div>
+        
 
         {/* Vertical Text */}
         <div className="awards-hero-vertical-text">

@@ -82,10 +82,10 @@ function DocCard({ doc }) {
         <h3 className="ld-doc-title">{doc.title}</h3>
         <p className="ld-doc-text">{doc.text}</p>
       </div>
-      <a href={doc.href} className="ld-doc-link" target="_blank" rel="noreferrer">
+      {/* <a href={doc.href} className="ld-doc-link" target="_blank" rel="noreferrer">
         <span>View Document</span>
         <i className="fas fa-arrow-right" />
-      </a>
+      </a> */}
     </div>
   );
 }

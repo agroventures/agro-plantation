@@ -253,7 +253,7 @@ export default function AgriculturalOperations() {
               </p>
             </div>
             <div className="ao-cta-actions">
-              <a href="/contact" className="ao-btn-primary">
+              <a href="/contact-us" className="ao-btn-primary">
                 <span>Contact Agroventures</span>
                 <i className="fas fa-arrow-right" />
               </a>

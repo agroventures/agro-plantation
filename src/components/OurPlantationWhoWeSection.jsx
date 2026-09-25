@@ -17,8 +17,7 @@ const OurPlantationWhoWeSection = () => {
       <div className="plantation-who-bg-glow" />
 
       <div className="container">
-        <div className="row plantation-who-row">
-
+        <div className="row produce-content-row ">
           {/* ── Left: Content ── */}
           <div className="col-md-6 col-sm-12 plantation-who-content-col">
 
